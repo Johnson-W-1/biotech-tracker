@@ -1,0 +1,1106 @@
+[
+    {
+        "ticker": "GPCR",
+        "nct_id": "NCT06139055",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron"
+    },
+    {
+        "ticker": "GPCR",
+        "nct_id": "NCT05762471",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron"
+    },
+    {
+        "ticker": "GPCR",
+        "nct_id": "NCT06693843",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron"
+    },
+    {
+        "ticker": "GPCR",
+        "nct_id": "NCT06703021",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron"
+    },
+    {
+        "ticker": "VKTX",
+        "nct_id": "NCT06068946",
+        "indication": "Obesity",
+        "drug_name": "VK2735"
+    },
+    {
+        "ticker": "VKTX",
+        "nct_id": "NCT06828055",
+        "indication": "Obesity",
+        "drug_name": "VK2735 (Oral)"
+    },
+    {
+        "ticker": "ROG",
+        "nct_id": "NCT05814107",
+        "indication": "Obesity",
+        "drug_name": "CT-996"
+    },
+    {
+        "ticker": "ROG",
+        "nct_id": "NCT04838405",
+        "indication": "Obesity",
+        "drug_name": "CT-388"
+    },
+    {
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05051579",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron"
+    },
+    {
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05869903",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT04881760",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT05931367",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide"
+    },
+    {
+        "ticker": "1801.HK, LLY",
+        "nct_id": "NCT05607680",
+        "indication": "Obesity",
+        "drug_name": "Mazdutide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT04184622",
+        "indication": "Obesity",
+        "drug_name": "Tirzepatide"
+    },
+    {
+        "ticker": "AMGN",
+        "nct_id": "NCT04478708",
+        "indication": "Obesity",
+        "drug_name": "MariTide"
+    },
+    {
+        "ticker": "AMGN",
+        "nct_id": "NCT05669599",
+        "indication": "Obesity",
+        "drug_name": "MariTide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT05035095",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide (Oral)"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT05564117",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide (Oral)"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT05567796",
+        "indication": "Obesity",
+        "drug_name": "CagriSema"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT05646706",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT03548935",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT05891834",
+        "indication": "Obesity",
+        "drug_name": "Monlunabant"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT06064006",
+        "indication": "Obesity",
+        "drug_name": "Amycretin (Subcutaneous)"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT05369390",
+        "indication": "Obesity",
+        "drug_name": "Amycretin (Oral)"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT01272219",
+        "indication": "Obesity",
+        "drug_name": "liraglutide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT04775082",
+        "indication": "Obesity",
+        "drug_name": "liraglutide"
+    },
+    {
+        "ticker": "PFE",
+        "nct_id": "NCT04707313",
+        "indication": "Obesity",
+        "drug_name": "danuglipron"
+    },
+    {
+        "ticker": "VTYX",
+        "nct_id": "NCT06771115",
+        "indication": "Obesity",
+        "drug_name": "VTX3232"
+    },
+    {
+        "ticker": "ZEAL, RHHBY",
+        "nct_id": "NCT05613387",
+        "indication": "Obesity",
+        "drug_name": "Petrelintide"
+    },
+    {
+        "ticker": "ZEAL",
+        "nct_id": "NCT04667377",
+        "indication": "Obesity",
+        "drug_name": "Survodutide"
+    },
+    {
+        "ticker": "ZEAL",
+        "nct_id": "NCT06000891",
+        "indication": "Obesity",
+        "drug_name": "Dapiglutide"
+    },
+    {
+        "ticker": "ALT",
+        "nct_id": "NCT05295875",
+        "indication": "Obesity",
+        "drug_name": "pemvidutide"
+    },
+    {
+        "ticker": "603087.SS",
+        "nct_id": "NCT06256562",
+        "indication": "Obesity",
+        "drug_name": "Bofanglutide"
+    },
+    {
+        "ticker": "128940.KS",
+        "nct_id": "NCT02075281",
+        "indication": "Obesity",
+        "drug_name": "Efpeglenatide"
+    },
+    {
+        "ticker": "PFE, MET",
+        "nct_id": "NCT06897202",
+        "indication": "Obesity",
+        "drug_name": "MET097"
+    },
+    {
+        "ticker": "RYTM",
+        "nct_id": "NCT06772597",
+        "indication": "Obesity",
+        "drug_name": "Setmelanotide"
+    },
+    {
+        "ticker": "BIOMED INDUSTRIES",
+        "nct_id": "NCT06564753",
+        "indication": "Obesity",
+        "drug_name": "Bioglutide"
+    },
+    {
+        "ticker": "KAILERA THERAPEUTICS",
+        "nct_id": "NCT06396429",
+        "indication": "Obesity",
+        "drug_name": "HRS-9531"
+    },
+    {
+        "ticker": "SCIWIND BIOSCIENCES",
+        "nct_id": "NCT05111912",
+        "indication": "Obesity",
+        "drug_name": "Ecnoglutide"
+    },
+    {
+        "ticker": "SCIWIND BIOSCIENCES",
+        "nct_id": "NCT05813795",
+        "indication": "Obesity",
+        "drug_name": "Ecnoglutide"
+    },
+    {
+        "ticker": "MINDRANK",
+        "nct_id": "NCT06606483",
+        "indication": "Obesity",
+        "drug_name": "MDR001"
+    },
+    {
+        "ticker": "KAILERA THERAPEUTICS",
+        "nct_id": "NCT06250946",
+        "indication": "Obesity",
+        "drug_name": "HRS-7535"
+    },
+    {
+        "ticker": "1093.HK",
+        "nct_id": "NCT06604624",
+        "indication": "Obesity",
+        "drug_name": "HD1916"
+    },
+    {
+        "ticker": "1093.HK",
+        "nct_id": "NCT05997576",
+        "indication": "Obesity",
+        "drug_name": "TG103"
+    },
+    {
+        "ticker": "REGOR THERAPEUTICS",
+        "nct_id": "NCT06867718",
+        "indication": "Obesity",
+        "drug_name": "RGT-075"
+    },
+    {
+        "ticker": "KAILERA THERAPEUTICS",
+        "nct_id": "NCT05881837",
+        "indication": "Obesity",
+        "drug_name": "HRS-9531"
+    },
+    {
+        "ticker": "SCIWIND BIOSCIENCES",
+        "nct_id": "NCT05184322",
+        "indication": "Obesity",
+        "drug_name": "Ecnoglutide (Oral)"
+    },
+    {
+        "ticker": "000963.SS",
+        "nct_id": "NCT06500299",
+        "indication": "Obesity",
+        "drug_name": "HDM1002"
+    },
+    {
+        "ticker": "000963.SS",
+        "nct_id": "NCT06885021",
+        "indication": "Obesity",
+        "drug_name": "HDM1002"
+    },
+    {
+        "ticker": "IMMUNWORK",
+        "nct_id": "NCT06471530",
+        "indication": "Obesity",
+        "drug_name": "TE-8105"
+    },
+    {
+        "ticker": "EMPROS PHARMA",
+        "nct_id": "NCT04521751",
+        "indication": "Obesity",
+        "drug_name": "EMP-16"
+    },
+    {
+        "ticker": "RIVUS PHARMA",
+        "nct_id": "NCT05284617",
+        "indication": "Obesity",
+        "drug_name": "HU6"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06297616",
+        "indication": "Obesity",
+        "drug_name": "Eloralinitide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06230523",
+        "indication": "Obesity",
+        "drug_name": "Eloralinitide"
+    },
+    {
+        "ticker": "688166.SS",
+        "nct_id": "NCT06714955",
+        "indication": "Obesity",
+        "drug_name": "BGM0504"
+    },
+    {
+        "ticker": "MINDRANK",
+        "nct_id": "NCT06778850",
+        "indication": "Obesity",
+        "drug_name": "MDR001"
+    },
+    {
+        "ticker": "PFE, MET",
+        "nct_id": "NCT06857617",
+        "indication": "Obesity",
+        "drug_name": "MET097"
+    },
+    {
+        "ticker": "000963.SS",
+        "nct_id": "NCT06637020",
+        "indication": "Obesity",
+        "drug_name": "HDM1005"
+    },
+    {
+        "ticker": "MTVA",
+        "nct_id": "NCT06252220",
+        "indication": "Obesity",
+        "drug_name": "LY4086940"
+    },
+    {
+        "ticker": "1177.HK",
+        "nct_id": "NCT06532578",
+        "indication": "Obesity",
+        "drug_name": "CPX101"
+    },
+    {
+        "ticker": "GPCR",
+        "nct_id": "NCT07169942",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron"
+    },
+    {
+        "ticker": "VKTX",
+        "nct_id": "NCT07104500",
+        "indication": "Obesity",
+        "drug_name": "VK2735"
+    },
+    {
+        "ticker": "ROG",
+        "nct_id": "NCT06628362",
+        "indication": "Obesity",
+        "drug_name": "CT-388"
+    },
+    {
+        "ticker": "ROG",
+        "nct_id": "NCT07137585",
+        "indication": "Obesity",
+        "drug_name": "GYM329"
+    },
+    {
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT06972472",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT05882045",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06643728",
+        "indication": "Obesity",
+        "drug_name": "bimagrumab"
+    },
+    {
+        "ticker": "LLY, 1801.HK",
+        "nct_id": "NCT06124807",
+        "indication": "Obesity",
+        "drug_name": "mazdutide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT05380323",
+        "indication": "Obesity",
+        "drug_name": "DACRA QW II"
+    },
+    {
+        "ticker": "AMGN",
+        "nct_id": "NCT06858839",
+        "indication": "Obesity",
+        "drug_name": "MariTide"
+    },
+    {
+        "ticker": "AMGN",
+        "nct_id": "NCT06585462",
+        "indication": "Obesity",
+        "drug_name": "AMG513"
+    },
+    {
+        "ticker": "4507.T",
+        "nct_id": "NCT05925114",
+        "indication": "Obesity",
+        "drug_name": "S309309"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT06780449",
+        "indication": "Obesity",
+        "drug_name": "CagriSema"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT07153172",
+        "indication": "Obesity",
+        "drug_name": "INV347"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT06577766",
+        "indication": "Obesity",
+        "drug_name": "Amylin355"
+    },
+    {
+        "ticker": "PFE",
+        "nct_id": "NCT06717425",
+        "indication": "Obesity",
+        "drug_name": "PF-07976016"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT06579092",
+        "indication": "Obesity",
+        "drug_name": "AZD5004"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT05511025",
+        "indication": "Obesity",
+        "drug_name": "AZD6234"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT06595238",
+        "indication": "Obesity",
+        "drug_name": "AZD6234"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT06862791",
+        "indication": "Obesity",
+        "drug_name": "AZD9550 + AZD6234"
+    },
+    {
+        "ticker": "TERN",
+        "nct_id": "NCT06854952",
+        "indication": "Obesity",
+        "drug_name": "TERN-601"
+    },
+    {
+        "ticker": "KALLYOPE",
+        "nct_id": "NCT06019559",
+        "indication": "Obesity",
+        "drug_name": "K-757"
+    },
+    {
+        "ticker": "ZEAL, RHHBY",
+        "nct_id": "NCT06662539",
+        "indication": "Obesity",
+        "drug_name": "Petrelintide"
+    },
+    {
+        "ticker": "ARWR",
+        "nct_id": "NCT06937203",
+        "indication": "Obesity",
+        "drug_name": "ARO-ALK7"
+    },
+    {
+        "ticker": "ARWR",
+        "nct_id": "NCT06700538",
+        "indication": "Obesity",
+        "drug_name": "ARO-INHBE"
+    },
+    {
+        "ticker": "688166.SS",
+        "nct_id": "NCT06704581",
+        "indication": "Obesity",
+        "drug_name": "BGM0504"
+    },
+    {
+        "ticker": "002773.SS",
+        "nct_id": "NCT06953063",
+        "indication": "Obesity",
+        "drug_name": "DA-302168S"
+    },
+    {
+        "ticker": "CYTOKI PHARMA",
+        "nct_id": "NCT06611930",
+        "indication": "Obesity",
+        "drug_name": "CK-0045"
+    },
+    {
+        "ticker": "603087.SS",
+        "nct_id": "NCT06728124",
+        "indication": "Obesity",
+        "drug_name": "Bofanglutide"
+    },
+    {
+        "ticker": "128940.KS",
+        "nct_id": "NCT06174779",
+        "indication": "Obesity",
+        "drug_name": "Efpeglenatide"
+    },
+    {
+        "ticker": "3692.HK",
+        "nct_id": "NCT06118021",
+        "indication": "Obesity",
+        "drug_name": "HS-20094"
+    },
+    {
+        "ticker": "051910.KS",
+        "nct_id": "NCT06041841",
+        "indication": "Obesity",
+        "drug_name": "LB54640"
+    },
+    {
+        "ticker": "PFE, MET",
+        "nct_id": "NCT06973720",
+        "indication": "Obesity",
+        "drug_name": "MET097"
+    },
+    {
+        "ticker": "REGN, NVO",
+        "nct_id": "NCT06299098",
+        "indication": "Obesity",
+        "drug_name": "Trevogrumab + Garetosmab + Semaglutide"
+    },
+    {
+        "ticker": "RYTM",
+        "nct_id": "NCT05093634",
+        "indication": "Obesity",
+        "drug_name": "Setmelanotide"
+    },
+    {
+        "ticker": "SKYE BIOSCIENCE, INC.",
+        "nct_id": "NCT06577090",
+        "indication": "Obesity",
+        "drug_name": "Nimacimab"
+    },
+    {
+        "ticker": "APHAIA PHARMA",
+        "nct_id": "NCT05385978",
+        "indication": "Obesity",
+        "drug_name": "APH-012"
+    },
+    {
+        "ticker": "ZEAL",
+        "nct_id": "NCT06066515",
+        "indication": "Obesity",
+        "drug_name": "Survodutide"
+    },
+    {
+        "ticker": "EUROFARMA LABORATORIOS S.A.",
+        "nct_id": "NCT05209984",
+        "indication": "Obesity",
+        "drug_name": "Sibutramine + Topiramate"
+    },
+    {
+        "ticker": "GLACEUM",
+        "nct_id": "NCT05197556",
+        "indication": "Obesity",
+        "drug_name": "Vutiglabridin"
+    },
+    {
+        "ticker": "002317.SS",
+        "nct_id": "NCT06893016",
+        "indication": "Obesity",
+        "drug_name": "RAY1225"
+    },
+    {
+        "ticker": "CORXEL PHARMACEUTICALS",
+        "nct_id": "NCT07011797",
+        "indication": "Obesity",
+        "drug_name": "VCT220"
+    },
+    {
+        "ticker": "VINCENTAGE PHARMA",
+        "nct_id": "NCT06939296",
+        "indication": "Obesity",
+        "drug_name": "VCT220"
+    },
+    {
+        "ticker": "GLYSCEND INC",
+        "nct_id": "NCT06259981",
+        "indication": "Obesity",
+        "drug_name": "GLY-200"
+    },
+    {
+        "ticker": "688166.SS",
+        "nct_id": "NCT06920056",
+        "indication": "Obesity",
+        "drug_name": "BGM0504"
+    },
+    {
+        "ticker": "300003.SS",
+        "nct_id": "NCT06859853",
+        "indication": "Obesity",
+        "drug_name": "MWN109"
+    },
+    {
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT06824051",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT06719011",
+        "indication": "Obesity",
+        "drug_name": "Cagrilintide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT06737536",
+        "indication": "Obesity",
+        "drug_name": "NNC0662-0419"
+    },
+    {
+        "ticker": "2105.HK, NVS",
+        "nct_id": "NCT06493084",
+        "indication": "Obesity",
+        "drug_name": "LAE102"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06916065",
+        "indication": "Obesity",
+        "drug_name": "Eloralinitide + Tirzepatide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06345066",
+        "indication": "Obesity",
+        "drug_name": "Eloralinitide + Tirzepatide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT06478563",
+        "indication": "Obesity",
+        "drug_name": "MWN109"
+    },
+    {
+        "ticker": "ROG",
+        "nct_id": "NCT06982131",
+        "indication": "Obesity",
+        "drug_name": "RO7795081"
+    },
+    {
+        "ticker": "ALNY",
+        "nct_id": "NCT06845202",
+        "indication": "Obesity",
+        "drug_name": "ALN-4324"
+    },
+    {
+        "ticker": "1093.HK",
+        "nct_id": "NCT06830343",
+        "indication": "Obesity",
+        "drug_name": "SYH9017"
+    },
+    {
+        "ticker": "PFE, MET",
+        "nct_id": "NCT07022977",
+        "indication": "Obesity",
+        "drug_name": "MET233"
+    },
+    {
+        "ticker": "WVE",
+        "nct_id": "NCT06842186",
+        "indication": "Obesity",
+        "drug_name": "WVE-007"
+    },
+    {
+        "ticker": "9966.HK",
+        "nct_id": "NCT06547775",
+        "indication": "Obesity",
+        "drug_name": "KN069"
+    },
+    {
+        "ticker": "35PHARMA",
+        "nct_id": "NCT06714825",
+        "indication": "Obesity",
+        "drug_name": "HS235"
+    },
+    {
+        "ticker": "KAILERA THERAPEUTICS",
+        "nct_id": "NCT06621316",
+        "indication": "Obesity",
+        "drug_name": "HRS-7535"
+    },
+    {
+        "ticker": "1177.HK",
+        "nct_id": "NCT06545162",
+        "indication": "Obesity",
+        "drug_name": "CPX101"
+    },
+    {
+        "ticker": "KAILERA THERAPEUTICS",
+        "nct_id": "NCT06762600",
+        "indication": "Obesity",
+        "drug_name": "HRS-4729"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT06718998",
+        "indication": "Obesity",
+        "drug_name": "NNC0519-0130"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06606106",
+        "indication": "Obesity",
+        "drug_name": "HRS-7535"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06945419",
+        "indication": "Obesity",
+        "drug_name": "CPX101"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT06988553",
+        "indication": "Obesity",
+        "drug_name": "HRS-4729"
+    },
+    {
+        "ticker": "PFE",
+        "nct_id": "NCT06924320",
+        "indication": "Obesity",
+        "drug_name": "NNC0519-0130"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06557356",
+        "indication": "Obesity",
+        "drug_name": "Macupatide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06313528",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide"
+    },
+    {
+        "ticker": "GUBRA",
+        "nct_id": "NCT06144684",
+        "indication": "Obesity",
+        "drug_name": "GUB014295"
+    },
+    {
+        "ticker": "BOEHRINGER INGELHEIM",
+        "nct_id": "NCT05202353",
+        "indication": "Obesity",
+        "drug_name": "Survodutide"
+    },
+    {
+        "ticker": "RYTM",
+        "nct_id": "NCT06239116",
+        "indication": "Obesity",
+        "drug_name": "RM-718"
+    },
+    {
+        "ticker": "1801.HK, LLY",
+        "nct_id": "NCT06536023",
+        "indication": "Obesity",
+        "drug_name": "Mazdutide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT06148272",
+        "indication": "Obesity",
+        "drug_name": "LY3971297"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT06132841",
+        "indication": "Obesity",
+        "drug_name": "AZD6234"
+    },
+    {
+        "ticker": "RADELLA PHARMACEUTICALS",
+        "nct_id": "NCT06739707",
+        "indication": "Obesity",
+        "drug_name": "MD-18"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT06567041",
+        "indication": "Obesity",
+        "drug_name": "NNC0519-0130"
+    },
+    {
+        "ticker": "BOEHRINGER INGELHEIM",
+        "nct_id": "NCT06352437",
+        "indication": "Obesity",
+        "drug_name": "BI 3034701"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT06942923",
+        "indication": "Obesity",
+        "drug_name": "AZD4144"
+    },
+    {
+        "ticker": "1672.HK",
+        "nct_id": "NCT06679959",
+        "indication": "Obesity",
+        "drug_name": "ASC30"
+    },
+    {
+        "ticker": "METABOLICS PHARMA",
+        "nct_id": "NCT05925920",
+        "indication": "Obesity",
+        "drug_name": "ENT-03"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT06151964",
+        "indication": "Obesity",
+        "drug_name": "AZD9550"
+    },
+    {
+        "ticker": "ORSOBIO, INC",
+        "nct_id": "NCT05822544",
+        "indication": "Obesity",
+        "drug_name": "TLC-6740"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT07013643",
+        "indication": "Obesity",
+        "drug_name": "AZD6234"
+    },
+    {
+        "ticker": "000963.SS",
+        "nct_id": "NCT07279194",
+        "indication": "Obesity",
+        "drug_name": "HDM1005"
+    },
+    {
+        "ticker": "MINDRANK AI",
+        "nct_id": "NCT07274137",
+        "indication": "Obesity",
+        "drug_name": "MDR001"
+    },
+    {
+        "ticker": "600276.SS",
+        "nct_id": "NCT07269756",
+        "indication": "Obesity",
+        "drug_name": "HRS-7535"
+    },
+    {
+        "ticker": "1801.HK, LLY",
+        "nct_id": "NCT07255209",
+        "indication": "Obesity",
+        "drug_name": "Mazdutide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT07253285",
+        "indication": "Obesity",
+        "drug_name": "CagriSema + Cagrilintide"
+    },
+    {
+        "ticker": "MNK",
+        "nct_id": "NCT07245771",
+        "indication": "Obesity",
+        "drug_name": "RN3161 + Tirzepatide"
+    },
+    {
+        "ticker": "91078.HK",
+        "nct_id": "NCT07243171",
+        "indication": "Obesity",
+        "drug_name": "Ecnoglutide (Oral)"
+    },
+    {
+        "ticker": "688166.SS",
+        "nct_id": "NCT07239973",
+        "indication": "Obesity",
+        "drug_name": "BGM0504"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT07232732",
+        "indication": "Obesity",
+        "drug_name": "LY3549492"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT07232719",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide"
+    },
+    {
+        "ticker": "BEIJING QL BIOPHARMACEUTICAL CO.,LTD",
+        "nct_id": "NCT07230119",
+        "indication": "Obesity",
+        "drug_name": "Zovaglutide"
+    },
+    {
+        "ticker": "BEIJING QL BIOPHARMACEUTICAL CO.,LTD",
+        "nct_id": "NCT07230132",
+        "indication": "Obesity",
+        "drug_name": "ZT006"
+    },
+    {
+        "ticker": "2105.HK",
+        "nct_id": "NCT07230496",
+        "indication": "Obesity",
+        "drug_name": "LAE102 + LAE103"
+    },
+    {
+        "ticker": "AMGN",
+        "nct_id": "NCT07226778",
+        "indication": "Obesity",
+        "drug_name": "MariTide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT07225816",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT07225556",
+        "indication": "Obesity",
+        "drug_name": "LY4167586"
+    },
+    {
+        "ticker": "688166.SS",
+        "nct_id": "NCT07224399",
+        "indication": "Obesity",
+        "drug_name": "BGM1812"
+    },
+    {
+        "ticker": "BMEA",
+        "nct_id": "NCT07223216",
+        "indication": "Obesity",
+        "drug_name": "BMF-650"
+    },
+    {
+        "ticker": "REGN",
+        "nct_id": "NCT07220772",
+        "indication": "Obesity",
+        "drug_name": "Mibavademab"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT07220642",
+        "indication": "Obesity",
+        "drug_name": "Cagrilintide"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT07220759",
+        "indication": "Obesity",
+        "drug_name": "Cagrilintide"
+    },
+    {
+        "ticker": "NODTHERA LIMITED",
+        "nct_id": "NCT07220629",
+        "indication": "Obesity",
+        "drug_name": "NT-0796"
+    },
+    {
+        "ticker": "128940.KS",
+        "nct_id": "NCT07219589",
+        "indication": "Obesity",
+        "drug_name": "HM17321"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT07215559",
+        "indication": "Obesity",
+        "drug_name": "Macupatide + Eloralinitide"
+    },
+    {
+        "ticker": "128940.KS",
+        "nct_id": "NCT07205900",
+        "indication": "Obesity",
+        "drug_name": "HM15275"
+    },
+    {
+        "ticker": "NVO",
+        "nct_id": "NCT07184632",
+        "indication": "Obesity",
+        "drug_name": "NNC0662-0419"
+    },
+    {
+        "ticker": "BEIJING QL BIOPHARMACEUTICAL CO.,LTD",
+        "nct_id": "NCT07184502",
+        "indication": "Obesity",
+        "drug_name": "ZT003"
+    },
+    {
+        "ticker": "1801.HK",
+        "nct_id": "NCT07170319",
+        "indication": "Obesity",
+        "drug_name": "IBI3032"
+    },
+    {
+        "ticker": "600276.SS",
+        "nct_id": "NCT07150962",
+        "indication": "Obesity",
+        "drug_name": "HRS-9531"
+    },
+    {
+        "ticker": "603087.SS",
+        "nct_id": "NCT07128888",
+        "indication": "Obesity",
+        "drug_name": "Bofanglutide"
+    },
+    {
+        "ticker": "S1 BIOPHARMA, INC.",
+        "nct_id": "NCT06517797",
+        "indication": "Obesity",
+        "drug_name": "S1B-509"
+    },
+    {
+        "ticker": "DRUG_CA",
+        "nct_id": "NCT07266324",
+        "indication": "Obesity",
+        "drug_name": "BMB-101"
+    },
+    {
+        "ticker": "AMGN",
+        "nct_id": "NCT07229157",
+        "indication": "Obesity",
+        "drug_name": "MariTide"
+    },
+    {
+        "ticker": "AMGN",
+        "nct_id": "NCT07226765",
+        "indication": "Obesity",
+        "drug_name": "MariTide"
+    },
+    {
+        "ticker": "AMGN",
+        "nct_id": "NCT07225686",
+        "indication": "Obesity",
+        "drug_name": "MariTide"
+    },
+    {
+        "ticker": "AZN",
+        "nct_id": "NCT07220954",
+        "indication": "Obesity",
+        "drug_name": "AZD6234"
+    },
+    {
+        "ticker": "ARKAY THERAPEUTICS",
+        "nct_id": "NCT03686657",
+        "indication": "Obesity",
+        "drug_name": "Valsartan+Celecoxib+Metformin"
+    },
+    {
+        "ticker": "LLY",
+        "nct_id": "NCT05822830",
+        "indication": "Obesity",
+        "drug_name": "Tirzepatide"
+    },
+    {
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT06584916",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron"
+    }
+]
