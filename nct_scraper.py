@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-BASE_DIR = os.path.expanduser("~/Desktop/Clinical Trial updates")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 WATCHLIST_FILE = os.path.join(BASE_DIR, "trial_watchlist.json")
 DATA_FILE = os.path.join(BASE_DIR, "nct_results.json")
