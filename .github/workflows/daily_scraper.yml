@@ -1,0 +1,37 @@
+name: Daily Biotech Scraper
+
+on:
+  schedule:
+    # This runs at 12:00 UTC every day (which is 5:00 AM PDT / Pacific Time)
+    - cron: '0 12 * * *'
+  workflow_dispatch: # This adds a button so you can run it manually anytime!
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run NCT Scraper
+        run: python nct_scraper.py
+
+      - name: Commit and Push Updated JSON
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add nct_results.json metadata.json scraped_urls.json
+          # Only commit if there are actually changes to save
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update: Morning trial data sync"
+          git push
