@@ -2,7 +2,7 @@ name: Daily Biotech Scraper
 
 on:
   schedule:
-    # This runs at 12:00 UTC every day (which is 5:00 AM PDT / Pacific Time)
+    # This runs at 12:00 UTC every day (which is 5:00 AM PDT)
     - cron: '0 12 * * *'
   workflow_dispatch: # This adds a button so you can run it manually anytime!
 
@@ -26,6 +26,13 @@ jobs:
 
       - name: Run NCT Scraper
         run: python nct_scraper.py
+
+      - name: Send Email Alerts
+        env:
+          BOT_EMAIL: ${{ secrets.BOT_EMAIL }}
+          BOT_PASSWORD: ${{ secrets.BOT_PASSWORD }}
+          MAILING_LIST: ${{ secrets.MAILING_LIST }}
+        run: python send_alerts.py
 
       - name: Commit and Push Updated JSON
         run: |
