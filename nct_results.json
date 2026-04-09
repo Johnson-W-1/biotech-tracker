@@ -39,7 +39,7 @@
         "source": "https://investor.lilly.com/news-releases/news-release-details/foundayotm-orforglipron-lillys-new-oral-glp-1-pill-weight-loss",
         "source_type": "Eli Lilly",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -53,7 +53,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/weight-watchers-launches-eli-lilly-130000715.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -67,7 +67,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/goodrx-expands-access-eli-lilly-113000483.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -81,7 +81,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/ro-offers-eli-lillys-foundayo-111500867.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -95,7 +95,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/foundayo-orforglipron-lillys-oral-glp-104500009.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -109,7 +109,7 @@
         "source": "https://finance.yahoo.com/m/c6f1cb1f-fce0-34d8-94da-656195665baf/we-picked-amgen-stock-a-year.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -123,7 +123,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/semaglutide-generics-drive-33-share-151443392.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -137,7 +137,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/market-chatter-eli-lilly-novo-134901415.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -151,7 +151,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/market-chatter-eli-lilly-novo-102242813.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -164,6 +164,48 @@
         "notes": "Gan & Lee Pharmaceuticals Signs Exclusive License Agreement with JW Pharmaceutical, the Leading South Korean Pharma, to Advance the Global Commercialization of the Innovative GLP-1 Receptor Agonist Bofanglutide Gan & Lee Pharmaceuticals (hereinafter referred to as \"Gan & Lee\", SSE: 603087) announced the signing of an exclusive licensing agreement w...",
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/gan-lee-pharmaceuticals-signs-exclusive-130000395.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
+        "date_added": "2026-04-09",
+        "is_new": false
+    },
+    {
+        "date": "2026-04-09",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Foundayo\u2122 (orforglipron), la nueva pastilla GLP-1 de Lilly que se administra por v\u00eda oral para la p\u00e9rdida de peso, ahora est\u00e1 disponible en Estados Unidos.",
+        "source": "https://investor.lilly.com/news-releases/news-release-details/foundayotm-orforglipron-la-nueva-pastilla-glp-1-de-lilly-que-se",
+        "source_type": "Eli Lilly",
+        "date_added": "2026-04-09",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-08",
+        "ticker": "AMGN",
+        "nct_id": "NCT07225686",
+        "indication": "Obesity",
+        "drug_name": "MariTide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07225686",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-09",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-08",
+        "ticker": "AMGN",
+        "nct_id": "NCT07226765",
+        "indication": "Obesity",
+        "drug_name": "MariTide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07226765",
+        "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-09",
         "is_new": true
     },
@@ -196,6 +238,20 @@
         "is_new": false
     },
     {
+        "date": "2026-04-07",
+        "ticker": "BMEA",
+        "nct_id": "NCT07223216",
+        "indication": "Obesity",
+        "drug_name": "BMF-650",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07223216",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-09",
+        "is_new": true
+    },
+    {
         "date": "2026-04-06",
         "ticker": "128940.KS",
         "nct_id": "NCT07205900",
@@ -222,6 +278,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-08",
         "is_new": false
+    },
+    {
+        "date": "2026-04-06",
+        "ticker": "MTVA",
+        "nct_id": "NCT06252220",
+        "indication": "Obesity",
+        "drug_name": "LY4086940",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06252220",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-09",
+        "is_new": true
     },
     {
         "date": "2026-04-03",
