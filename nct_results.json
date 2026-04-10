@@ -11,7 +11,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/market-chatter-eli-lilly-novo-092242949.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-10",
@@ -54,6 +54,20 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": false
+    },
+    {
+        "date": "2026-04-10",
+        "ticker": "NVO",
+        "nct_id": "NCT05646706",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "India GLP 1 Generics Test Novo Nordisk Pricing Power And Valuation Cheap semaglutide generics have launched in India following local loss of exclusivity for Novo Nordisk, triggering rapid price cuts and market share shifts in GLP-1 treatments.",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/india-glp-1-generics-test-211240134.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": true
     },
     {
         "date": "2026-04-09",
