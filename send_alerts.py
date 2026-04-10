@@ -7,7 +7,6 @@ from email.mime.multipart import MIMEMultipart
 # 1. Fetch secure credentials from GitHub Secrets
 SENDER_EMAIL = os.environ.get("BOT_EMAIL")
 SENDER_PASSWORD = os.environ.get("BOT_PASSWORD")
-# Filter out any accidental empty spaces in the mailing list
 SUBSCRIBERS = [email.strip() for email in os.environ.get("MAILING_LIST", "").split(",") if email.strip()]
 
 def send_daily_digest():
@@ -15,29 +14,30 @@ def send_daily_digest():
         print("Missing credentials or mailing list. Skipping email alerts.")
         return
 
-    # 2. Load today's data
+    # 2. Load today's data dynamically based on the indication (Obesity vs NSCLC)!
+    prefix = os.environ.get("OUTPUT_PREFIX", "nct")
     try:
-        with open("nct_results.json", "r") as f:
+        with open(f"{prefix}_results.json", "r") as f:
             data = json.load(f)
     except FileNotFoundError:
-        print("No database found. Skipping emails.")
+        print(f"No database found for {prefix.upper()}. Skipping emails.")
         return
 
     # 3. LIVE MODE: Only grab events that the scraper actively flagged as brand new today
     new_events = [e for e in data if e.get("is_new") is True]
 
     if len(new_events) == 0:
-        print("No new trial updates today. No email sent.")
+        print(f"No new {prefix.upper()} trial updates today. No email sent.")
         return
 
     # 4. Build a clean, professional HTML email
-    print(f"Drafting email for {len(new_events)} new events...")
+    print(f"Drafting {prefix.upper()} email for {len(new_events)} new events...")
     
     html_content = f"""
     <html>
     <body style="font-family: Arial, sans-serif; color: #333; max-width: 600px; margin: 0 auto;">
         <h2 style="color: #005f73; border-bottom: 2px solid #e9ecef; padding-bottom: 10px;">
-            Morning Biotech Digest
+            Morning Biotech Digest: {prefix.upper()}
         </h2>
         <p>Your automated scraper found <strong>{len(new_events)}</strong> new clinical trial updates overnight:</p>
         <ul style="list-style-type: none; padding: 0;">
@@ -60,7 +60,7 @@ def send_daily_digest():
     html_content += """
         </ul>
         <p style="text-align: center; margin-top: 30px;">
-            <a href="https://johnson-w-1.github.io/biotech-tracker/" style="background: #005f73; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold;">
+            <a href="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/" style="background: #005f73; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold;">
                 Open Full Dashboard
             </a>
         </p>
@@ -70,7 +70,7 @@ def send_daily_digest():
 
     # 5. Connect to Gmail and Blast the Emails!
     msg = MIMEMultipart()
-    msg['Subject'] = f"Biotech Tracker: {len(new_events)} New Trial Updates"
+    msg['Subject'] = f"Biotech Tracker: {len(new_events)} New {prefix.upper()} Trial Updates"
     msg['From'] = f"Biotech Automated Tracker <{SENDER_EMAIL}>"
     msg.attach(MIMEText(html_content, 'html'))
 
@@ -86,7 +86,7 @@ def send_daily_digest():
             server.send_message(msg)
             
         server.quit()
-        print(f"Success! Alerts sent to {len(SUBSCRIBERS)} subscribers.")
+        print(f"Success! {prefix.upper()} Alerts sent to {len(SUBSCRIBERS)} subscribers.")
     except Exception as e:
         print(f"Critical Error sending emails: {e}")
 
