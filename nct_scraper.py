@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from datetime import datetime
 from bs4 import BeautifulSoup
+from zoneinfo import ZoneInfo
 
 # ==========================================
 # 1. CONFIGURATION
@@ -333,7 +334,7 @@ async def run_pipeline():
     save_state(all_events, DATA_FILE)
     save_state(list(scraped_urls), CACHE_FILE)
         
-    run_time = datetime.now().strftime("%B %d, %Y at %I:%M %p")
+    run_time = datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%B %d, %Y at %I:%M %p")
     save_state({"last_updated": run_time}, METADATA_FILE)
         
     print("\n" + "="*60)
