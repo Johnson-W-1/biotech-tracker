@@ -11,7 +11,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/market-chatter-eli-lilly-novo-092242949.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-10",
@@ -23,6 +23,34 @@
         "sentiment": "Neutral",
         "notes": "LifeMD\u00ae Now Offering Eli Lilly and Company\u2019s Foundayo\u2122 (orforglipron), a New GLP-1 Pill for Weight Management LifeMD expands its weight management program with the addition of Foundayo, offering eligible patients an oral alternative to injectable GLP-1 therapies through LillyDirect\u00aeNEW YORK, April 10, 2026 (GLOBE NEWSWIRE) -- LifeMD, Inc.",
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/lifemd-now-offering-eli-lilly-121500150.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-04-10",
+        "ticker": "LLY",
+        "nct_id": "NCT04184622",
+        "indication": "Obesity",
+        "drug_name": "Tirzepatide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Lilly\u2019s tirzepatide franchise is accelerating.",
+        "source": "https://247wallst.com/investing/2026/04/10/eli-lilly-vs-novo-nordisk-the-obesity-drug-race-has-a-new-leader/?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-10",
+        "ticker": "603087.SS",
+        "nct_id": "NCT06256562",
+        "indication": "Obesity",
+        "drug_name": "Bofanglutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Gan & Lee and JW Pharmaceutical agree on bofanglutide commercialisation Gan & Lee will receive a $5m upfront payment plus up to $76.1m in milestone payments.",
+        "source": "https://www.hospitalmanagement.net/news/gan-lee-jw-pharmaceutical-bofanglutide-commercialisation/?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": true
