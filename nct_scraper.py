@@ -3,6 +3,8 @@ import aiohttp
 import json
 import re
 import os
+import csv
+import io
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from datetime import datetime
@@ -10,14 +12,18 @@ from bs4 import BeautifulSoup
 from zoneinfo import ZoneInfo
 
 # ==========================================
-# 1. CONFIGURATION
+# 1. CONFIGURATION (CLOUD & PARALLEL READY)
 # ==========================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-WATCHLIST_FILE = os.path.join(BASE_DIR, "trial_watchlist.json")
-DATA_FILE = os.path.join(BASE_DIR, "nct_results.json")
-CACHE_FILE = os.path.join(BASE_DIR, "scraped_urls.json")
-METADATA_FILE = os.path.join(BASE_DIR, "metadata.json")
+# Read from the cloud server environment
+OUTPUT_PREFIX = os.environ.get("OUTPUT_PREFIX", "nct")
+WATCHLIST_URL = os.environ.get("WATCHLIST_URL", "")
+
+DATA_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_results.json")
+CACHE_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_urls.json")
+METADATA_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_metadata.json")
+WATCHLIST_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_watchlist.json")
 
 ACTUAL_DATA_KEYWORDS = [
     "topline results", "top-line results", "met primary endpoint", "did not meet",
@@ -65,10 +71,6 @@ def load_state(filename, default_type):
 def save_state(data, filename):
     with open(filename, 'w') as f: json.dump(data, f, indent=4)
 
-def load_watchlist():
-    if not os.path.exists(WATCHLIST_FILE): return []
-    with open(WATCHLIST_FILE, 'r') as f: return json.load(f)
-
 # ==========================================
 # 3. NLP CLASSIFICATION LOGIC
 # ==========================================
@@ -100,7 +102,7 @@ def extract_context(text, nct_id, drug_name):
     return "Mentioned in document. See source for details."
 
 # ==========================================
-# 4. ASYNC FETCHERS
+# 4. ASYNC FETCHERS & LOADERS
 # ==========================================
 async def fetch_text(session, url, headers, use_semaphore=False):
     try:
@@ -125,6 +127,22 @@ async def fetch_json(session, url, headers=None, use_semaphore=False):
             async with session.get(url, headers=headers, timeout=10) as response:
                 return await response.json() if response.status == 200 else {}
     except: return {}
+
+async def load_watchlist(session):
+    if WATCHLIST_URL:
+        print("Downloading master watchlist from Google Sheets...")
+        csv_data = await fetch_text(session, WATCHLIST_URL, YAHOO_HEADERS)
+        watchlist = []
+        if csv_data:
+            reader = csv.DictReader(io.StringIO(csv_data))
+            for row in reader:
+                if row.get('ticker') and row.get('nct_id'):
+                    watchlist.append(row)
+        return watchlist
+    
+    # Local fallback if testing on a laptop without a Google URL
+    if not os.path.exists(WATCHLIST_FILE): return []
+    with open(WATCHLIST_FILE, 'r') as f: return json.load(f)
 
 # ==========================================
 # 5. CORE WORKERS
@@ -162,7 +180,7 @@ async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
                 "notes": notes,
                 "source": f"https://clinicaltrials.gov/study/{nct_id}",
                 "source_type": "ClinicalTrials.gov",
-                "date_added": datetime.now().strftime('%Y-%m-%d'),
+                "date_added": datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d'),
                 "is_new": True
             }
             
@@ -185,7 +203,7 @@ async def process_text_for_trial(text, trial, source_url, source_label, pub_date
         status = classify_tense(context)
         sentiment = map_sentiment(context) 
         
-        if not pub_date: pub_date = datetime.now().strftime('%Y-%m-%d')
+        if not pub_date: pub_date = datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d')
         
         existing_event = next((e for e in all_events if e['date'] == pub_date and e['source'] == source_url and e['ticker'] == trial['ticker'] and e['drug_name'] == trial['drug_name']), None)
         
@@ -207,7 +225,7 @@ async def process_text_for_trial(text, trial, source_url, source_label, pub_date
                 "notes": context,
                 "source": source_url,
                 "source_type": source_label,
-                "date_added": datetime.now().strftime('%Y-%m-%d'),
+                "date_added": datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d'),
                 "is_new": True
             }
             all_events.append(event_dict)
@@ -215,7 +233,6 @@ async def process_text_for_trial(text, trial, source_url, source_label, pub_date
             
     return events_added
 
-# NEW: We now accept scan_ticker as a specific variable to handle multiple partners
 async def scan_ticker_sources(session, trial, scan_ticker, cik, all_events, scraped_urls):
     events_found = 0
     
@@ -232,7 +249,7 @@ async def scan_ticker_sources(session, trial, scan_ticker, cik, all_events, scra
                 desc = item.find('description').text or ''
                 pub_date = item.find('pubDate').text or ''
                 try: pub_date = parsedate_to_datetime(pub_date).strftime('%Y-%m-%d')
-                except: pub_date = datetime.now().strftime('%Y-%m-%d')
+                except: pub_date = datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d')
 
                 added = await process_text_for_trial(f"{title} {desc}", trial, link, "Yahoo Finance", pub_date, all_events)
                 if added: scraped_urls.add(link)
@@ -271,21 +288,21 @@ async def scan_ticker_sources(session, trial, scan_ticker, cik, all_events, scra
 # 6. MASTER ORCHESTRATOR
 # ==========================================
 async def run_pipeline():
-    watchlist = load_watchlist()
-    if not watchlist:
-        print(f"Please create {WATCHLIST_FILE} with your trial data.")
-        return
-
     all_events = load_state(DATA_FILE, list)
     scraped_urls = set(load_state(CACHE_FILE, list))
 
     for event in all_events: event['is_new'] = False
 
     print("\n" + "="*60)
-    print(f"INITIATING NCT CLINICAL TRIAL SCRAPER (MULTI-TICKER AWARE)")
+    print(f"INITIATING NCT CLINICAL TRIAL SCRAPER ({OUTPUT_PREFIX.upper()})")
     print("="*60 + "\n")
 
     async with aiohttp.ClientSession() as session:
+        watchlist = await load_watchlist(session)
+        if not watchlist:
+            print("No watchlist data found! Check your Google Sheet link.")
+            return
+
         print("Fetching SEC Master Directory...")
         sec_dir_url = "https://www.sec.gov/files/company_tickers.json"
         sec_dir_data = await fetch_json(session, sec_dir_url, SEC_HEADERS)
@@ -306,7 +323,7 @@ async def run_pipeline():
                         pub_date = item.find('pubDate').text or ''
                         
                         try: clean_date = parsedate_to_datetime(pub_date).strftime('%Y-%m-%d')
-                        except: clean_date = datetime.now().strftime('%Y-%m-%d')
+                        except: clean_date = datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d')
 
                         combined = f"{title} {desc}"
                         
@@ -321,11 +338,9 @@ async def run_pipeline():
         for trial in watchlist:
             tasks.append(check_clinicaltrials_gov(session, trial, all_events, scraped_urls))
             
-            # MULTI-TICKER LOGIC: Split the JSON ticker string by comma or slash
             partner_tickers = [t.strip().upper() for t in re.split(r'[,/]', trial['ticker']) if t.strip()]
             for t in partner_tickers:
                 cik = sec_mapping.get(t)
-                # Launch a scanning worker for EACH ticker involved
                 tasks.append(scan_ticker_sources(session, trial, t, cik, all_events, scraped_urls))
         
         await asyncio.gather(*tasks)
