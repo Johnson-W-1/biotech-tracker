@@ -78,10 +78,12 @@ def send_daily_digest():
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.login(SENDER_EMAIL, SENDER_PASSWORD)
         
-        # Send emails individually so colleagues don't see each other's addresses (BCC style)
-        for recipient in SUBSCRIBERS:
-            msg['To'] = recipient
-            server.send_message(msg)
+       # Send emails individually so colleagues don't see each other's addresses (BCC style)
+     for recipient in SUBSCRIBERS:
+         if 'To' in msg:
+             del msg['To']  # Delete the previous email address
+         msg['To'] = recipient  # Add the new email address
+         server.send_message(msg)
             
         server.quit()
         print(f"Success! Alerts sent to {len(SUBSCRIBERS)} subscribers.")
