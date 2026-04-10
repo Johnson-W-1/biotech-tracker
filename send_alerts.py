@@ -23,8 +23,9 @@ def send_daily_digest():
         print("No database found. Skipping emails.")
         return
 
-    # 3. Isolate ONLY the brand new updates found this morning
-    new_events = data[:2] # This grabs the first 2 articles, no matter what!
+    # 3. TEST HACK IS ACTIVE: Grabbing the top 2 articles to force a test!
+    new_events = data[:2]
+
     if len(new_events) == 0:
         print("No new trial updates today. No email sent.")
         return
@@ -60,7 +61,7 @@ def send_daily_digest():
         </ul>
         <p style="text-align: center; margin-top: 30px;">
             <a href="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/" style="background: #005f73; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold;">
-                https://johnson-w-1.github.io/biotech-tracker/
+                Open Full Dashboard
             </a>
         </p>
     </body>
@@ -77,12 +78,12 @@ def send_daily_digest():
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.login(SENDER_EMAIL, SENDER_PASSWORD)
         
-       # Send emails individually so colleagues don't see each other's addresses (BCC style)
-     for recipient in SUBSCRIBERS:
-         if 'To' in msg:
-             del msg['To']  # Delete the previous email address
-         msg['To'] = recipient  # Add the new email address
-         server.send_message(msg)
+        # Send emails individually so colleagues don't see each other's addresses (BCC style)
+        for recipient in SUBSCRIBERS:
+            if 'To' in msg:
+                del msg['To']
+            msg['To'] = recipient
+            server.send_message(msg)
             
         server.quit()
         print(f"Success! Alerts sent to {len(SUBSCRIBERS)} subscribers.")
