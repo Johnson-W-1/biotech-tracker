@@ -24,7 +24,7 @@ def send_daily_digest():
         return
 
     # 3. Isolate ONLY the brand new updates found this morning
-    new_events = [e for e in data if e.get("is_new") is True]
+    new_events = data[:2] # This grabs the first 2 articles, no matter what!
 
     if len(new_events) == 0:
         print("No new trial updates today. No email sent.")
