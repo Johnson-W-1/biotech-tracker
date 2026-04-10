@@ -1,4 +1,4 @@
-name: Scraper - Obesity
+name: Scraper - NSCLC
 on:
   workflow_dispatch:
   schedule:
