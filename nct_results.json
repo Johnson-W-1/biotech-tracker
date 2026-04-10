@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-04-10",
+        "ticker": "NVO",
+        "nct_id": "NCT05646706",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Update: Market Chatter: Eli Lilly, Novo Nordisk Face Pressure in India as Semaglutide Generics Gain Ground (Updates with Eli Lilly's response in the seventh paragraph.) Cheap generic versions of semagluti",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/market-chatter-eli-lilly-novo-092242949.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-10",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05869903",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "LifeMD\u00ae Now Offering Eli Lilly and Company\u2019s Foundayo\u2122 (orforglipron), a New GLP-1 Pill for Weight Management LifeMD expands its weight management program with the addition of Foundayo, offering eligible patients an oral alternative to injectable GLP-1 therapies through LillyDirect\u00aeNEW YORK, April 10, 2026 (GLOBE NEWSWIRE) -- LifeMD, Inc.",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/lifemd-now-offering-eli-lilly-121500150.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": true
+    },
+    {
         "date": "2026-04-09",
         "ticker": "LLY",
         "nct_id": "NCT05051579",
@@ -179,7 +207,7 @@
         "source": "https://investor.lilly.com/news-releases/news-release-details/foundayotm-orforglipron-la-nueva-pastilla-glp-1-de-lilly-que-se",
         "source_type": "Eli Lilly",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-08",
@@ -193,7 +221,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07225686",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-08",
@@ -207,7 +235,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07226765",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-07",
@@ -249,7 +277,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07223216",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-06",
@@ -291,7 +319,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06252220",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-03",
