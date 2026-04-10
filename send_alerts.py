@@ -23,8 +23,8 @@ def send_daily_digest():
         print("No database found. Skipping emails.")
         return
 
-    # 3. TEST HACK IS ACTIVE: Grabbing the top 2 articles to force a test!
-    new_events = data[:2]
+    # 3. LIVE MODE: Only grab events that the scraper actively flagged as brand new today
+    new_events = [e for e in data if e.get("is_new") is True]
 
     if len(new_events) == 0:
         print("No new trial updates today. No email sent.")
