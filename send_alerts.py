@@ -60,7 +60,7 @@ def send_daily_digest():
     html_content += """
         </ul>
         <p style="text-align: center; margin-top: 30px;">
-            <a href="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/" style="background: #005f73; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold;">
+            <a href="https://johnson-w-1.github.io/biotech-tracker/" style="background: #005f73; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold;">
                 Open Full Dashboard
             </a>
         </p>
