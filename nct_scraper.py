@@ -16,7 +16,6 @@ from zoneinfo import ZoneInfo
 # ==========================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Read from the cloud server environment
 OUTPUT_PREFIX = os.environ.get("OUTPUT_PREFIX", "nct")
 WATCHLIST_URL = os.environ.get("WATCHLIST_URL", "")
 
@@ -109,28 +108,24 @@ async def fetch_text(session, url, headers, use_semaphore=False):
         if use_semaphore:
             async with SEC_SEMAPHORE:
                 await asyncio.sleep(0.2)
-                # Increased SEC text timeout to 45 seconds for massive 10-K files
                 async with session.get(url, headers=headers, timeout=45) as response:
                     return await response.text() if response.status == 200 else ""
         else:
-            # Increased standard text timeout to 30 seconds
             async with session.get(url, headers=headers, timeout=30) as response:
                 return await response.text() if response.status == 200 else ""
-    except: return ""
+    except Exception: return ""
 
 async def fetch_json(session, url, headers=None, use_semaphore=False):
     try:
         if use_semaphore:
             async with SEC_SEMAPHORE:
                 await asyncio.sleep(0.2)
-                # Increased SEC JSON timeout to 30 seconds
                 async with session.get(url, headers=headers, timeout=30) as response:
                     return await response.json() if response.status == 200 else {}
         else:
-            # Increased standard JSON timeout to 30 seconds
             async with session.get(url, headers=headers, timeout=30) as response:
                 return await response.json() if response.status == 200 else {}
-    except: return {}
+    except Exception: return {}
 
 async def load_watchlist(session):
     if WATCHLIST_URL:
@@ -144,19 +139,16 @@ async def load_watchlist(session):
                     watchlist.append(row)
         return watchlist
     
-    # Local fallback if testing on a laptop without a Google URL
     if not os.path.exists(WATCHLIST_FILE): return []
     with open(WATCHLIST_FILE, 'r') as f: return json.load(f)
 
 # ==========================================
-# 5. CORE WORKERS
+# 5. CORE WORKERS (NOW GROUPED BY TICKER!)
 # ==========================================
 async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
     nct_id = trial['nct_id']
     url = f"https://clinicaltrials.gov/api/v2/studies/{nct_id}"
-    cache_key = f"CTG_LAST_UPDATE_{nct_id}"
     
-    if cache_key in scraped_urls: return 
     data = await fetch_json(session, url)
     if data and 'protocolSection' in data:
         status_module = data['protocolSection'].get('statusModule', {})
@@ -237,7 +229,8 @@ async def process_text_for_trial(text, trial, source_url, source_label, pub_date
             
     return events_added
 
-async def scan_ticker_sources(session, trial, scan_ticker, cik, all_events, scraped_urls):
+# BIG DATA FIX: We now scan the ticker ONCE, and cross-reference a LIST of trials.
+async def scan_ticker_sources(session, scan_ticker, cik, trials_list, all_events, scraped_urls):
     events_found = 0
     
     yahoo_url = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={scan_ticker}&region=US&lang=en-US"
@@ -255,9 +248,14 @@ async def scan_ticker_sources(session, trial, scan_ticker, cik, all_events, scra
                 try: pub_date = parsedate_to_datetime(pub_date).strftime('%Y-%m-%d')
                 except: pub_date = datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d')
 
-                added = await process_text_for_trial(f"{title} {desc}", trial, link, "Yahoo Finance", pub_date, all_events)
-                if added: scraped_urls.add(link)
-                events_found += added
+                added_for_doc = False
+                for trial in trials_list:
+                    added = await process_text_for_trial(f"{title} {desc}", trial, link, "Yahoo Finance", pub_date, all_events)
+                    if added:
+                        events_found += added
+                        added_for_doc = True
+                
+                if added_for_doc: scraped_urls.add(link)
         except: pass
 
     if cik:
@@ -279,9 +277,13 @@ async def scan_ticker_sources(session, trial, scan_ticker, cik, all_events, scra
                         if html_content:
                             soup = BeautifulSoup(html_content, 'html.parser')
                             text_clean = soup.get_text(separator=' ').replace('\n', ' ')
-                            added = await process_text_for_trial(text_clean, trial, doc_url, f"SEC {form}", filing_date, all_events)
-                            if added: scraped_urls.add(doc_url)
-                            events_found += added
+                            added_for_doc = False
+                            for trial in trials_list:
+                                added = await process_text_for_trial(text_clean, trial, doc_url, f"SEC {form}", filing_date, all_events)
+                                if added:
+                                    events_found += added
+                                    added_for_doc = True
+                            if added_for_doc: scraped_urls.add(doc_url)
 
     if events_found > 0:
         print(f"      [!] SUCCESS: Extracted {events_found} NCT updates via {scan_ticker}.")
@@ -339,20 +341,30 @@ async def run_pipeline():
 
         print(f"STEP 2: Scanning CTG API, SEC, and Yahoo for {len(watchlist)} monitored trials...")
         tasks = []
+        
+        # 1. CTG tasks (1 per trial)
         for trial in watchlist:
             tasks.append(check_clinicaltrials_gov(session, trial, all_events, scraped_urls))
-            
+        
+        # 2. TICKER GROUPING FIX: Consolidate SEC & Yahoo tasks by unique company ticker
+        ticker_groups = {}
+        for trial in watchlist:
             partner_tickers = [t.strip().upper() for t in re.split(r'[,/]', trial['ticker']) if t.strip()]
             for t in partner_tickers:
-                cik = sec_mapping.get(t)
-                tasks.append(scan_ticker_sources(session, trial, t, cik, all_events, scraped_urls))
+                if t not in ticker_groups:
+                    ticker_groups[t] = []
+                ticker_groups[t].append(trial)
+                
+        for t, trials_list in ticker_groups.items():
+            cik = sec_mapping.get(t)
+            tasks.append(scan_ticker_sources(session, t, cik, trials_list, all_events, scraped_urls))
         
-        # BATCH PROCESSING FIX: Run 50 tasks at a time instead of thousands at once!
+        # BATCH PROCESSING FIX: Run 50 tasks at a time so memory doesn't spike
         batch_size = 50
         for i in range(0, len(tasks), batch_size):
             batch = tasks[i:i + batch_size]
             await asyncio.gather(*batch)
-            await asyncio.sleep(1) # Give the server a 1-second breather to clear memory
+            await asyncio.sleep(1) 
 
     all_events.sort(key=lambda x: x['date'], reverse=True)
     save_state(all_events, DATA_FILE)
