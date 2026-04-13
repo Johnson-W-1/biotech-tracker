@@ -175,7 +175,7 @@
         <th data-sort="date_added">Date Added <span class="sort-icon"></span></th>
         <th data-sort="ticker">Ticker <span class="sort-icon"></span></th>
         <th class="unsortable">NCT ID(s)</th> 
-        <th data-sort="drug_name">Drug & Indication <span class="sort-icon"></span></th>
+        <th data-sort="drug_name">Treatments & Indication <span class="sort-icon"></span></th>
         <th data-sort="status">Report Status <span class="sort-icon"></span></th>
         <th data-sort="sentiment">Sentiment <span class="sort-icon"></span></th> 
         <th class="unsortable">Extracted Context</th>
@@ -233,6 +233,41 @@
     loadData();
   }
 
+  function consolidateEvents(data) {
+    const grouped = {};
+    data.forEach(evt => {
+      const key = evt.source + "_" + evt.date;
+      
+      if (!grouped[key]) {
+        grouped[key] = { ...evt };
+        grouped[key].tickerSet = new Set(evt.ticker.split(/[,/]/).map(s => s.trim()).filter(Boolean));
+        grouped[key].nctSet = new Set(evt.nct_id.split(',').map(s => s.trim()).filter(Boolean));
+        grouped[key].drugSet = new Set([evt.drug_name]);
+        grouped[key].indSet = new Set((evt.indication || "").split(',').map(s => s.trim()).filter(Boolean));
+      } else {
+        evt.ticker.split(/[,/]/).forEach(s => grouped[key].tickerSet.add(s.trim()));
+        evt.nct_id.split(',').forEach(s => grouped[key].nctSet.add(s.trim()));
+        grouped[key].drugSet.add(evt.drug_name);
+        
+        if (evt.indication) {
+          evt.indication.split(',').forEach(s => grouped[key].indSet.add(s.trim()));
+        }
+        
+        if (evt.is_new) grouped[key].is_new = true;
+        if (evt.status === "Actual Data Reported") grouped[key].status = "Actual Data Reported";
+      }
+    });
+
+    return Object.values(grouped).map(g => {
+      g.ticker = Array.from(g.tickerSet).join(', ');
+      g.nct_id = Array.from(g.nctSet).join(', ');
+      g.drug_name = Array.from(g.drugSet).join(' | '); 
+      g.indication = Array.from(g.indSet).join(', ');
+      delete g.tickerSet; delete g.nctSet; delete g.drugSet; delete g.indSet;
+      return g;
+    });
+  }
+
   function loadData() {
     reviewedKeys = JSON.parse(localStorage.getItem(`${currentPrefix}_reviewed_v1`)) || [];
     trashKeys = JSON.parse(localStorage.getItem(`${currentPrefix}_trash_v1`)) || [];
@@ -250,7 +285,11 @@
         return r.json();
       })
       .then(data => {
-        rawEvents = data;
+        // FILTER: Remove Placebo from the frontend completely
+        const cleanedData = data.filter(evt => evt.drug_name.trim().toLowerCase() !== 'placebo');
+
+        // Consolidate identical sources
+        rawEvents = consolidateEvents(cleanedData);
         populateFilters(rawEvents);
         applyFilters(); 
       })
@@ -413,7 +452,7 @@
         return;
     }
     
-    const headers = ["Event Date", "Date Added", "Ticker", "NCT IDs", "Drug Name", "Indication", "Status", "Sentiment", "Extracted Context", "Source URL"];
+    const headers = ["Event Date", "Date Added", "Ticker", "NCT IDs", "Treatments", "Indication", "Status", "Sentiment", "Extracted Context", "Source URL"];
     
     let csvContent = headers.join(",") + "\n";
 
@@ -483,6 +522,8 @@
       const indArray = (evt.indication || "").split(',').map(ind => ind.trim());
       const indBadges = indArray.map(ind => `<span class="ind-badge">${ind}</span>`).join(' ');
 
+      const drugList = evt.drug_name.split(' | ').map(d => `<div style="font-size: 0.85rem; font-weight: bold; color: #333; margin-bottom: 2px;">• ${d}</div>`).join('');
+
       const actionBtn = isTrashView 
         ? `<button class="action-btn btn-restore" onclick="toggleTrash('${evtKey}')">Restore</button>`
         : `<button class="action-btn btn-trash" onclick="toggleTrash('${evtKey}')">Trash</button>`;
@@ -493,7 +534,7 @@
         <td class="td-date-added">${displayDateAdded}</td>
         <td class="td-ticker">${evt.ticker} ${newBadge}</td>
         <td><div class="nct-container">${nctBadges}</div></td>
-        <td><strong>${evt.drug_name}</strong><br><div style="margin-top:4px;">${indBadges}</div></td>
+        <td>${drugList}<div style="margin-top:6px;">${indBadges}</div></td>
         <td><span class="status-badge ${statusClass}">${evt.status}</span></td>
         <td><span class="sent-badge ${sentClass}">${sentLabel}</span></td>
         <td class="td-notes"><em>${evt.notes}</em></td>
