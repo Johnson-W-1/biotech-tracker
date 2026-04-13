@@ -71,8 +71,10 @@ def save_state(data, filename):
     with open(filename, 'w') as f: json.dump(data, f, indent=4)
 
 # ==========================================
-# 3. NLP CLASSIFICATION LOGIC
+# 3. NLP CLASSIFICATION & GEMINI AI LOGIC
 # ==========================================
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+
 def classify_tense(text):
     text_lower = text.lower()
     actual_score = sum(1 for kw in ACTUAL_DATA_KEYWORDS if kw in text_lower)
@@ -90,15 +92,58 @@ def map_sentiment(text):
     return "Neutral"
 
 def extract_context(text, nct_id, drug_name):
+    # Extracts the exact sentences mentioning the drug/trial to save Gemini tokens!
     sentences = re.split(r'(?<=[.!?]) +', text)
     drug_list = [d.strip().lower() for d in re.split(r'\+|&|\band\b', drug_name) if d.strip()]
     
+    context_chunks = []
     for sentence in sentences:
         s_lower = sentence.lower()
         if nct_id.lower() in s_lower or (drug_list and any(d in s_lower for d in drug_list)):
-            clean_sentence = sentence.strip().replace('\n', ' ')
-            return clean_sentence[:350] + "..." if len(clean_sentence) > 350 else clean_sentence
+            context_chunks.append(sentence.strip().replace('\n', ' '))
+    
+    if context_chunks:
+        full_context = " ".join(context_chunks)
+        return full_context[:1500] # Pass up to 1,500 characters to Gemini
     return "Mentioned in document. See source for details."
+
+async def analyze_with_gemini(session, context_text, trial):
+    # If no API key or text is too short, use the old basic keyword method
+    if not GEMINI_API_KEY or len(context_text) < 15:
+        return classify_tense(context_text), map_sentiment(context_text), context_text[:350] + "..."
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    
+    prompt = f"""
+    You are an expert biotech clinical trial analyst. 
+    Read the following excerpt regarding NCT ID {trial['nct_id']} and the drug(s) {trial['drug_name']}.
+    
+    Determine 3 things based strictly on the text provided, and output ONLY a raw JSON dictionary (no markdown tags, no backticks).
+    1. "status": Choose exactly one of ["Actual Data Reported", "Expected Future Data", "Trial Status Update"].
+    2. "sentiment": Choose exactly one of ["Positive", "Negative", "Neutral"].
+    3. "notes": Write a clean, 1-2 sentence clinical summary of the news. Do not use the word "excerpt".
+
+    Excerpt to analyze:
+    {context_text}
+    """
+    
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.1, "responseMimeType": "application/json"}
+    }
+    
+    try:
+        async with session.post(url, json=payload, headers={'Content-Type': 'application/json'}, timeout=15) as response:
+            if response.status == 200:
+                data = await response.json()
+                result_text = data['candidates'][0]['content']['parts'][0]['text']
+                parsed = json.loads(result_text)
+                
+                return parsed.get("status", "Trial Status Update"), parsed.get("sentiment", "Neutral"), parsed.get("notes", context_text[:350])
+    except Exception as e:
+        pass # If Gemini fails (rate limit, etc), just fall through to the old method
+        
+    return classify_tense(context_text), map_sentiment(context_text), context_text[:350] + "..."
 
 # ==========================================
 # 4. ASYNC FETCHERS & LOADERS
@@ -136,11 +181,9 @@ async def load_watchlist(session):
             reader = csv.DictReader(io.StringIO(csv_data))
             for row in reader:
                 if row.get('ticker') and row.get('nct_id'):
-                    
                     # BIG DATA FIX: Skip any watchlist row where the drug is purely "Placebo"
                     if row.get('drug_name', '').strip().lower() == 'placebo':
                         continue
-                        
                     watchlist.append(row)
         return watchlist
     
@@ -191,7 +234,7 @@ async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
             
             scraped_urls.add(date_cache_key)
 
-async def process_text_for_trial(text, trial, source_url, source_label, pub_date, all_events):
+async def process_text_for_trial(session, text, trial, source_url, source_label, pub_date, all_events):
     events_added = 0
     text_lower = text.lower()
     
@@ -200,9 +243,11 @@ async def process_text_for_trial(text, trial, source_url, source_label, pub_date
     drugs_mentioned = all(drug in text_lower for drug in drug_list) if drug_list else False
 
     if nct_mentioned or drugs_mentioned:
-        context = extract_context(text, trial['nct_id'], trial['drug_name'])
-        status = classify_tense(context)
-        sentiment = map_sentiment(context) 
+        # 1. Grab the raw sentences
+        raw_context = extract_context(text, trial['nct_id'], trial['drug_name'])
+        
+        # 2. Let Gemini 1.5 Flash do the reading! (Or fallback to keyword math)
+        status, sentiment, notes = await analyze_with_gemini(session, raw_context, trial)
         
         if not pub_date: pub_date = datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d')
         
@@ -223,7 +268,7 @@ async def process_text_for_trial(text, trial, source_url, source_label, pub_date
                 "drug_name": trial['drug_name'],
                 "status": status,
                 "sentiment": sentiment,
-                "notes": context,
+                "notes": notes, # The beautiful summary written by Gemini!
                 "source": source_url,
                 "source_type": source_label,
                 "date_added": datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d'),
@@ -254,7 +299,7 @@ async def scan_ticker_sources(session, scan_ticker, cik, trials_list, all_events
 
                 added_for_doc = False
                 for trial in trials_list:
-                    added = await process_text_for_trial(f"{title} {desc}", trial, link, "Yahoo Finance", pub_date, all_events)
+                    added = await process_text_for_trial(session, f"{title} {desc}", trial, link, "Yahoo Finance", pub_date, all_events)
                     if added:
                         events_found += added
                         added_for_doc = True
@@ -283,7 +328,7 @@ async def scan_ticker_sources(session, scan_ticker, cik, trials_list, all_events
                             text_clean = soup.get_text(separator=' ').replace('\n', ' ')
                             added_for_doc = False
                             for trial in trials_list:
-                                added = await process_text_for_trial(text_clean, trial, doc_url, f"SEC {form}", filing_date, all_events)
+                                added = await process_text_for_trial(session, text_clean, trial, doc_url, f"SEC {form}", filing_date, all_events)
                                 if added:
                                     events_found += added
                                     added_for_doc = True
@@ -338,7 +383,7 @@ async def run_pipeline():
                         combined = f"{title} {desc}"
                         
                         for trial in watchlist:
-                            added = await process_text_for_trial(combined, trial, link, source_name, clean_date, all_events)
+                            added = await process_text_for_trial(session, combined, trial, link, source_name, clean_date, all_events)
                             if added: scraped_urls.add(link)
                 except: pass
         print("   -> PR Wire scan complete.\n")
