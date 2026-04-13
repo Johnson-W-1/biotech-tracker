@@ -168,6 +168,34 @@
         "is_new": false
     },
     {
+        "date": "2026-04-09",
+        "ticker": "ROG",
+        "nct_id": "NCT07137585",
+        "indication": "Obesity",
+        "drug_name": "GYM329",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07137585",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-09",
+        "ticker": "AZN",
+        "nct_id": "NCT07013643",
+        "indication": "Obesity",
+        "drug_name": "AZD6234",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07013643",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": true
+    },
+    {
         "date": "2026-04-08",
         "ticker": "AMGN",
         "nct_id": "NCT07226765",
@@ -222,6 +250,20 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": false
+    },
+    {
+        "date": "2026-04-07",
+        "ticker": "ARWR",
+        "nct_id": "NCT06937203",
+        "indication": "Obesity",
+        "drug_name": "ARO-ALK7",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06937203",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": true
     },
     {
         "date": "2026-04-06",
