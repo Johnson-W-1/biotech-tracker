@@ -109,10 +109,12 @@ async def fetch_text(session, url, headers, use_semaphore=False):
         if use_semaphore:
             async with SEC_SEMAPHORE:
                 await asyncio.sleep(0.2)
-                async with session.get(url, headers=headers, timeout=15) as response:
+                # Increased SEC text timeout to 45 seconds for massive 10-K files
+                async with session.get(url, headers=headers, timeout=45) as response:
                     return await response.text() if response.status == 200 else ""
         else:
-            async with session.get(url, headers=headers, timeout=10) as response:
+            # Increased standard text timeout to 30 seconds
+            async with session.get(url, headers=headers, timeout=30) as response:
                 return await response.text() if response.status == 200 else ""
     except: return ""
 
@@ -121,10 +123,12 @@ async def fetch_json(session, url, headers=None, use_semaphore=False):
         if use_semaphore:
             async with SEC_SEMAPHORE:
                 await asyncio.sleep(0.2)
-                async with session.get(url, headers=headers, timeout=10) as response:
+                # Increased SEC JSON timeout to 30 seconds
+                async with session.get(url, headers=headers, timeout=30) as response:
                     return await response.json() if response.status == 200 else {}
         else:
-            async with session.get(url, headers=headers, timeout=10) as response:
+            # Increased standard JSON timeout to 30 seconds
+            async with session.get(url, headers=headers, timeout=30) as response:
                 return await response.json() if response.status == 200 else {}
     except: return {}
 
@@ -343,7 +347,12 @@ async def run_pipeline():
                 cik = sec_mapping.get(t)
                 tasks.append(scan_ticker_sources(session, trial, t, cik, all_events, scraped_urls))
         
-        await asyncio.gather(*tasks)
+        # BATCH PROCESSING FIX: Run 50 tasks at a time instead of thousands at once!
+        batch_size = 50
+        for i in range(0, len(tasks), batch_size):
+            batch = tasks[i:i + batch_size]
+            await asyncio.gather(*batch)
+            await asyncio.sleep(1) # Give the server a 1-second breather to clear memory
 
     all_events.sort(key=lambda x: x['date'], reverse=True)
     save_state(all_events, DATA_FILE)
