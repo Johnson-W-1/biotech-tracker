@@ -16,7 +16,6 @@
   .filter-group input[type="text"] { padding: 6px 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; outline: none; width: 140px; }
   .filter-group input[type="text"]:focus { border-color: #0a9396; }
   
-  /* NEW: Dropdown styling for the Watchlist select */
   .filter-group select { padding: 6px 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; outline: none; background: white; cursor: pointer; color: #005f73; font-weight: bold; }
   .filter-group select:focus { border-color: #0a9396; }
 
@@ -194,7 +193,6 @@
   let currentSortColumn = 'date';
   let sortAscending = false; 
 
-  // NEW: State for the current Watchlist
   let currentPrefix = 'obesity';
   let reviewedKeys = [];
   let trashKeys = [];
@@ -203,7 +201,6 @@
     return `${evt.date}_${evt.ticker}_${evt.nct_id.replace(/\s+/g, '')}_${evt.status.replace(/\s+/g, '')}`;
   }
 
-  // UPDATED: Save reviewed items to the specific watchlist (e.g., obesity_reviewed_v1)
   function toggleReview(key) {
     if (reviewedKeys.includes(key)) {
       reviewedKeys = reviewedKeys.filter(k => k !== key);
@@ -214,7 +211,6 @@
     applyFilters(); 
   }
 
-  // UPDATED: Save trash items to the specific watchlist
   function toggleTrash(key) {
     if (trashKeys.includes(key)) {
       trashKeys = trashKeys.filter(k => k !== key);
@@ -226,11 +222,9 @@
     applyFilters();
   }
 
-  // NEW: Function to switch the dataset when the dropdown changes
   function switchDataset() {
     currentPrefix = document.getElementById('dataset-select').value;
     
-    // Clear global search and toggles when switching
     document.getElementById('global-search').value = "";
     document.getElementById('filter-unreviewed').checked = false;
     document.getElementById('filter-new-only').checked = false;
@@ -239,21 +233,17 @@
     loadData();
   }
 
-  // NEW: Master function to load JSON files based on the Watchlist selection
   function loadData() {
-    // Load local storage keys for this specific dataset
     reviewedKeys = JSON.parse(localStorage.getItem(`${currentPrefix}_reviewed_v1`)) || [];
     trashKeys = JSON.parse(localStorage.getItem(`${currentPrefix}_trash_v1`)) || [];
 
     document.getElementById("last-updated-text").innerText = `Data Last Synced: Fetching...`;
     
-    // Fetch Metadata
     fetch(`${currentPrefix}_metadata.json`)
       .then(r => r.json())
       .then(data => { document.getElementById("last-updated-text").innerText = `Data Last Synced: ${data.last_updated}`; })
       .catch(err => { document.getElementById("last-updated-text").innerText = "Data Last Synced: Awaiting First Run"; });
 
-    // Fetch Results
     fetch(`${currentPrefix}_results.json`)
       .then(r => {
         if (!r.ok) throw new Error("JSON file not found");
@@ -271,7 +261,6 @@
       });
   }
 
-  // Load the initial dataset (Obesity) on page load
   loadData();
 
   document.querySelectorAll('th[data-sort]').forEach(th => {
@@ -327,7 +316,6 @@
     datesAdded.forEach(da => { daHTML += `<label><input type="checkbox" value="${da}" checked class="da-chk"> ${da}</label>`; });
     daDropdown.innerHTML = daHTML;
 
-    // Reset sentiment checkboxes to ALL checked when dataset changes
     const sentDropdown = document.getElementById("sent-dropdown");
     const sentCheckboxes = sentDropdown.querySelectorAll('input[type="checkbox"]');
     sentCheckboxes.forEach(chk => chk.checked = true);
@@ -343,7 +331,6 @@
     if(checkboxes.length === 0) return;
     const allCheckbox = checkboxes[0];
     checkboxes.forEach(chk => {
-      // Remove old event listeners to prevent duplicate triggers when dataset changes
       const newChk = chk.cloneNode(true);
       chk.parentNode.replaceChild(newChk, chk);
       
@@ -436,7 +423,7 @@
         const rowData = [
             escapeCSV(row.date),
             escapeCSV(row.date_added || "Legacy Data"),
-            escape: (row.ticker),
+            escapeCSV(row.ticker),
             escapeCSV(row.nct_id),
             escapeCSV(row.drug_name),
             escapeCSV(row.indication),
