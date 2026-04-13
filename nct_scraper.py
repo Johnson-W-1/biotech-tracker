@@ -136,6 +136,11 @@ async def load_watchlist(session):
             reader = csv.DictReader(io.StringIO(csv_data))
             for row in reader:
                 if row.get('ticker') and row.get('nct_id'):
+                    
+                    # BIG DATA FIX: Skip any watchlist row where the drug is purely "Placebo"
+                    if row.get('drug_name', '').strip().lower() == 'placebo':
+                        continue
+                        
                     watchlist.append(row)
         return watchlist
     
@@ -143,7 +148,7 @@ async def load_watchlist(session):
     with open(WATCHLIST_FILE, 'r') as f: return json.load(f)
 
 # ==========================================
-# 5. CORE WORKERS (NOW GROUPED BY TICKER!)
+# 5. CORE WORKERS (GROUPED BY TICKER)
 # ==========================================
 async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
     nct_id = trial['nct_id']
@@ -229,7 +234,6 @@ async def process_text_for_trial(text, trial, source_url, source_label, pub_date
             
     return events_added
 
-# BIG DATA FIX: We now scan the ticker ONCE, and cross-reference a LIST of trials.
 async def scan_ticker_sources(session, scan_ticker, cik, trials_list, all_events, scraped_urls):
     events_found = 0
     
@@ -342,11 +346,11 @@ async def run_pipeline():
         print(f"STEP 2: Scanning CTG API, SEC, and Yahoo for {len(watchlist)} monitored trials...")
         tasks = []
         
-        # 1. CTG tasks (1 per trial)
+        # 1. CTG tasks
         for trial in watchlist:
             tasks.append(check_clinicaltrials_gov(session, trial, all_events, scraped_urls))
         
-        # 2. TICKER GROUPING FIX: Consolidate SEC & Yahoo tasks by unique company ticker
+        # 2. Consolidate SEC & Yahoo tasks by unique company ticker
         ticker_groups = {}
         for trial in watchlist:
             partner_tickers = [t.strip().upper() for t in re.split(r'[,/]', trial['ticker']) if t.strip()]
@@ -359,12 +363,19 @@ async def run_pipeline():
             cik = sec_mapping.get(t)
             tasks.append(scan_ticker_sources(session, t, cik, trials_list, all_events, scraped_urls))
         
-        # BATCH PROCESSING FIX: Run 50 tasks at a time so memory doesn't spike
+        # BATCH PROCESSING FIX: Run 50 tasks at a time with a visual progress tracker!
         batch_size = 50
+        total_batches = (len(tasks) + batch_size - 1) // batch_size
+        
+        print(f"\n--- Executing {len(tasks)} total tasks across {total_batches} batches ---")
+        
         for i in range(0, len(tasks), batch_size):
+            current_batch = (i // batch_size) + 1
+            print(f"⏳ Processing Batch {current_batch} of {total_batches}...")
+            
             batch = tasks[i:i + batch_size]
             await asyncio.gather(*batch)
-            await asyncio.sleep(1) 
+            await asyncio.sleep(1) # Give the server a 1-second breather
 
     all_events.sort(key=lambda x: x['date'], reverse=True)
     save_state(all_events, DATA_FILE)
