@@ -35,5 +35,11 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           git add nsclc_results.json nsclc_urls.json nsclc_metadata.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update: nsclc data sync"
-          git push
+          
+          # Check if there are actually any changes to save
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git commit -m "🤖 Auto-update: NSCLC data sync"
+            git push
+          else
+            echo "✅ No new changes to save today!"
+          fi
