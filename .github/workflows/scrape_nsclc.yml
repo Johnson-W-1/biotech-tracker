@@ -19,6 +19,7 @@ jobs:
           PYTHONUNBUFFERED: "1"
           WATCHLIST_URL: "https://docs.google.com/spreadsheets/d/1oFAoK3McsI0KPh6SulwbxNTxYWubsHul/export?format=csv"
           OUTPUT_PREFIX: "nsclc"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python nct_scraper.py
 
       - name: Send Email Alerts
