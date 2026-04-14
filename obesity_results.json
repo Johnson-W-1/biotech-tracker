@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-04-13",
+        "ticker": "BOEHRINGER INGELHEIM",
+        "nct_id": "NCT05202353",
+        "indication": "Obesity",
+        "drug_name": "Survodutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT05202353",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-14",
+        "is_new": true
+    },
+    {
         "date": "2026-04-11",
         "ticker": "AMGN",
         "nct_id": "NCT05669599",
@@ -179,7 +193,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07137585",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-13",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -193,7 +207,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07013643",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-13",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-08",
@@ -263,7 +277,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06937203",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-13",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-06",
