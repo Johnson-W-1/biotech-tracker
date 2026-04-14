@@ -32,8 +32,12 @@
   
   .btn-export { color: white; background: #2b9348; border-color: #1b4332; }
   .btn-export:hover { background: #1b4332; }
+  
+  /* BATCH ACTION BUTTONS */
   .btn-batch-action { color: white; background: #d90429; border-color: #a7001d; }
   .btn-batch-action:hover { background: #a7001d; }
+  .btn-batch-read { color: white; background: #005f73; border-color: #003f4f; }
+  .btn-batch-read:hover { background: #003f4f; }
 
   .badge-new { background: #d90429; color: white; padding: 2px 5px; border-radius: 3px; font-size: 0.65rem; font-weight: bold; margin-left: 6px; vertical-align: top; animation: pulse 2s infinite;}
   .ind-badge { background: #e2eafc; color: #002855; border: 1px solid #adc178; padding: 3px 6px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; white-space: nowrap; display: inline-block; margin-top: 2px;}
@@ -86,11 +90,17 @@
   
   .checkbox-wrapper { display: flex; justify-content: center; align-items: center; }
   .checkbox-wrapper input { width: 18px; height: 18px; cursor: pointer; accent-color: #0a9396;}
+  
+  /* INDIVIDUAL ROW ACTION BUTTONS */
   .action-btn { cursor: pointer; padding: 4px 8px; border: none; border-radius: 4px; font-size: 0.75rem; font-weight: bold; transition: 0.2s;}
   .btn-trash { color: #d90429; background: #ffccd5; }
   .btn-trash:hover { background: #ffb3c1; }
   .btn-restore { color: #2b9348; background: #b7e4c7; }
   .btn-restore:hover { background: #95d5b2; }
+  .btn-read { color: #005f73; background: #e0fbfc; }
+  .btn-read:hover { background: #caf0f8; }
+  .btn-unread { color: #555; background: #e9ecef; }
+  .btn-unread:hover { background: #dee2e6; }
 
 </style>
 </head>
@@ -171,7 +181,9 @@
         <input type="checkbox" id="view-trash-only"> 🗑️ View Trash
       </label>
       
-      <button class="toggle-btn btn-batch-action" id="btn-batch-action" onclick="processBatchAction()">🗑️ Trash Selected</button>
+      <button class="toggle-btn btn-batch-read" id="btn-batch-read" onclick="processBatchAction('read')">👁️ Read Selected</button>
+
+      <button class="toggle-btn btn-batch-action" id="btn-batch-action" onclick="processBatchAction('trash')">🗑️ Trash Selected</button>
       
       <button class="toggle-btn btn-export" onclick="exportToCSV()">📥 Export to CSV</button>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSddWu0oXHsH6aCU0cOOpEpIva0YyMIlGq9aj9G3K2t_QLRfNQ/viewform?usp=publish-editor" target="_blank" class="toggle-btn" style="background:#e0fbfc; color:#005f73; text-decoration:none;">📬 Subscribe to Alerts</a>
@@ -183,10 +195,9 @@
   <table id="catalyst-table">
     <thead>
       <tr>
-        <th class="unsortable" style="text-align: center;" title="Select Rows for Batch Action">
+        <th class="unsortable" style="text-align: center; width: 40px;" title="Select Rows for Batch Action">
           <input type="checkbox" id="select-all-cb" onchange="toggleSelectAll()" style="cursor:pointer; width:16px; height:16px;">
         </th>
-        <th class="unsortable" style="text-align: center;" title="Mark as Reviewed">✔</th>
         <th data-sort="date" class="active-sort">Event Date <span class="sort-icon">▼</span></th>
         <th data-sort="date_added">Date Added <span class="sort-icon"></span></th>
         <th data-sort="ticker">Ticker <span class="sort-icon"></span></th>
@@ -241,13 +252,13 @@
     applyFilters();
   }
 
-  // NEW: Batch Checkbox functions
   function toggleSelectAll() {
     const isChecked = document.getElementById('select-all-cb').checked;
     document.querySelectorAll('.row-select-cb').forEach(cb => cb.checked = isChecked);
   }
 
-  function processBatchAction() {
+  // UPGRADED: Handles both Bulk Reading and Bulk Trashing
+  function processBatchAction(actionType) {
     const selectedCbs = document.querySelectorAll('.row-select-cb:checked');
     if (selectedCbs.length === 0) {
       alert("Please select at least one article using the checkboxes on the left.");
@@ -255,26 +266,37 @@
     }
     
     const isTrashView = document.getElementById('view-trash-only').checked;
-    const actionText = isTrashView ? "restore" : "trash";
     
-    if (confirm(`Are you sure you want to ${actionText} ${selectedCbs.length} selected items?`)) {
-      selectedCbs.forEach(cb => {
-        const key = cb.value;
-        if (isTrashView) {
-          // Restore
-          trashKeys = trashKeys.filter(k => k !== key);
-        } else {
-          // Trash
-          if (!trashKeys.includes(key)) trashKeys.push(key);
-          // Auto-mark as reviewed so it doesn't clutter
+    // If we are looking at the trash, the only batch action is to restore
+    if (isTrashView) {
+      if (confirm(`Are you sure you want to restore ${selectedCbs.length} selected items?`)) {
+        selectedCbs.forEach(cb => {
+          trashKeys = trashKeys.filter(k => k !== cb.value);
+        });
+      } else return;
+    } else {
+      if (actionType === 'trash') {
+        if (confirm(`Are you sure you want to trash ${selectedCbs.length} selected items?`)) {
+          selectedCbs.forEach(cb => {
+            const key = cb.value;
+            if (!trashKeys.includes(key)) trashKeys.push(key);
+            // Auto mark as read so they don't clutter the backend
+            if (!reviewedKeys.includes(key)) reviewedKeys.push(key);
+          });
+        } else return;
+      } else if (actionType === 'read') {
+        selectedCbs.forEach(cb => {
+          const key = cb.value;
           if (!reviewedKeys.includes(key)) reviewedKeys.push(key);
-        }
-      });
-      
-      localStorage.setItem(`${currentPrefix}_trash_v1`, JSON.stringify(trashKeys));
-      localStorage.setItem(`${currentPrefix}_reviewed_v1`, JSON.stringify(reviewedKeys));
-      applyFilters();
+        });
+      }
     }
+    
+    localStorage.setItem(`${currentPrefix}_trash_v1`, JSON.stringify(trashKeys));
+    localStorage.setItem(`${currentPrefix}_reviewed_v1`, JSON.stringify(reviewedKeys));
+    
+    document.getElementById('select-all-cb').checked = false;
+    applyFilters();
   }
 
   function switchDataset() {
@@ -341,10 +363,7 @@
         return r.json();
       })
       .then(data => {
-        // FILTER: Remove Placebo
         const cleanedData = data.filter(evt => evt.drug_name.trim().toLowerCase() !== 'placebo');
-
-        // Consolidate identical sources
         rawEvents = consolidateEvents(cleanedData);
         populateFilters(rawEvents);
         applyFilters(); 
@@ -352,7 +371,7 @@
       .catch(err => {
         console.error(`Error loading ${currentPrefix}_results.json`, err);
         rawEvents = [];
-        document.getElementById('table-body').innerHTML = `<tr><td colspan="12" style="text-align:center; padding:30px; color:#d90429;"><strong>Data not found.</strong> Make sure the ${currentPrefix.toUpperCase()} GitHub Action has finished running.</td></tr>`;
+        document.getElementById('table-body').innerHTML = `<tr><td colspan="11" style="text-align:center; padding:30px; color:#d90429;"><strong>Data not found.</strong> Make sure the ${currentPrefix.toUpperCase()} GitHub Action has finished running.</td></tr>`;
       });
   }
 
@@ -411,7 +430,6 @@
     datesAdded.forEach(da => { daHTML += `<label><input type="checkbox" value="${da}" checked class="da-chk"> ${da}</label>`; });
     daDropdown.innerHTML = daHTML;
 
-    // NEW: Populate Source Dropdown
     const sourceDropdown = document.getElementById("source-dropdown");
     const sources = [...new Set(data.map(e => e.source_type || "Unknown"))].sort();
     let srcHTML = `<label class="select-all-row"><input type="checkbox" value="ALL" checked class="src-chk"> (Select All)</label>`;
@@ -479,19 +497,21 @@
     const hideReviewed = document.getElementById('filter-unreviewed').checked;
     const viewTrash = document.getElementById('view-trash-only').checked;
 
-    // Dynamically update the Batch Action button based on the view
-    const batchBtn = document.getElementById('btn-batch-action');
+    // DYNAMICALLY UPDATE BATCH BUTTONS BASED ON TRASH VIEW
+    const batchTrashBtn = document.getElementById('btn-batch-action');
+    const batchReadBtn = document.getElementById('btn-batch-read');
     if (viewTrash) {
-        batchBtn.innerHTML = "♻️ Restore Selected";
-        batchBtn.style.backgroundColor = "#2b9348"; // Green
-        batchBtn.style.borderColor = "#1b4332";
+        batchTrashBtn.innerHTML = "♻️ Restore Selected";
+        batchTrashBtn.style.backgroundColor = "#2b9348"; 
+        batchTrashBtn.style.borderColor = "#1b4332";
+        batchReadBtn.style.display = "none"; // Hide Read button in trash
     } else {
-        batchBtn.innerHTML = "🗑️ Trash Selected";
-        batchBtn.style.backgroundColor = "#d90429"; // Red
-        batchBtn.style.borderColor = "#a7001d";
+        batchTrashBtn.innerHTML = "🗑️ Trash Selected";
+        batchTrashBtn.style.backgroundColor = "#d90429";
+        batchTrashBtn.style.borderColor = "#a7001d";
+        batchReadBtn.style.display = "flex"; // Show Read button
     }
 
-    // Reset Master Checkbox on filter change
     document.getElementById('select-all-cb').checked = false;
 
     let filteredData = rawEvents.filter(evt => {
@@ -572,7 +592,7 @@
     tbody.innerHTML = '';
     
     if (data.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="12" style="text-align:center; padding:30px; color:#666;">No results found for current filters.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="11" style="text-align:center; padding:30px; color:#666;">No results found for current filters.</td></tr>`;
         return;
     }
 
@@ -607,13 +627,25 @@
 
       const drugList = evt.drug_name.split(' | ').map(d => `<div style="font-size: 0.85rem; font-weight: bold; color: #333; margin-bottom: 2px;">• ${d}</div>`).join('');
 
-      const actionBtn = isTrashView 
-        ? `<button class="action-btn btn-restore" onclick="toggleTrash('${evtKey}')">Restore</button>`
-        : `<button class="action-btn btn-trash" onclick="toggleTrash('${evtKey}')">Trash</button>`;
+      // UPDATED: Dynamic Action Buttons for individual rows!
+      let actionBtn = "";
+      if (isTrashView) {
+          actionBtn = `<button class="action-btn btn-restore" onclick="toggleTrash('${evtKey}')">Restore</button>`;
+      } else {
+          const readBtnText = isReviewed ? "Unread" : "Read";
+          const readBtnClass = isReviewed ? "btn-unread" : "btn-read";
+          actionBtn = `
+            <div style="display:flex; gap:4px; flex-direction:column;">
+                <button class="action-btn ${readBtnClass}" onclick="toggleReview('${evtKey}')">${readBtnText}</button>
+                <button class="action-btn btn-trash" onclick="toggleTrash('${evtKey}')">Trash</button>
+            </div>
+          `;
+      }
 
       tr.innerHTML = `
-        <td class="checkbox-wrapper" style="border-right: 1px solid #e9ecef;"><input type="checkbox" class="row-select-cb" value="${evtKey}"></td>
-        <td class="checkbox-wrapper"><input type="checkbox" onchange="toggleReview('${evtKey}')" ${isReviewed ? 'checked' : ''}></td>
+        <td class="checkbox-wrapper" style="border-right: 1px solid #e9ecef;">
+            <input type="checkbox" class="row-select-cb" value="${evtKey}">
+        </td>
         <td class="td-date">${evt.date}</td>
         <td class="td-date-added">${displayDateAdded}</td>
         <td class="td-ticker">${evt.ticker} ${newBadge}</td>
