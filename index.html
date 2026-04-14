@@ -32,6 +32,8 @@
   
   .btn-export { color: white; background: #2b9348; border-color: #1b4332; }
   .btn-export:hover { background: #1b4332; }
+  .btn-batch-action { color: white; background: #d90429; border-color: #a7001d; }
+  .btn-batch-action:hover { background: #a7001d; }
 
   .badge-new { background: #d90429; color: white; padding: 2px 5px; border-radius: 3px; font-size: 0.65rem; font-weight: bold; margin-left: 6px; vertical-align: top; animation: pulse 2s infinite;}
   .ind-badge { background: #e2eafc; color: #002855; border: 1px solid #adc178; padding: 3px 6px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; white-space: nowrap; display: inline-block; margin-top: 2px;}
@@ -135,6 +137,14 @@
     </div>
 
     <div class="filter-group">
+      <label>Source:</label>
+      <div class="custom-select">
+        <div class="select-box" id="source-box" onclick="toggleDropdown('source-dropdown')">All Selected</div>
+        <div class="dropdown-list" id="source-dropdown"></div>
+      </div>
+    </div>
+
+    <div class="filter-group">
       <label>Ticker:</label>
       <div class="custom-select">
         <div class="select-box" id="company-box" onclick="toggleDropdown('company-dropdown')">All Selected</div>
@@ -160,6 +170,9 @@
       <label class="toggle-btn toggle-trash">
         <input type="checkbox" id="view-trash-only"> 🗑️ View Trash
       </label>
+      
+      <button class="toggle-btn btn-batch-action" id="btn-batch-action" onclick="processBatchAction()">🗑️ Trash Selected</button>
+      
       <button class="toggle-btn btn-export" onclick="exportToCSV()">📥 Export to CSV</button>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSddWu0oXHsH6aCU0cOOpEpIva0YyMIlGq9aj9G3K2t_QLRfNQ/viewform?usp=publish-editor" target="_blank" class="toggle-btn" style="background:#e0fbfc; color:#005f73; text-decoration:none;">📬 Subscribe to Alerts</a>
     </div>
@@ -170,6 +183,9 @@
   <table id="catalyst-table">
     <thead>
       <tr>
+        <th class="unsortable" style="text-align: center;" title="Select Rows for Batch Action">
+          <input type="checkbox" id="select-all-cb" onchange="toggleSelectAll()" style="cursor:pointer; width:16px; height:16px;">
+        </th>
         <th class="unsortable" style="text-align: center;" title="Mark as Reviewed">✔</th>
         <th data-sort="date" class="active-sort">Event Date <span class="sort-icon">▼</span></th>
         <th data-sort="date_added">Date Added <span class="sort-icon"></span></th>
@@ -216,10 +232,49 @@
       trashKeys = trashKeys.filter(k => k !== key);
     } else {
       trashKeys.push(key);
-      if(!reviewedKeys.includes(key)) toggleReview(key); 
+      if(!reviewedKeys.includes(key)) {
+          reviewedKeys.push(key);
+          localStorage.setItem(`${currentPrefix}_reviewed_v1`, JSON.stringify(reviewedKeys));
+      }
     }
     localStorage.setItem(`${currentPrefix}_trash_v1`, JSON.stringify(trashKeys));
     applyFilters();
+  }
+
+  // NEW: Batch Checkbox functions
+  function toggleSelectAll() {
+    const isChecked = document.getElementById('select-all-cb').checked;
+    document.querySelectorAll('.row-select-cb').forEach(cb => cb.checked = isChecked);
+  }
+
+  function processBatchAction() {
+    const selectedCbs = document.querySelectorAll('.row-select-cb:checked');
+    if (selectedCbs.length === 0) {
+      alert("Please select at least one article using the checkboxes on the left.");
+      return;
+    }
+    
+    const isTrashView = document.getElementById('view-trash-only').checked;
+    const actionText = isTrashView ? "restore" : "trash";
+    
+    if (confirm(`Are you sure you want to ${actionText} ${selectedCbs.length} selected items?`)) {
+      selectedCbs.forEach(cb => {
+        const key = cb.value;
+        if (isTrashView) {
+          // Restore
+          trashKeys = trashKeys.filter(k => k !== key);
+        } else {
+          // Trash
+          if (!trashKeys.includes(key)) trashKeys.push(key);
+          // Auto-mark as reviewed so it doesn't clutter
+          if (!reviewedKeys.includes(key)) reviewedKeys.push(key);
+        }
+      });
+      
+      localStorage.setItem(`${currentPrefix}_trash_v1`, JSON.stringify(trashKeys));
+      localStorage.setItem(`${currentPrefix}_reviewed_v1`, JSON.stringify(reviewedKeys));
+      applyFilters();
+    }
   }
 
   function switchDataset() {
@@ -229,6 +284,7 @@
     document.getElementById('filter-unreviewed').checked = false;
     document.getElementById('filter-new-only').checked = false;
     document.getElementById('view-trash-only').checked = false;
+    document.getElementById('select-all-cb').checked = false;
 
     loadData();
   }
@@ -285,7 +341,7 @@
         return r.json();
       })
       .then(data => {
-        // FILTER: Remove Placebo from the frontend completely
+        // FILTER: Remove Placebo
         const cleanedData = data.filter(evt => evt.drug_name.trim().toLowerCase() !== 'placebo');
 
         // Consolidate identical sources
@@ -296,7 +352,7 @@
       .catch(err => {
         console.error(`Error loading ${currentPrefix}_results.json`, err);
         rawEvents = [];
-        document.getElementById('table-body').innerHTML = `<tr><td colspan="11" style="text-align:center; padding:30px; color:#d90429;"><strong>Data not found.</strong> Make sure the ${currentPrefix.toUpperCase()} GitHub Action has finished running.</td></tr>`;
+        document.getElementById('table-body').innerHTML = `<tr><td colspan="12" style="text-align:center; padding:30px; color:#d90429;"><strong>Data not found.</strong> Make sure the ${currentPrefix.toUpperCase()} GitHub Action has finished running.</td></tr>`;
       });
   }
 
@@ -355,6 +411,13 @@
     datesAdded.forEach(da => { daHTML += `<label><input type="checkbox" value="${da}" checked class="da-chk"> ${da}</label>`; });
     daDropdown.innerHTML = daHTML;
 
+    // NEW: Populate Source Dropdown
+    const sourceDropdown = document.getElementById("source-dropdown");
+    const sources = [...new Set(data.map(e => e.source_type || "Unknown"))].sort();
+    let srcHTML = `<label class="select-all-row"><input type="checkbox" value="ALL" checked class="src-chk"> (Select All)</label>`;
+    sources.forEach(src => { srcHTML += `<label><input type="checkbox" value="${src}" checked class="src-chk"> ${src}</label>`; });
+    sourceDropdown.innerHTML = srcHTML;
+
     const sentDropdown = document.getElementById("sent-dropdown");
     const sentCheckboxes = sentDropdown.querySelectorAll('input[type="checkbox"]');
     sentCheckboxes.forEach(chk => chk.checked = true);
@@ -362,6 +425,7 @@
     setupCheckboxLogic('comp-chk', 'company-box');
     setupCheckboxLogic('stat-chk', 'status-box');
     setupCheckboxLogic('da-chk', 'da-box');
+    setupCheckboxLogic('src-chk', 'source-box');
     setupCheckboxLogic('sent-chk', 'sent-box');
   }
 
@@ -409,10 +473,26 @@
     const selStatuses = Array.from(document.querySelectorAll('.stat-chk:checked')).map(c => c.value);
     const selDateAddeds = Array.from(document.querySelectorAll('.da-chk:checked')).map(c => c.value);
     const selSentiments = Array.from(document.querySelectorAll('.sent-chk:checked')).map(c => c.value);
+    const selSources = Array.from(document.querySelectorAll('.src-chk:checked')).map(c => c.value);
     
     const showOnlyNew = document.getElementById('filter-new-only').checked;
     const hideReviewed = document.getElementById('filter-unreviewed').checked;
     const viewTrash = document.getElementById('view-trash-only').checked;
+
+    // Dynamically update the Batch Action button based on the view
+    const batchBtn = document.getElementById('btn-batch-action');
+    if (viewTrash) {
+        batchBtn.innerHTML = "♻️ Restore Selected";
+        batchBtn.style.backgroundColor = "#2b9348"; // Green
+        batchBtn.style.borderColor = "#1b4332";
+    } else {
+        batchBtn.innerHTML = "🗑️ Trash Selected";
+        batchBtn.style.backgroundColor = "#d90429"; // Red
+        batchBtn.style.borderColor = "#a7001d";
+    }
+
+    // Reset Master Checkbox on filter change
+    document.getElementById('select-all-cb').checked = false;
 
     let filteredData = rawEvents.filter(evt => {
       const evtKey = getEventKey(evt);
@@ -432,9 +512,12 @@
       const evtSentiment = evt.sentiment || "Neutral";
       const matchSentiment = selSentiments.includes("ALL") || selSentiments.includes(evtSentiment);
 
+      const evtSource = evt.source_type || "Unknown";
+      const matchSource = selSources.includes("ALL") || selSources.includes(evtSource);
+
       const matchNew = !showOnlyNew || evt.is_new; 
       
-      return matchSearch && matchCompany && matchStatus && matchDateAdded && matchSentiment && matchNew;
+      return matchSearch && matchCompany && matchStatus && matchDateAdded && matchSentiment && matchSource && matchNew;
     });
 
     currentFilteredData = sortData(filteredData);
@@ -489,7 +572,7 @@
     tbody.innerHTML = '';
     
     if (data.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="11" style="text-align:center; padding:30px; color:#666;">No results found for current filters.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="12" style="text-align:center; padding:30px; color:#666;">No results found for current filters.</td></tr>`;
         return;
     }
 
@@ -529,6 +612,7 @@
         : `<button class="action-btn btn-trash" onclick="toggleTrash('${evtKey}')">Trash</button>`;
 
       tr.innerHTML = `
+        <td class="checkbox-wrapper" style="border-right: 1px solid #e9ecef;"><input type="checkbox" class="row-select-cb" value="${evtKey}"></td>
         <td class="checkbox-wrapper"><input type="checkbox" onchange="toggleReview('${evtKey}')" ${isReviewed ? 'checked' : ''}></td>
         <td class="td-date">${evt.date}</td>
         <td class="td-date-added">${displayDateAdded}</td>
