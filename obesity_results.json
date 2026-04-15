@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-04-15",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Shed Adds Foundayo\u2122 to Its Platform, Expanding Oral GLP-1 Access for Patients Nationwide Shed, a leading online health and wellness platform, today announced it is now offering Foundayo\u2122 (orforglipron), Eli Lilly and Company's FDA-approved once-daily oral GLP-1 therapy for weight management....",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/shed-adds-foundayo-platform-expanding-122100440.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-15",
+        "is_new": true
+    },
+    {
         "date": "2026-04-13",
         "ticker": "BOEHRINGER INGELHEIM",
         "nct_id": "NCT05202353",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05202353",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-14",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-11",
