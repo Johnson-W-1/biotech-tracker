@@ -45,6 +45,7 @@ YAHOO_HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
 TARGET_SEC_FORMS = ['8-K', '10-Q', '10-K', '6-K', '20-F']
 SEC_SEMAPHORE = asyncio.Semaphore(5)
+PUBMED_SEMAPHORE = asyncio.Semaphore(2) # Strict speed limit for Gov servers
 
 MASTER_RSS_FEEDS = [
     ("GlobeNewswire", "https://www.globenewswire.com/RssFeed/industry/8000-Health%20Care/feedTitle/GlobeNewswire%20-%20Health%20Care"),
@@ -170,6 +171,14 @@ async def fetch_json(session, url, headers=None, use_semaphore=False):
                 return await response.json() if response.status == 200 else {}
     except Exception: return {}
 
+async def fetch_pubmed_json(session, url):
+    try:
+        async with PUBMED_SEMAPHORE:
+            await asyncio.sleep(0.5) # Max 2 requests per second to avoid NCBI bans
+            async with session.get(url, headers=YAHOO_HEADERS, timeout=30) as response:
+                return await response.json() if response.status == 200 else {}
+    except Exception: return {}
+
 async def load_watchlist(session):
     if WATCHLIST_URL:
         print("Downloading master watchlist from Google Sheets...")
@@ -182,7 +191,6 @@ async def load_watchlist(session):
                     if row.get('drug_name', '').strip().lower() == 'placebo':
                         continue
                     
-                    # NEW: Read the CTG specific filter column
                     ctg_flag = str(row.get('ctg_results_only', '')).strip().lower()
                     row['ctg_results_only'] = ctg_flag in ['yes', 'y', 'true', '1']
                     
@@ -195,6 +203,40 @@ async def load_watchlist(session):
 # ==========================================
 # 5. CORE WORKERS (GROUPED BY TICKER)
 # ==========================================
+async def check_pubmed_for_trial(session, trial, all_events, scraped_urls):
+    nct_id = trial['nct_id']
+    
+    # 1. Search PubMed for the NCT ID
+    search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={nct_id}&retmode=json&retmax=3&sort=date"
+    search_data = await fetch_pubmed_json(session, search_url)
+    
+    if not search_data or 'esearchresult' not in search_data: return
+    pmids = search_data['esearchresult'].get('idlist', [])
+    if not pmids: return
+    
+    # 2. Get the Title and Journal for those PMIDs
+    pmid_str = ",".join(pmids)
+    summary_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid_str}&retmode=json"
+    summary_data = await fetch_pubmed_json(session, summary_url)
+    
+    if not summary_data or 'result' not in summary_data: return
+    
+    for pmid in pmids:
+        if pmid not in summary_data['result']: continue
+        
+        article = summary_data['result'][pmid]
+        title = article.get('title', '')
+        journal = article.get('fulljournalname', '')
+        
+        article_url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+        if article_url in scraped_urls: continue
+        
+        # We explicitly inject the NCT ID and Drug so the processing function & Gemini can read it perfectly
+        combined_text = f"Medical Journal Publication in {journal}. Title: {title}. This peer-reviewed paper presents findings for clinical trial {nct_id} evaluating the drug {trial['drug_name']}."
+        
+        await process_text_for_trial(session, combined_text, trial, article_url, "PubMed Journal", None, all_events)
+        scraped_urls.add(article_url)
+
 async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
     nct_id = trial['nct_id']
     url = f"https://clinicaltrials.gov/api/v2/studies/{nct_id}"
@@ -207,11 +249,8 @@ async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
         
         results_posted = 'resultsSection' in data
         
-        # --- NEW FILTER LOGIC ---
-        # If user only wants to see CTG alerts when results are posted, and there are no results, skip it!
         if trial.get('ctg_results_only') and not results_posted:
             return
-        # ------------------------
 
         status_label = "Actual Data Reported" if results_posted else "Trial Status Update"
         notes = f"Official CTG Update. Status: {overall_status}. " + ("Results Data Available on CTG." if results_posted else "")
@@ -394,11 +433,13 @@ async def run_pipeline():
                 except: pass
         print("   -> PR Wire scan complete.\n")
 
-        print(f"STEP 2: Scanning CTG API, SEC, and Yahoo for {len(watchlist)} monitored trials...")
+        print(f"STEP 2: Scanning CTG API, PubMed, SEC, and Yahoo for {len(watchlist)} monitored trials...")
         tasks = []
         
+        # Add both CTG checks and PubMed literature checks to our task list!
         for trial in watchlist:
             tasks.append(check_clinicaltrials_gov(session, trial, all_events, scraped_urls))
+            tasks.append(check_pubmed_for_trial(session, trial, all_events, scraped_urls))
         
         ticker_groups = {}
         for trial in watchlist:
