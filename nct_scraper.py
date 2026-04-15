@@ -44,7 +44,7 @@ SENTIMENT_DICT = {
 SEC_HEADERS = {'User-Agent': 'Johnson Widjaja (jwliauw@gmail.com)'}
 YAHOO_HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
-TARGET_SEC_FORMS = ['8-K', '10-Q', '10-K', '6-K', '20-F']
+TARGET_SEC_FORMS = ['8-K', '6-K']
 SEC_SEMAPHORE = asyncio.Semaphore(5)
 PUBMED_SEMAPHORE = asyncio.Semaphore(2)
 
