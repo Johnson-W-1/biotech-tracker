@@ -7,7 +7,7 @@ import csv
 import io
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
-from datetime import datetime
+from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from zoneinfo import ZoneInfo
 
@@ -20,6 +20,7 @@ OUTPUT_PREFIX = os.environ.get("OUTPUT_PREFIX", "nct")
 WATCHLIST_URL = os.environ.get("WATCHLIST_URL", "")
 
 DATA_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_results.json")
+ARCHIVE_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_archive.json")
 CACHE_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_urls.json")
 METADATA_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_metadata.json")
 WATCHLIST_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_watchlist.json")
@@ -45,7 +46,7 @@ YAHOO_HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
 TARGET_SEC_FORMS = ['8-K', '10-Q', '10-K', '6-K', '20-F']
 SEC_SEMAPHORE = asyncio.Semaphore(5)
-PUBMED_SEMAPHORE = asyncio.Semaphore(2) # Strict speed limit for Gov servers
+PUBMED_SEMAPHORE = asyncio.Semaphore(2)
 
 MASTER_RSS_FEEDS = [
     ("GlobeNewswire", "https://www.globenewswire.com/RssFeed/industry/8000-Health%20Care/feedTitle/GlobeNewswire%20-%20Health%20Care"),
@@ -174,7 +175,7 @@ async def fetch_json(session, url, headers=None, use_semaphore=False):
 async def fetch_pubmed_json(session, url):
     try:
         async with PUBMED_SEMAPHORE:
-            await asyncio.sleep(0.5) # Max 2 requests per second to avoid NCBI bans
+            await asyncio.sleep(0.5)
             async with session.get(url, headers=YAHOO_HEADERS, timeout=30) as response:
                 return await response.json() if response.status == 200 else {}
     except Exception: return {}
@@ -206,7 +207,6 @@ async def load_watchlist(session):
 async def check_pubmed_for_trial(session, trial, all_events, scraped_urls):
     nct_id = trial['nct_id']
     
-    # 1. Search PubMed for the NCT ID
     search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={nct_id}&retmode=json&retmax=3&sort=date"
     search_data = await fetch_pubmed_json(session, search_url)
     
@@ -214,7 +214,6 @@ async def check_pubmed_for_trial(session, trial, all_events, scraped_urls):
     pmids = search_data['esearchresult'].get('idlist', [])
     if not pmids: return
     
-    # 2. Get the Title and Journal for those PMIDs
     pmid_str = ",".join(pmids)
     summary_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid_str}&retmode=json"
     summary_data = await fetch_pubmed_json(session, summary_url)
@@ -231,7 +230,6 @@ async def check_pubmed_for_trial(session, trial, all_events, scraped_urls):
         article_url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
         if article_url in scraped_urls: continue
         
-        # We explicitly inject the NCT ID and Drug so the processing function & Gemini can read it perfectly
         combined_text = f"Medical Journal Publication in {journal}. Title: {title}. This peer-reviewed paper presents findings for clinical trial {nct_id} evaluating the drug {trial['drug_name']}."
         
         await process_text_for_trial(session, combined_text, trial, article_url, "PubMed Journal", None, all_events)
@@ -388,7 +386,10 @@ async def scan_ticker_sources(session, scan_ticker, cik, trials_list, all_events
 # 6. MASTER ORCHESTRATOR
 # ==========================================
 async def run_pipeline():
-    all_events = load_state(DATA_FILE, list)
+    # MEMORY UPGRADE: Load both Active AND Archive files so the bot never forgets old URLs
+    active_events = load_state(DATA_FILE, list)
+    archived_events = load_state(ARCHIVE_FILE, list)
+    all_events = active_events + archived_events
     scraped_urls = set(load_state(CACHE_FILE, list))
 
     for event in all_events: event['is_new'] = False
@@ -436,7 +437,6 @@ async def run_pipeline():
         print(f"STEP 2: Scanning CTG API, PubMed, SEC, and Yahoo for {len(watchlist)} monitored trials...")
         tasks = []
         
-        # Add both CTG checks and PubMed literature checks to our task list!
         for trial in watchlist:
             tasks.append(check_clinicaltrials_gov(session, trial, all_events, scraped_urls))
             tasks.append(check_pubmed_for_trial(session, trial, all_events, scraped_urls))
@@ -466,15 +466,32 @@ async def run_pipeline():
             await asyncio.gather(*batch)
             await asyncio.sleep(1) 
 
-    all_events.sort(key=lambda x: x['date'], reverse=True)
-    save_state(all_events, DATA_FILE)
+    # --- NEW: AUTO-ARCHIVING SYSTEM (120 Days / 4 Months) ---
+    cutoff_date = (datetime.now(ZoneInfo("America/Los_Angeles")) - timedelta(days=120)).strftime('%Y-%m-%d')
+    
+    new_active = []
+    new_archive = []
+    
+    for e in all_events:
+        evt_date = e.get('date', '2000-01-01')
+        if evt_date >= cutoff_date:
+            new_active.append(e)
+        else:
+            new_archive.append(e)
+
+    # Sort both files by date
+    new_active.sort(key=lambda x: x['date'], reverse=True)
+    new_archive.sort(key=lambda x: x['date'], reverse=True)
+    
+    save_state(new_active, DATA_FILE)
+    save_state(new_archive, ARCHIVE_FILE)
     save_state(list(scraped_urls), CACHE_FILE)
         
     run_time = datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%B %d, %Y at %I:%M %p")
     save_state({"last_updated": run_time}, METADATA_FILE)
         
     print("\n" + "="*60)
-    print(f"Run Complete! Exported {len(all_events)} trial updates to JSON.")
+    print(f"Run Complete! Exported {len(new_active)} Active and {len(new_archive)} Archived trial updates.")
     print("="*60)
 
 if __name__ == "__main__":
