@@ -92,7 +92,6 @@ def map_sentiment(text):
     return "Neutral"
 
 def extract_context(text, nct_id, drug_name):
-    # Extracts the exact sentences mentioning the drug/trial to save Gemini tokens!
     sentences = re.split(r'(?<=[.!?]) +', text)
     drug_list = [d.strip().lower() for d in re.split(r'\+|&|\band\b', drug_name) if d.strip()]
     
@@ -104,11 +103,10 @@ def extract_context(text, nct_id, drug_name):
     
     if context_chunks:
         full_context = " ".join(context_chunks)
-        return full_context[:1500] # Pass up to 1,500 characters to Gemini
+        return full_context[:1500] 
     return "Mentioned in document. See source for details."
 
 async def analyze_with_gemini(session, context_text, trial):
-    # If no API key or text is too short, use the old basic keyword method
     if not GEMINI_API_KEY or len(context_text) < 15:
         return classify_tense(context_text), map_sentiment(context_text), context_text[:350] + "..."
 
@@ -141,7 +139,7 @@ async def analyze_with_gemini(session, context_text, trial):
                 
                 return parsed.get("status", "Trial Status Update"), parsed.get("sentiment", "Neutral"), parsed.get("notes", context_text[:350])
     except Exception as e:
-        pass # If Gemini fails (rate limit, etc), just fall through to the old method
+        pass 
         
     return classify_tense(context_text), map_sentiment(context_text), context_text[:350] + "..."
 
@@ -181,9 +179,13 @@ async def load_watchlist(session):
             reader = csv.DictReader(io.StringIO(csv_data))
             for row in reader:
                 if row.get('ticker') and row.get('nct_id'):
-                    # BIG DATA FIX: Skip any watchlist row where the drug is purely "Placebo"
                     if row.get('drug_name', '').strip().lower() == 'placebo':
                         continue
+                    
+                    # NEW: Read the CTG specific filter column
+                    ctg_flag = str(row.get('ctg_results_only', '')).strip().lower()
+                    row['ctg_results_only'] = ctg_flag in ['yes', 'y', 'true', '1']
+                    
                     watchlist.append(row)
         return watchlist
     
@@ -204,6 +206,13 @@ async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
         overall_status = status_module.get('overallStatus', '')
         
         results_posted = 'resultsSection' in data
+        
+        # --- NEW FILTER LOGIC ---
+        # If user only wants to see CTG alerts when results are posted, and there are no results, skip it!
+        if trial.get('ctg_results_only') and not results_posted:
+            return
+        # ------------------------
+
         status_label = "Actual Data Reported" if results_posted else "Trial Status Update"
         notes = f"Official CTG Update. Status: {overall_status}. " + ("Results Data Available on CTG." if results_posted else "")
         sentiment = map_sentiment(notes)
@@ -243,10 +252,7 @@ async def process_text_for_trial(session, text, trial, source_url, source_label,
     drugs_mentioned = all(drug in text_lower for drug in drug_list) if drug_list else False
 
     if nct_mentioned or drugs_mentioned:
-        # 1. Grab the raw sentences
         raw_context = extract_context(text, trial['nct_id'], trial['drug_name'])
-        
-        # 2. Let Gemini 1.5 Flash do the reading! (Or fallback to keyword math)
         status, sentiment, notes = await analyze_with_gemini(session, raw_context, trial)
         
         if not pub_date: pub_date = datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d')
@@ -268,7 +274,7 @@ async def process_text_for_trial(session, text, trial, source_url, source_label,
                 "drug_name": trial['drug_name'],
                 "status": status,
                 "sentiment": sentiment,
-                "notes": notes, # The beautiful summary written by Gemini!
+                "notes": notes, 
                 "source": source_url,
                 "source_type": source_label,
                 "date_added": datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d'),
@@ -391,11 +397,9 @@ async def run_pipeline():
         print(f"STEP 2: Scanning CTG API, SEC, and Yahoo for {len(watchlist)} monitored trials...")
         tasks = []
         
-        # 1. CTG tasks
         for trial in watchlist:
             tasks.append(check_clinicaltrials_gov(session, trial, all_events, scraped_urls))
         
-        # 2. Consolidate SEC & Yahoo tasks by unique company ticker
         ticker_groups = {}
         for trial in watchlist:
             partner_tickers = [t.strip().upper() for t in re.split(r'[,/]', trial['ticker']) if t.strip()]
@@ -408,7 +412,6 @@ async def run_pipeline():
             cik = sec_mapping.get(t)
             tasks.append(scan_ticker_sources(session, t, cik, trials_list, all_events, scraped_urls))
         
-        # BATCH PROCESSING FIX: Run 50 tasks at a time with a visual progress tracker!
         batch_size = 50
         total_batches = (len(tasks) + batch_size - 1) // batch_size
         
@@ -420,7 +423,7 @@ async def run_pipeline():
             
             batch = tasks[i:i + batch_size]
             await asyncio.gather(*batch)
-            await asyncio.sleep(1) # Give the server a 1-second breather
+            await asyncio.sleep(1) 
 
     all_events.sort(key=lambda x: x['date'], reverse=True)
     save_state(all_events, DATA_FILE)
