@@ -36,11 +36,14 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git add obesity_results.json obesity_urls.json obesity_metadata.json
+          
+          # NEW: Ensure the archive file exists, then save all 4 files
+          touch obesity_archive.json
+          git add obesity_results.json obesity_urls.json obesity_metadata.json obesity_archive.json
           
           # Check if there are actually any changes to save
           if [[ -n "$(git status --porcelain)" ]]; then
-            git commit -m "🤖 Auto-update: Obesity data sync"
+            git commit -m "🤖 Auto-update: Obesity data sync & archive"
             # Pull any changes the other robot might have made while this one was running!
             git pull --rebase origin main
             git push
