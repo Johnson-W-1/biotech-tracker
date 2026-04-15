@@ -44,6 +44,7 @@ SENTIMENT_DICT = {
 SEC_HEADERS = {'User-Agent': 'Johnson Widjaja (jwliauw@gmail.com)'}
 YAHOO_HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
+# Optimized to drop 10-K/10-Q and focus on breaking news (8-K and 6-K)
 TARGET_SEC_FORMS = ['8-K', '6-K']
 SEC_SEMAPHORE = asyncio.Semaphore(5)
 PUBMED_SEMAPHORE = asyncio.Semaphore(2)
@@ -247,8 +248,25 @@ async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
         
         results_posted = 'resultsSection' in data
         
-        if trial.get('ctg_results_only') and not results_posted:
-            return
+        # --- NEW SMART FILTER LOGIC ---
+        # Look at the dashboard's historical memory to see what the LAST status was
+        previous_ctg_events = [e for e in all_events if e.get('source_type') == 'ClinicalTrials.gov' and nct_id in e.get('nct_id', '')]
+        
+        status_changed = True
+        if previous_ctg_events:
+            # Sort by date to get the most recent CTG update for this specific trial
+            previous_ctg_events.sort(key=lambda x: x['date'], reverse=True)
+            last_event = previous_ctg_events[0]
+            
+            # If the current status is identical to the last one we recorded, it hasn't changed!
+            if f"Status: {overall_status}" in last_event.get('notes', ''):
+                status_changed = False
+                
+        # If the user flagged this trial to ignore CTG spam:
+        if trial.get('ctg_results_only'):
+            # ONLY alert if actual results are posted OR the overall status changed
+            if not results_posted and not status_changed:
+                return
 
         status_label = "Actual Data Reported" if results_posted else "Trial Status Update"
         notes = f"Official CTG Update. Status: {overall_status}. " + ("Results Data Available on CTG." if results_posted else "")
@@ -386,7 +404,6 @@ async def scan_ticker_sources(session, scan_ticker, cik, trials_list, all_events
 # 6. MASTER ORCHESTRATOR
 # ==========================================
 async def run_pipeline():
-    # MEMORY UPGRADE: Load both Active AND Archive files so the bot never forgets old URLs
     active_events = load_state(DATA_FILE, list)
     archived_events = load_state(ARCHIVE_FILE, list)
     all_events = active_events + archived_events
@@ -466,7 +483,6 @@ async def run_pipeline():
             await asyncio.gather(*batch)
             await asyncio.sleep(1) 
 
-    # --- NEW: AUTO-ARCHIVING SYSTEM (120 Days / 4 Months) ---
     cutoff_date = (datetime.now(ZoneInfo("America/Los_Angeles")) - timedelta(days=120)).strftime('%Y-%m-%d')
     
     new_active = []
@@ -479,7 +495,6 @@ async def run_pipeline():
         else:
             new_archive.append(e)
 
-    # Sort both files by date
     new_active.sort(key=lambda x: x['date'], reverse=True)
     new_archive.sort(key=lambda x: x['date'], reverse=True)
     
