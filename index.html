@@ -33,11 +33,15 @@
   .btn-export { color: white; background: #2b9348; border-color: #1b4332; }
   .btn-export:hover { background: #1b4332; }
   
-  /* BATCH ACTION BUTTONS */
+  /* BATCH ACTION & ARCHIVE BUTTONS */
   .btn-batch-action { color: white; background: #d90429; border-color: #a7001d; }
   .btn-batch-action:hover { background: #a7001d; }
   .btn-batch-read { color: white; background: #005f73; border-color: #003f4f; }
   .btn-batch-read:hover { background: #003f4f; }
+  
+  /* NEW: Archive Button */
+  .btn-archive { color: white; background: #6c757d; border-color: #495057; }
+  .btn-archive:hover { background: #495057; }
 
   .badge-new { background: #d90429; color: white; padding: 2px 5px; border-radius: 3px; font-size: 0.65rem; font-weight: bold; margin-left: 6px; vertical-align: top; animation: pulse 2s infinite;}
   .ind-badge { background: #e2eafc; color: #002855; border: 1px solid #adc178; padding: 3px 6px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; white-space: nowrap; display: inline-block; margin-top: 2px;}
@@ -182,8 +186,9 @@
       </label>
       
       <button class="toggle-btn btn-batch-read" id="btn-batch-read" onclick="processBatchAction('read')">👁️ Read Selected</button>
-
       <button class="toggle-btn btn-batch-action" id="btn-batch-action" onclick="processBatchAction('trash')">🗑️ Trash Selected</button>
+      
+      <button class="toggle-btn btn-archive" id="btn-load-archive" onclick="loadArchive()">📚 Load Archive (>4 Months)</button>
       
       <button class="toggle-btn btn-export" onclick="exportToCSV()">📥 Export to CSV</button>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSddWu0oXHsH6aCU0cOOpEpIva0YyMIlGq9aj9G3K2t_QLRfNQ/viewform?usp=publish-editor" target="_blank" class="toggle-btn" style="background:#e0fbfc; color:#005f73; text-decoration:none;">📬 Subscribe to Alerts</a>
@@ -223,6 +228,10 @@
   let currentPrefix = 'obesity';
   let reviewedKeys = [];
   let trashKeys = [];
+  
+  // NEW: Archive Variables
+  let isArchiveLoaded = false;
+  let archiveData = [];
 
   function getEventKey(evt) {
     return `${evt.date}_${evt.ticker}_${evt.nct_id.replace(/\s+/g, '')}_${evt.status.replace(/\s+/g, '')}`;
@@ -257,7 +266,6 @@
     document.querySelectorAll('.row-select-cb').forEach(cb => cb.checked = isChecked);
   }
 
-  // UPGRADED: Handles both Bulk Reading and Bulk Trashing
   function processBatchAction(actionType) {
     const selectedCbs = document.querySelectorAll('.row-select-cb:checked');
     if (selectedCbs.length === 0) {
@@ -267,7 +275,6 @@
     
     const isTrashView = document.getElementById('view-trash-only').checked;
     
-    // If we are looking at the trash, the only batch action is to restore
     if (isTrashView) {
       if (confirm(`Are you sure you want to restore ${selectedCbs.length} selected items?`)) {
         selectedCbs.forEach(cb => {
@@ -280,7 +287,6 @@
           selectedCbs.forEach(cb => {
             const key = cb.value;
             if (!trashKeys.includes(key)) trashKeys.push(key);
-            // Auto mark as read so they don't clutter the backend
             if (!reviewedKeys.includes(key)) reviewedKeys.push(key);
           });
         } else return;
@@ -299,6 +305,36 @@
     applyFilters();
   }
 
+  // NEW: Archive Fetcher Logic
+  function loadArchive() {
+    if (isArchiveLoaded) return;
+    const btn = document.getElementById('btn-load-archive');
+    btn.innerText = "⏳ Loading Archive...";
+    
+    fetch(`${currentPrefix}_archive.json`)
+        .then(r => {
+            if (!r.ok) throw new Error("Archive file not found");
+            return r.json();
+        })
+        .then(data => {
+            const cleanedArchive = data.filter(evt => evt.drug_name.trim().toLowerCase() !== 'placebo');
+            archiveData = consolidateEvents(cleanedArchive);
+            
+            rawEvents = [...rawEvents, ...archiveData];
+            populateFilters(rawEvents);
+            applyFilters(); 
+            
+            btn.innerText = "✅ Archive Loaded";
+            btn.style.backgroundColor = "#2b9348";
+            btn.style.borderColor = "#1b4332";
+            isArchiveLoaded = true;
+        })
+        .catch(err => {
+            console.error("Archive error", err);
+            btn.innerText = "❌ No Archive Found";
+        });
+  }
+
   function switchDataset() {
     currentPrefix = document.getElementById('dataset-select').value;
     
@@ -307,6 +343,14 @@
     document.getElementById('filter-new-only').checked = false;
     document.getElementById('view-trash-only').checked = false;
     document.getElementById('select-all-cb').checked = false;
+
+    // Reset Archive State
+    isArchiveLoaded = false;
+    const archBtn = document.getElementById('btn-load-archive');
+    archBtn.innerText = "📚 Load Archive (>4 Months)";
+    archBtn.style.backgroundColor = "#6c757d";
+    archBtn.style.borderColor = "#495057";
+    archiveData = [];
 
     loadData();
   }
@@ -497,19 +541,18 @@
     const hideReviewed = document.getElementById('filter-unreviewed').checked;
     const viewTrash = document.getElementById('view-trash-only').checked;
 
-    // DYNAMICALLY UPDATE BATCH BUTTONS BASED ON TRASH VIEW
     const batchTrashBtn = document.getElementById('btn-batch-action');
     const batchReadBtn = document.getElementById('btn-batch-read');
     if (viewTrash) {
         batchTrashBtn.innerHTML = "♻️ Restore Selected";
         batchTrashBtn.style.backgroundColor = "#2b9348"; 
         batchTrashBtn.style.borderColor = "#1b4332";
-        batchReadBtn.style.display = "none"; // Hide Read button in trash
+        batchReadBtn.style.display = "none"; 
     } else {
         batchTrashBtn.innerHTML = "🗑️ Trash Selected";
         batchTrashBtn.style.backgroundColor = "#d90429";
         batchTrashBtn.style.borderColor = "#a7001d";
-        batchReadBtn.style.display = "flex"; // Show Read button
+        batchReadBtn.style.display = "flex"; 
     }
 
     document.getElementById('select-all-cb').checked = false;
@@ -627,7 +670,6 @@
 
       const drugList = evt.drug_name.split(' | ').map(d => `<div style="font-size: 0.85rem; font-weight: bold; color: #333; margin-bottom: 2px;">• ${d}</div>`).join('');
 
-      // UPDATED: Dynamic Action Buttons for individual rows!
       let actionBtn = "";
       if (isTrashView) {
           actionBtn = `<button class="action-btn btn-restore" onclick="toggleTrash('${evtKey}')">Restore</button>`;
