@@ -1,5 +1,145 @@
 [
     {
+        "date": "2026-04-16",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "ACHIEVE-4, the longest Phase 3 study of Lilly's Foundayo (orforglipron) to date, reaffirmed its cardiovascular and overall safety profile as well as consistent improvements across key measures of cardiometabolic health In ACHIEVE-4, Foundayo met the primary objective of non-inferiority vs....",
+        "source": "https://investor.lilly.com/news-releases/news-release-details/achieve-4-longest-phase-3-study-lillys-foundayo-orforglipron",
+        "source_type": "Eli Lilly",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "AMGN",
+        "nct_id": "NCT05669599",
+        "indication": "Obesity",
+        "drug_name": "MariTide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05669599 evaluating the drug MariTide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40549887/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "NVO",
+        "nct_id": "NCT05035095",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide (Oral)",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05035095 evaluating the drug Semaglutide (Oral)....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40452267/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "NVO",
+        "nct_id": "NCT05035095",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide (Oral)",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05035095 evaluating the drug Semaglutide (Oral)....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/37385278/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "NVO",
+        "nct_id": "NCT01272219",
+        "indication": "Obesity",
+        "drug_name": "liraglutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT01272219 evaluating the drug liraglutide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/35975210/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "NVO",
+        "nct_id": "NCT01272219",
+        "indication": "Obesity",
+        "drug_name": "liraglutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT01272219 evaluating the drug liraglutide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/28462892/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "ZEAL",
+        "nct_id": "NCT04667377",
+        "indication": "Obesity",
+        "drug_name": "Survodutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Subgroup analysis by sex and baseline BMI in people with a BMI \u226527\u2009kg/m(2) in the phase 2 trial of survodutide, a glucagon/GLP-1 receptor dual agonist.. This peer-reviewed paper presents findings for clinical trial NCT04667377 evaluating the drug Survodutide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/39821928/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "ZEAL",
+        "nct_id": "NCT04667377",
+        "indication": "Obesity",
+        "drug_name": "Survodutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial.. This peer-reviewed paper presents findings for clinical trial NCT04667377 evaluating the drug Survodutide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/38330987/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "ACHIEVE-4, the longest Phase 3 study of Lilly's Foundayo (orforglipron) to date, reaffirmed its cardiovascular and overall safety profile as well as consistent improvements across key measures of cardiometabolic health Eli Lilly and Company (NYSE: LLY) today announced positive topline results from the Phase 3 ACHIEVE-4 trial evaluating the efficacy...",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/achieve-4-longest-phase-3-104500479.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-16",
+        "ticker": "NVO",
+        "nct_id": "NCT05646706, NCT03548935, NCT07225816",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Indian's Hetero targets annual sales of 1.5 million semaglutide pens in global rollout By Rishika Sadam HYDERABAD, April 16 (Reuters) - Hetero Labs, one of India's largest privately held drugmakers, aims to sell 1.5 million pens of generic weight-loss and diabetes drugs in the first...",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/indians-hetero-targets-annual-sales-082252765.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
         "date": "2026-04-15",
         "ticker": "LLY, 4519.T",
         "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
@@ -25,7 +165,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41508550/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -39,7 +179,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40481478/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -53,7 +193,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/37351564/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -67,7 +207,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40960239/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -81,7 +221,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41885866/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -95,7 +235,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41640675/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -109,7 +249,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41612966/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -123,7 +263,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40421736/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -137,7 +277,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38316982/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -151,7 +291,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40934115/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -165,7 +305,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40961952/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -179,7 +319,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40980163/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -193,7 +333,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39316288/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -207,7 +347,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39226070/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -221,7 +361,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40550231/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -235,7 +375,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40550229/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -249,7 +389,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40539310/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -263,7 +403,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39258838/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -277,7 +417,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41760612/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -291,7 +431,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35042751/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -305,7 +445,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40555243/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -319,7 +459,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40072462/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -333,7 +473,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41187967/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -347,7 +487,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39495965/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -361,6 +501,20 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/37693914/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2026-04-15",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Lilly\u2019s once-daily orforglipron pill, sold under the brand name Foundayo, secured FDA approval earlier this month....",
+        "source": "https://finance.yahoo.com/m/daea5b99-6f79-39fa-a394-d848db196797/lilly-stock-dips-on-fda.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-16",
         "is_new": true
     },
     {
@@ -375,7 +529,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07269756",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-13",
@@ -403,7 +557,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06532578",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-13",
@@ -417,7 +571,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06545162",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-11",
