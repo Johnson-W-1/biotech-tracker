@@ -1,5 +1,243 @@
 [
     {
+        "date": "2025-12-16",
+        "ticker": "JNJ",
+        "nct_id": "NCT04965090",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Amivantamab + Lazertinib",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04965090",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT02125461, NCT02511106, NCT03521154, NCT03703297, NCT03706690, NCT04642469",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Placebo",
+        "status": "Actual Data Reported",
+        "sentiment": "Positive",
+        "notes": "1 \u00a0In the trial, subcutaneous (SC) administration of\u00a0 Saphnelo \u00a0led to a statistically significant and clinically meaningful reduction in disease activity compared to placebo in participants with moderate to severe, active, autoantibody-positive SLE while receiving standard therapy.",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013974/a655l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT02125461, NCT02879617, NCT02904954, NCT03003962, NCT03693300, NCT03703297, NCT03706690, NCT03822351, NCT04003246, NCT04392505, NCT04642469",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Durvalumab",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "To bring much-needed treatment options to patients with triple-negative breast cancer, an aggressive form of breast cancer, AstraZeneca is collaborating with Daiichi Sankyo to evaluate the potential of\u00a0 Datroway \u00a0alone and in combination with immunotherapy\u00a0 Imfinzi \u00a0(durvalumab).\u00a0      \u00a0      AstraZeneca in oncology      AstraZeneca is leading a re...",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT02125461, NCT02511106, NCT03521154, NCT03703297, NCT03706690, NCT04642469",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Placebo",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Patients were randomised 1:1:1 to receive either\u00a0 Enhertu \u00a0monotherapy with a pertuzumab matching placebo;\u00a0 Enhertu \u00a0in combination with pertuzumab; or THP.",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT03141359",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Chemotherapy",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Enhertu \u00a0 (5.4mg/kg) is approved in more than 85 countries/regions worldwide for the treatment of adult patients with unresectable or metastatic HER2-low (IHC 1+ or IHC 2+/ISH-) breast cancer who have received a prior systemic therapy in the metastatic setting or developed disease recurrence during or within six months of completing adjuvant chemot...",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT03237377",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Durvalumab + Chemotherapy",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Enhertu \u00a0 (5.4mg/kg) is approved in more than 85 countries/regions worldwide for the treatment of adult patients with unresectable or metastatic HER2-low (IHC 1+ or IHC 2+/ISH-) breast cancer who have received a prior systemic therapy in the metastatic setting or developed disease recurrence during or within six months of completing adjuvant chemot...",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT03775486",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Durvalumab + Olaparib",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "PARP inhibitor\u00a0 Lynparza \u00a0(olaparib) is a targeted treatment option that has been studied in early and metastatic breast cancer patients with an inherited\u00a0 BRCA \u00a0mutation.",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT03775486",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Durvalumab + Placebo",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Patients were randomised 1:1:1 to receive either\u00a0 Enhertu \u00a0monotherapy with a pertuzumab matching placebo;\u00a0 Enhertu \u00a0in combination with pertuzumab; or THP.",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT04644068",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Saruparib",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "AstraZeneca is also exploring the potential of saruparib, a potent and selective inhibitor of PARP1, in combination with camizestrant in\u00a0 BRCA -mutated, HR-positive, HER2-negative advanced breast cancer.",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT05246514",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Trastuzumab deruxtecan",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "THP with a median progression-free survival of more than three years      \u00a0      AstraZeneca and Daiichi Sankyo's\u00a0 Enhertu \u00a0(trastuzumab deruxtecan) in combination with pertuzumab has been approved\u00a0in the US for the 1st-line treatment of\u00a0adult patients with unresectable or metastatic HER2-positive breast cancer,\u00a0as determined by a Food and Drug Adm...",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT05460273",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Datopotamab deruxtecan",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Daiichi \u00a0 Sankyo collaboration      AstraZeneca and Daiichi Sankyo entered into a global collaboration to jointly develop and commercialise\u00a0 Enhertu \u00a0in \u00a0 March 2019 \u00a0and\u00a0 Datroway \u00a0(datopotamab deruxtecan) in\u00a0 July 2020 , except in Japan where Daiichi Sankyo maintains exclusive rights for each ADC.",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "AZN",
+        "nct_id": "NCT05553808",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Docetaxel",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Pertuzumab, trastuzumab, and docetaxel for HER2-positive metastatic breast cancer (CLEOPATRA): end-of-study results from a double-blind, randomised, placebo-controlled, Phase III study.\u00a0 Lancet Oncol.\u00a0 2020;21(4):519-530.",
+        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425013970/a6719l.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "2563.HK",
+        "nct_id": "NCT03693547",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Utidelone",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "pivotal clinical study (NCT06764940) of Utidelone Injection(UTD1) combined with capecitabine for the treatment of HER2-negative breast cancer brain metastases (BCBM).",
+        "source": "https://finance.yahoo.com/news/breaking-untreatable-biostar-pharmas-utd1-045500102.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "GLUE",
+        "nct_id": "NCT05546268",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "MRT-2359",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "(the \u201cCompany\u201d or \"Monte Rosa\") issued a press release titled \u201cMonte Rosa Therapeutics Announces Compelling Clinical Activity of MRT-2359 in Combination with Enzalutamide in Heavily Pretreated Metastatic Castration Resistant Prostate Cancer Patients with Androgen Receptor Mutations\u201d.",
+        "source": "https://www.sec.gov/Archives/edgar/data/1826457/000119312525319981/glue-20251216.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "BMY",
+        "nct_id": "NCT03425331",
+        "indication": "Ipilimumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Negative",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03425331",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "Linnaeus Therapeutics, Inc.",
+        "nct_id": "NCT04130516",
+        "indication": "LNS8801",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT04130516",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-16",
+        "ticker": "INBX",
+        "nct_id": "NCT03809624",
+        "indication": "Enristomig",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "(\u201cInhibrx\u201d) issued a press release announcing (i) an update on the INBRX-106 Phase 2/3 clinical trial in combination with Keytruda \u00ae   (pembrolizumab)   as a first-line treatment for patients with locally advanced unresectable or metastatic head and neck squamous cell carcinoma (HNSCC) and the Phase 1/2 trial evaluating patients with checkpoint inh...",
+        "source": "https://www.sec.gov/Archives/edgar/data/2007919/000200791925000097/inhibrx-20251216.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
         "date": "2025-12-15",
         "ticker": "Mythic Therapeutics",
         "nct_id": "NCT05652868",
@@ -11,7 +249,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05652868",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-12-12",
@@ -95,7 +333,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06029127",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-12-11",
@@ -165,7 +403,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1809196/000095010325015984/dp238568_6k.htm",
         "source_type": "SEC 6-K",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-12-10",
@@ -179,7 +417,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03337698",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-12-10",
@@ -193,7 +431,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03347838",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-12-10",
@@ -207,7 +445,7 @@
         "source": "https://finance.yahoo.com/news/maia-takes-aim-50b-immunotherapy-190000611.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-12-09",
@@ -221,7 +459,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06102057",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-12-07",
@@ -305,7 +543,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03556228",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-12-03",
@@ -403,7 +641,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05870319",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-27",
@@ -417,7 +655,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07229729",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-26",
@@ -795,7 +1033,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05789069",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-19",
@@ -935,7 +1173,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05914116",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-18",
@@ -949,7 +1187,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06496490",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-17",
@@ -1047,7 +1285,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07027514",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-14",
@@ -1173,7 +1411,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05887492",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-14",
@@ -1187,7 +1425,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06350097",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-13",
@@ -1313,7 +1551,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06382116",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-13",
@@ -1327,7 +1565,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06927986",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-13",
@@ -1341,7 +1579,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07231068",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-12",
@@ -1621,7 +1859,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1809196/000095010325014569/dp237236_6k.htm",
         "source_type": "SEC 6-K",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-12",
@@ -1635,7 +1873,7 @@
         "source": "https://finance.yahoo.com/news/kras-inhibitors-market-witness-explosive-180000964.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-11",
@@ -1719,7 +1957,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03307785",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-08",
@@ -1831,7 +2069,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05132075",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-06",
@@ -2069,7 +2307,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02495896",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-05",
@@ -2489,7 +2727,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04410796",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-04",
@@ -2783,7 +3021,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03539536",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-11-03",
@@ -2867,7 +3105,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05902988",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-30",
@@ -3427,7 +3665,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03519971",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-24",
@@ -3539,6 +3777,20 @@
         "source": "https://clinicaltrials.gov/study/NCT03468426",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2025-10-23",
+        "ticker": "VSTM",
+        "nct_id": "NCT04620330, NCT05074810",
+        "indication": "Avutometinib, avutometinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "The safety profile in PDAC and non-small cell lung cancer (\u201cNSCLC\u201d) patients was consistent with the previously reported data at recent medical congresses by the Company\u2019s partner GenFleet Therapeutics (\u201cGenfleet\u201d) in its ongoing Phase 1 /2 clinical study in China evaluating VS-7375 (known as GFH375). Following the ongoing monotherapy dose escalati...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1526119/000110465925101817/tm2529362d1_8k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-16",
         "is_new": true
     },
     {
@@ -3609,7 +3861,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06212752",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-21",
@@ -3794,6 +4046,20 @@
         "is_new": false
     },
     {
+        "date": "2025-10-17",
+        "ticker": "GNPX",
+        "nct_id": "NCT04486833",
+        "indication": "Quaratusugene Ozeplasmid",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "The Acclaim-1 trial uses a combination of REQORSA and AstraZeneca\u2019s Tagrisso\u00ae ( osimertinib ) in patients with late-stage Non-Small Cell Lung Cancer (\u201cNSCLC\u201d) that has activating epidermal growth factor receptor mutations and progression on treatment with Tagrisso or Tagrisso-containing regimens. Food and Drug Administration (\u201cFDA\u201d) Fast Track Desi...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774925031210/gnpx20251001_8k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
         "date": "2025-10-16",
         "ticker": "BMY",
         "nct_id": "NCT03906071",
@@ -3959,7 +4225,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05639751",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-13",
@@ -4001,7 +4267,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03396445",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-13",
@@ -4015,7 +4281,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05513703",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-12",
@@ -4057,7 +4323,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03334617",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-08",
@@ -4351,7 +4617,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03915678",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-30",
@@ -4603,7 +4869,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05949619",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-25",
@@ -4687,7 +4953,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03237377",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-25",
@@ -4701,7 +4967,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04655976",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-25",
@@ -4715,7 +4981,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05299125",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-25",
@@ -4729,7 +4995,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06623136",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-24",
@@ -4953,7 +5219,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05880706",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-17",
@@ -4995,7 +5261,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06270082",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-15",
@@ -5037,7 +5303,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06205706",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-12",
@@ -5149,7 +5415,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05722015",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-08",
@@ -5164,6 +5430,20 @@
         "source_type": "SEC 8-K",
         "date_added": "2026-04-13",
         "is_new": false
+    },
+    {
+        "date": "2025-09-08",
+        "ticker": "MAIA",
+        "nct_id": "NCT05208944",
+        "indication": "Ateganosine",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Negative",
+        "notes": "(the \u201cCompany\u201d) has prepared a poster (the \u201cPoster\u201d) showing the efficacy data from its Phase 2 THIO-101 clinical trial evaluating THIO sequenced with the immune checkpoint inhibitor (CPI) cemiplimab (Libtayo\u00ae) in patients with advanced non-small cell lung cancer (NSCLC) who failed 2 or more standard-of-care therapy regimens. The Poster was selecte...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1878313/000149315225012769/form8-k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-16",
+        "is_new": true
     },
     {
         "date": "2025-09-05",
@@ -5247,7 +5527,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05577715",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-31",
@@ -5261,7 +5541,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07150663",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-29",
@@ -5275,7 +5555,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05585320",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-28",
@@ -5359,7 +5639,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05653752",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-20",
@@ -5457,7 +5737,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07130916",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-14",
@@ -5653,7 +5933,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05864144",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-13",
@@ -5779,7 +6059,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04380636",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-13",
@@ -5793,7 +6073,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05609578",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-13",
@@ -5807,6 +6087,20 @@
         "source": "https://finance.yahoo.com/news/beyondspring-reports-second-quarter-2025-120000682.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2025-08-13",
+        "ticker": "VSTM",
+        "nct_id": "NCT04620330, NCT05074810",
+        "indication": "Avutometinib, avutometinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Item 8.01 Other Events   \u00a0   Recent Developments   \u00a0   Updated Data from VS-7375 Phase 1/A Study in Advanced KRAS G12D Mutant Solid Tumors   \u00a0   GenFleet reported cumulative safety data across the entire study population and preliminary efficacy data specific to patients with advanced non-small cell lung cancer (\u201cNSCLC\u201d) from the Phase 1/2 study in...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1526119/000110465925077659/tm2523452d1_8k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-16",
         "is_new": true
     },
     {
@@ -5905,7 +6199,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06907615",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-11",
@@ -6073,7 +6367,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05756153",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-11",
@@ -6087,7 +6381,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06091943",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-08",
@@ -7515,7 +7809,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05298423",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-30",
@@ -7529,7 +7823,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06417008",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-29",
@@ -7767,7 +8061,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05617313",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-24",
@@ -7963,7 +8257,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06024174",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-18",
@@ -8075,7 +8369,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03535740",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-10",
@@ -8117,7 +8411,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05650879",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-09",
@@ -8159,7 +8453,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04306900",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-08",
@@ -8285,7 +8579,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05592626",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-07",
@@ -8299,7 +8593,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06773507",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-05",
@@ -8355,7 +8649,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03289962",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-07-02",
@@ -8397,7 +8691,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03516981",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-06-27",
@@ -8411,7 +8705,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05274451",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-06-24",
@@ -8607,7 +8901,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06643117",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-06-19",
@@ -8635,7 +8929,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03645928",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-06-17",
@@ -8677,7 +8971,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06926673",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-06-11",
@@ -8720,6 +9014,20 @@
         "source_type": "SEC 8-K",
         "date_added": "2026-04-13",
         "is_new": false
+    },
+    {
+        "date": "2025-06-11",
+        "ticker": "GNPX",
+        "nct_id": "NCT04486833",
+        "indication": "Quaratusugene Ozeplasmid",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "The Acclaim-1 trial uses a combination of REQORSA and AstraZeneca\u2019s Tagrisso\u00ae ( osimertinib ) in patients with late-stage NSCLC that has activating epidermal growth factor receptor \u00a0mutations and progression on treatment with Tagrisso or Tagrisso-containing regimens. The Food and Drug Administration (\u201cFDA\u201d) has granted Fast Track Designation for th...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774925020102/gnpx20250606c_8k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-16",
+        "is_new": true
     },
     {
         "date": "2025-06-10",
@@ -8876,6 +9184,20 @@
         "is_new": false
     },
     {
+        "date": "2025-06-02",
+        "ticker": "MAIA",
+        "nct_id": "NCT05208944",
+        "indication": "Ateganosine",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Negative",
+        "notes": "(the \u201cCompany\u201d) has prepared a poster (the \u201cPoster\u201d) showing the efficacy data from its Phase 2 THIO-101 clinical trial evaluating THIO sequenced with the immune checkpoint inhibitor (CPI) cemiplimab (Libtayo\u00ae) in patients with advanced non-small cell lung cancer (NSCLC) who failed 2 or more standard-of-care therapy regimens....",
+        "source": "https://www.sec.gov/Archives/edgar/data/1878313/000164117225013176/form8-k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-16",
+        "is_new": true
+    },
+    {
         "date": "2025-05-30",
         "ticker": "ROG",
         "nct_id": "NCT03037385",
@@ -8901,7 +9223,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03505710",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-29",
@@ -8915,7 +9237,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05546476",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-28",
@@ -8957,7 +9279,7 @@
         "source": "https://finance.yahoo.com/news/beyondspring-announces-poster-presentation-2025-110000521.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-27",
@@ -9097,7 +9419,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06790303",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-23",
@@ -9167,7 +9489,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05704985",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-22",
@@ -9209,7 +9531,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03292133",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-21",
@@ -9223,7 +9545,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05633602",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-20",
@@ -9265,7 +9587,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06343064",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-19",
@@ -9307,7 +9629,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03299088",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-16",
@@ -9335,7 +9657,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06082635",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-15",
@@ -9419,7 +9741,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04121286",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-14",
@@ -9923,7 +10245,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03242915",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-12",
@@ -9937,7 +10259,7 @@
         "source": "https://finance.yahoo.com/news/beyondspring-reports-first-quarter-2025-203000154.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-09",
@@ -10567,7 +10889,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06322108",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-06",
@@ -11323,7 +11645,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05840016",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-04-29",
@@ -11827,7 +12149,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05168566",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-04-23",
@@ -12093,7 +12415,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03476681",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-04-21",
@@ -12107,7 +12429,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06046495",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-04-17",
@@ -12177,7 +12499,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06475937",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-04-10",
@@ -12751,7 +13073,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04330664",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-04-02",
@@ -12793,7 +13115,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03452592",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-04-02",
@@ -12807,7 +13129,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04853342",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-04-01",
@@ -13115,7 +13437,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03445000",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-03-31",
@@ -13129,7 +13451,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06015503",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-03-30",
@@ -13214,6 +13536,20 @@
         "source_type": "SEC 10-K",
         "date_added": "2026-04-13",
         "is_new": false
+    },
+    {
+        "date": "2025-03-28",
+        "ticker": "MAIA",
+        "nct_id": "NCT05208944",
+        "indication": "Ateganosine",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Negative",
+        "notes": "(the \u201cCompany\u201d) has prepared a poster (the \u201cPoster\u201d) showing the efficacy data from its Phase 2 THIO-101 clinical trial evaluating THIO sequenced with the immune checkpoint inhibitor (CPI) cemiplimab (Libtayo\u00ae) in patients with advanced non-small cell lung cancer (NSCLC) who failed 2 or more standard-of-care therapy regimens....",
+        "source": "https://www.sec.gov/Archives/edgar/data/1878313/000164117225001045/form8-k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-16",
+        "is_new": true
     },
     {
         "date": "2025-03-27",
@@ -13339,7 +13675,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06094296",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-03-25",
@@ -13437,7 +13773,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1346830/000110465925027233/tm259994d1_8k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-03-21",
@@ -14137,7 +14473,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03409614",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-03-11",
@@ -15551,7 +15887,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05543629",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-02-26",
@@ -16713,7 +17049,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05599789",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-02-13",
@@ -16755,7 +17091,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04616209",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-02-12",
@@ -17497,7 +17833,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06792435",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-02-04",
@@ -18085,7 +18421,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06794957",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-01-23",
@@ -18351,7 +18687,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03414814",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-01-17",
@@ -18393,7 +18729,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03358875",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-01-13",
@@ -18491,6 +18827,20 @@
         "source": "https://clinicaltrials.gov/study/NCT03509012",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2025-01-13",
+        "ticker": "GNPX",
+        "nct_id": "NCT04486833",
+        "indication": "Quaratusugene Ozeplasmid",
+        "drug_name": "NSCLC",
+        "status": "Expected Future Data",
+        "sentiment": "Positive",
+        "notes": "The Acclaim-1\u00a0trial uses a combination of REQORSA and AstraZeneca\u2019s Tagrisso \u00ae  ( osimertinib ) in patients with late-stage Non-Small Cell Lung Cancer (\u201cNSCLC\u201d) that has activating epidermal growth factor receptor mutations and progression after treatment with Tagrisso.\u00a0The Company is currently enrolling and treating patients in the Phase 2a expans...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774925000932/gnpx20250105_8k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-16",
         "is_new": true
     },
     {
@@ -18505,7 +18855,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03546361",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-01-08",
@@ -18603,7 +18953,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06090266",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-01-03",
@@ -18617,7 +18967,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06759857",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-01-02",
@@ -18631,7 +18981,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03262779",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-01-01",
@@ -18673,7 +19023,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05712902",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-25",
@@ -18687,7 +19037,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05922345",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-20",
@@ -18771,7 +19121,7 @@
         "source": "https://clinicaltrials.gov/study/NCT01121588",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-16",
@@ -18785,7 +19135,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04660929",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-16",
@@ -18799,7 +19149,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06469138",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-12",
@@ -18813,7 +19163,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04975256",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-11",
@@ -18827,7 +19177,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03518554",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-09",
@@ -18841,7 +19191,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03549000",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-05",
@@ -18869,7 +19219,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05162274",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-12-03",
@@ -18953,7 +19303,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04923906",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-11-18",
@@ -18967,7 +19317,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05948813",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-11-14",
@@ -18995,7 +19345,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03425643",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-11-13",
@@ -19037,7 +19387,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05712889",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-11-08",
@@ -19051,7 +19401,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04526509",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-11-08",
@@ -19065,7 +19415,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06048705",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-11-07",
@@ -19079,7 +19429,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06589778",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-11-05",
@@ -19107,7 +19457,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03515837",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-11-04",
@@ -19163,7 +19513,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06034860",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-10-29",
@@ -19233,7 +19583,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04335292",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-10-14",
@@ -19275,7 +19625,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05215574",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-10-07",
@@ -19331,7 +19681,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03447769",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-10-04",
@@ -19359,7 +19709,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03239340",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-09-30",
@@ -19415,7 +19765,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03217071",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-09-19",
@@ -19429,7 +19779,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03004183",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-09-16",
@@ -19457,7 +19807,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03583086",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-09-09",
@@ -19527,7 +19877,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06569420",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-08-21",
@@ -19555,7 +19905,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03267316",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-08-21",
@@ -19569,7 +19919,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06224387",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-08-16",
@@ -19639,7 +19989,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03473925",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-07-30",
@@ -19695,7 +20045,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06521034",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-07-18",
@@ -19723,7 +20073,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06517433",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-07-17",
@@ -19807,7 +20157,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02978404",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-06-27",
@@ -19821,7 +20171,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05538572",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-06-25",
@@ -19849,7 +20199,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03502330",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-06-17",
@@ -19933,7 +20283,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03743064",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-05-29",
@@ -19989,7 +20339,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03629756",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-05-21",
@@ -20115,7 +20465,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03410108",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-05-05",
@@ -20129,7 +20479,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06403735",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-05-03",
@@ -20199,7 +20549,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06391944",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-04-22",
@@ -20353,7 +20703,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03318939",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-03-27",
@@ -20381,7 +20731,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03329950",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-03-20",
@@ -20395,7 +20745,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03590054",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-03-15",
@@ -20423,7 +20773,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06225804",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-03-12",
@@ -20437,7 +20787,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03472560",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-03-05",
@@ -20465,7 +20815,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04544748",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-03-03",
@@ -20479,7 +20829,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04984811",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-03-01",
@@ -20619,7 +20969,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03274479",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-02-07",
@@ -20647,7 +20997,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04282044",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-02-06",
@@ -20689,7 +21039,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03257722",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-01-29",
@@ -20731,7 +21081,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03446417",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-01-22",
@@ -20759,7 +21109,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03543813",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-01-19",
@@ -20829,7 +21179,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05088967",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2024-01-11",
@@ -20927,7 +21277,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03219268",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-12-19",
@@ -20941,7 +21291,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03454451",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-12-15",
@@ -20955,7 +21305,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04311034",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-12-12",
@@ -20969,7 +21319,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02571036",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-12-08",
@@ -21025,7 +21375,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04450732",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-12-01",
@@ -21053,7 +21403,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03386929",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-11-23",
@@ -21109,7 +21459,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06147570",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-11-21",
@@ -21179,7 +21529,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03409458",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-11-13",
@@ -21249,7 +21599,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03330405",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-10-09",
@@ -21319,7 +21669,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03308942",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-09-29",
@@ -21347,7 +21697,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03302234",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-09-21",
@@ -21473,7 +21823,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05338619",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-08-29",
@@ -21529,7 +21879,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03215693",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-08-14",
@@ -21543,7 +21893,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05106335",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-08-10",
@@ -21613,7 +21963,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03417882",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-08-04",
@@ -21627,7 +21977,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03317496",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-08-03",
@@ -21655,7 +22005,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05739006",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-07-31",
@@ -21683,7 +22033,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03576131",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-07-26",
@@ -21739,7 +22089,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03215810",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-07-13",
@@ -21823,7 +22173,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03735680",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-07-06",
@@ -21837,7 +22187,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04695847",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-07-03",
@@ -21879,7 +22229,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05127590",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-06-28",
@@ -21921,7 +22271,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05913089",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-06-21",
@@ -21949,7 +22299,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02786589",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-06-16",
@@ -21977,7 +22327,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05153408",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-06-14",
@@ -22005,7 +22355,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03345810",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-06-08",
@@ -22131,7 +22481,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03275597",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-05-09",
@@ -22145,7 +22495,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05865730",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-05-05",
@@ -22159,7 +22509,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05860582",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-05-03",
@@ -22173,7 +22523,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03455829",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-05-02",
@@ -22215,7 +22565,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03452150",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-04-20",
@@ -22243,7 +22593,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03548467",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-04-05",
@@ -22257,7 +22607,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04803305",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-03-31",
@@ -22299,7 +22649,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05801107",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-03-24",
@@ -22313,7 +22663,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05800418",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-03-23",
@@ -22355,7 +22705,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05286957",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-03-15",
@@ -22369,7 +22719,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05767866",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-03-09",
@@ -22439,7 +22789,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03475953",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-02-28",
@@ -22537,7 +22887,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03366480",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-02-17",
@@ -22593,7 +22943,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05718167",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-02-01",
@@ -22677,7 +23027,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02890069",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2023-01-08",
@@ -22747,7 +23097,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05553808",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-12-21",
@@ -22761,7 +23111,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04444427",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-12-12",
@@ -22789,7 +23139,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03853187",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-12-01",
@@ -22817,7 +23167,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03517488",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-11-24",
@@ -22831,7 +23181,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03386942",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-11-22",
@@ -22873,7 +23223,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05627960",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-11-13",
@@ -22915,7 +23265,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05580172",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-10-10",
@@ -22929,7 +23279,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03430063",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-10-07",
@@ -22999,7 +23349,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03989362",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-09-08",
@@ -23055,7 +23405,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04875585",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-08-17",
@@ -23083,7 +23433,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04060342",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-08-17",
@@ -23097,7 +23447,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05416775",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-08-16",
@@ -23111,7 +23461,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03970382",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-08-11",
@@ -23237,7 +23587,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04434560",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-07-20",
@@ -23265,7 +23615,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03297424",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-07-19",
@@ -23279,7 +23629,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05468294",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-07-13",
@@ -23293,7 +23643,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04596033",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-06-29",
@@ -23405,7 +23755,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03270176",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-05-24",
@@ -23489,7 +23839,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03386955",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-05-11",
@@ -23545,7 +23895,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03268057",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-04-25",
@@ -23559,7 +23909,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03463525",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-04-22",
@@ -23573,7 +23923,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03420742",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-04-21",
@@ -23587,7 +23937,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03071757",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-04-21",
@@ -23601,7 +23951,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03367819",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-04-20",
@@ -23615,7 +23965,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03562871",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-04-13",
@@ -23685,7 +24035,7 @@
         "source": "https://clinicaltrials.gov/study/NCT01994382",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-03-22",
@@ -23713,7 +24063,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04125693",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-03-15",
@@ -23741,7 +24091,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02900664",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-03-11",
@@ -23783,7 +24133,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03347123",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-02-23",
@@ -23811,7 +24161,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05267392",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-02-18",
@@ -23839,7 +24189,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04762459",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-01-21",
@@ -23909,7 +24259,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03255083",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2022-01-03",
@@ -23951,7 +24301,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02564380",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-12-13",
@@ -24035,7 +24385,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02824952",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-10-29",
@@ -24161,7 +24511,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03261947",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-08-18",
@@ -24203,7 +24553,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02531737",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-08-09",
@@ -24217,7 +24567,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04521075",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-07-27",
@@ -24245,7 +24595,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04974957",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-07-15",
@@ -24287,7 +24637,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03382795",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-07-07",
@@ -24315,7 +24665,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02824965",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-07-02",
@@ -24343,7 +24693,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03277352",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-06-29",
@@ -24357,7 +24707,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04942301",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-05-28",
@@ -24427,7 +24777,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04874844",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-05-05",
@@ -24441,7 +24791,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03234712",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-04-29",
@@ -24525,7 +24875,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03976856",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-02-23",
@@ -24553,7 +24903,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03696212",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-02-10",
@@ -24567,7 +24917,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04274907",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2021-02-07",
@@ -24651,7 +25001,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04390984",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-12-23",
@@ -24707,7 +25057,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04619563",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-11-13",
@@ -24721,7 +25071,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04632342",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-11-05",
@@ -24749,7 +25099,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03538028",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-09-15",
@@ -24777,7 +25127,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03957096",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-09-11",
@@ -24791,7 +25141,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03502850",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-09-10",
@@ -24805,7 +25155,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04398940",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-08-04",
@@ -24819,7 +25169,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04500704",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-08-02",
@@ -24847,7 +25197,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03267654",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-07-24",
@@ -24861,7 +25211,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04487093",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-07-07",
@@ -24889,7 +25239,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03415126",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-07-06",
@@ -24917,7 +25267,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04439890",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-06-10",
@@ -24931,7 +25281,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04397926",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-06-05",
@@ -24945,7 +25295,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03544723",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-05-29",
@@ -24959,7 +25309,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04415320",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-05-28",
@@ -24973,7 +25323,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04413227",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-05-09",
@@ -24987,7 +25337,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04153799",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-05-07",
@@ -25001,7 +25351,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04203485",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-04-17",
@@ -25071,7 +25421,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04306926",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-03-02",
@@ -25127,7 +25477,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03557411",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-01-29",
@@ -25155,7 +25505,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04239443",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2020-01-20",
@@ -25197,7 +25547,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04175158",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-11-20",
@@ -25211,7 +25561,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04167774",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-10-31",
@@ -25225,7 +25575,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02356991",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-10-29",
@@ -25267,7 +25617,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04133337",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-10-17",
@@ -25281,7 +25631,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04131543",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-09-30",
@@ -25295,7 +25645,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04111913",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-09-09",
@@ -25323,7 +25673,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04073537",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-08-19",
@@ -25365,7 +25715,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03983928",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-08-13",
@@ -25379,7 +25729,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04058704",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-03-17",
@@ -25393,7 +25743,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03874000",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-02-25",
@@ -25407,7 +25757,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03856697",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-02-15",
@@ -25421,7 +25771,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02726568",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2019-01-30",
@@ -25463,7 +25813,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03754530",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2018-11-22",
@@ -25477,7 +25827,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03750916",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2018-11-19",
@@ -25491,7 +25841,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03749213",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2018-11-07",
@@ -25505,7 +25855,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03735264",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2018-08-13",
@@ -25519,7 +25869,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03480230",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2018-07-17",
@@ -25533,7 +25883,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03349203",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2018-07-17",
@@ -25547,7 +25897,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03396185",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2018-07-09",
@@ -25561,7 +25911,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03533127",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2018-05-03",
@@ -25575,7 +25925,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03525782",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2017-12-26",
@@ -25589,7 +25939,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03389815",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2017-12-26",
@@ -25603,7 +25953,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03389256",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2017-12-20",
@@ -25617,7 +25967,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02410369",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2017-11-16",
@@ -25631,7 +25981,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03201146",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2016-10-19",
