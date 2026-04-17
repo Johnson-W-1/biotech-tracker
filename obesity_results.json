@@ -1,5 +1,89 @@
 [
     {
+        "date": "2026-04-17",
+        "ticker": "LLY",
+        "nct_id": "NCT04881760",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT04881760 evaluating the drug Retatrutide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41589220/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-17",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-17",
+        "ticker": "LLY",
+        "nct_id": "NCT04881760",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Perceived benefits of treatment for obesity with retatrutide: A qualitative study of patients in a phase 2 clinical trial.. This peer-reviewed paper presents findings for clinical trial NCT04881760 evaluating the drug Retatrutide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41216380/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-17",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-17",
+        "ticker": "LLY",
+        "nct_id": "NCT04881760",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT04881760 evaluating the drug Retatrutide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41201783/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-17",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-17",
+        "ticker": "NVO",
+        "nct_id": "NCT05567796",
+        "indication": "Obesity",
+        "drug_name": "CagriSema",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: CagriSema Reduces Blood Pressure in Adults With Overweight or Obesity: REDEFINE 1.. This peer-reviewed paper presents findings for clinical trial NCT05567796 evaluating the drug CagriSema....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41328546/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-17",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-17",
+        "ticker": "NVO",
+        "nct_id": "NCT05567796",
+        "indication": "Obesity",
+        "drug_name": "CagriSema",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05567796 evaluating the drug CagriSema....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40544433/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-17",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-17",
+        "ticker": "NVO",
+        "nct_id": "NCT05891834",
+        "indication": "Obesity",
+        "drug_name": "Monlunabant",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Efficacy and safety of monlunabant in adults with obesity and metabolic syndrome: a double-blind, randomised, placebo-controlled, phase 2a trial.. This peer-reviewed paper presents findings for clinical trial NCT05891834 evaluating the drug Monlunabant....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41038215/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-17",
+        "is_new": true
+    },
+    {
         "date": "2026-04-16",
         "ticker": "LLY, 4519.T",
         "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
@@ -11,7 +95,7 @@
         "source": "https://investor.lilly.com/news-releases/news-release-details/achieve-4-longest-phase-3-study-lillys-foundayo-orforglipron",
         "source_type": "Eli Lilly",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -25,7 +109,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40549887/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -39,7 +123,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40452267/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -53,7 +137,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/37385278/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -67,7 +151,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35975210/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -81,7 +165,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/28462892/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -95,7 +179,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39821928/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -109,7 +193,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38330987/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -123,7 +207,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/achieve-4-longest-phase-3-104500479.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -137,7 +221,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/indians-hetero-targets-annual-sales-082252765.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -515,7 +599,7 @@
         "source": "https://finance.yahoo.com/m/daea5b99-6f79-39fa-a394-d848db196797/lilly-stock-dips-on-fda.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-14",
@@ -3523,34 +3607,6 @@
         "sentiment": "Neutral",
         "notes": "Official CTG Update. Status: COMPLETED. ",
         "source": "https://clinicaltrials.gov/study/NCT06584916",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-17",
-        "ticker": "AZN",
-        "nct_id": "NCT06579092",
-        "indication": "Obesity",
-        "drug_name": "AZD5004",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06579092",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-17",
-        "ticker": "BEIJING QL BIOPHARMACEUTICAL CO.,LTD",
-        "nct_id": "NCT07230119",
-        "indication": "Obesity",
-        "drug_name": "Zovaglutide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: NOT_YET_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07230119",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false

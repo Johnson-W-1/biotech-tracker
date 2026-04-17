@@ -1,5 +1,33 @@
 [
     {
+        "date": "2025-12-17",
+        "ticker": "AZN",
+        "nct_id": "NCT06579092",
+        "indication": "Obesity",
+        "drug_name": "AZD5004",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06579092",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-17",
+        "ticker": "BEIJING QL BIOPHARMACEUTICAL CO.,LTD",
+        "nct_id": "NCT07230119",
+        "indication": "Obesity",
+        "drug_name": "Zovaglutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: NOT_YET_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07230119",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2025-12-15",
         "ticker": "REGN, NVO",
         "nct_id": "NCT06299098",
