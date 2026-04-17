@@ -1,5 +1,33 @@
 [
     {
+        "date": "2025-12-17",
+        "ticker": "AZN",
+        "nct_id": "NCT02296125",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Osimertinib",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02296125",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-17",
+        "ticker": "IMRX",
+        "nct_id": "NCT05585320",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Atebimetinib",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Immuneering Advances Towards Dosing First Patient in Phase 3 Atebimetinib Trial for First-Line Metastatic Pancreatic Cancer Patients, Securing Alignment with FDA and EMA \u2013 End-of-Phase 2 interactions with FDA complete; scientific advice received from EMA \u2013 \u2013 Company expects to dose first patient in global Phase 3 registrational trial, MAPKeeper 301...",
+        "source": "https://finance.yahoo.com/news/immuneering-advances-towards-dosing-first-210500690.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
         "date": "2025-12-16",
         "ticker": "JNJ",
         "nct_id": "NCT04965090",
@@ -3791,7 +3819,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1526119/000110465925101817/tm2529362d1_8k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-22",
@@ -4057,7 +4085,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774925031210/gnpx20251001_8k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-10-16",
@@ -5443,7 +5471,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1878313/000149315225012769/form8-k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-09-05",
@@ -6101,7 +6129,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1526119/000110465925077659/tm2523452d1_8k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-08-12",
@@ -9027,7 +9055,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774925020102/gnpx20250606c_8k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-06-10",
@@ -9195,7 +9223,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1878313/000164117225013176/form8-k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-05-30",
@@ -13549,7 +13577,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1878313/000164117225001045/form8-k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-03-27",
@@ -18841,7 +18869,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774925000932/gnpx20250105_8k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2025-01-10",
