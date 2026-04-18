@@ -1,5 +1,159 @@
 [
     {
+        "date": "2026-04-18",
+        "ticker": "000100_KR",
+        "nct_id": "NCT03046992",
+        "indication": "Lazertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT03046992 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/39379931/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "000100_KR",
+        "nct_id": "NCT03046992",
+        "indication": "Lazertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT03046992 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/35962934/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "000100_KR",
+        "nct_id": "NCT03046992",
+        "indication": "Lazertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: A Phase 1/2 Study of Lazertinib 240 mg in Patients With Advanced EGFR T790M-Positive NSCLC After Previous EGFR Tyrosine Kinase Inhibitors.. This peer-reviewed paper presents findings for clinical trial NCT03046992 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/34958928/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT03456076",
+        "indication": "Alectinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT03456076 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41996761/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT04351256",
+        "indication": "Durvalumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Thoracic radiotherapy plus Durvalumab in elderly and/or frail NSCLC stage III patients unfit for chemotherapy - employing optimized (hypofractionated) radiotherapy to foster durvalumab efficacy: study protocol of the TRADE-hypo trial.. This peer-reviewed paper presents findings for clinical trial NCT04351256 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/32842974/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT04426825",
+        "indication": "Atezolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Efficacy and Safety of Atezolizumab Plus Bevacizumab in Patients With Advanced NSCLC Who Received Pretreatment With EGFR-TKIs (ML41256): A Multicenter, Prospective, Single-Arm, Phase 2 Trial.. This peer-reviewed paper presents findings for clinical trial NCT04426825 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41388935/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT04563871",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT04563871 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/38828959/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "BMY",
+        "nct_id": "NCT04685135",
+        "indication": "Adagrasib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT04685135 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40783289/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "2696_CN",
+        "nct_id": "NCT05102214",
+        "indication": "HLX301",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05102214 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/35522941/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "GMAB_DK",
+        "nct_id": "NCT05117242",
+        "indication": "Acasunlimab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05117242 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40216443/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-18",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT06102057",
+        "indication": "Chemotherapy",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: FDG-PET/CT based small volume accelerated immuno chemoradiotherapy in locally advanced NSCLC (PACCELIO) - a randomized, open-label, multicenter phase II trial protocol.. This peer-reviewed paper presents findings for clinical trial NCT06102057 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41992146/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-18",
+        "is_new": true
+    },
+    {
         "date": "2026-04-17",
         "ticker": "MRK",
         "nct_id": "NCT01248247",
@@ -11,7 +165,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35379845/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -25,7 +179,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39921522/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -39,7 +193,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/30333224/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -53,7 +207,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/27697994/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -67,7 +221,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/31121324/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -81,7 +235,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/34552864/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -95,7 +249,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/33039599/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -109,7 +263,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41033612/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -123,7 +277,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38252907/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -137,7 +291,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/34800700/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -151,7 +305,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35756842/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -165,7 +319,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41699769/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -179,7 +333,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41424028/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -193,7 +347,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40706710/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -207,7 +361,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41790042/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -221,7 +375,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/33820783/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -235,7 +389,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39039449/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -249,7 +403,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35293148/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -263,7 +417,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/32397857/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -277,7 +431,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35307972/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -291,7 +445,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41993769/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -305,7 +459,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41432226/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -319,7 +473,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/33926914/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -333,7 +487,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38820979/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -347,7 +501,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/36579743/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -361,7 +515,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38321811/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -375,7 +529,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/37574132/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -389,7 +543,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/34423676/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -403,7 +557,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39016053/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -417,7 +571,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35580297/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -431,7 +585,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41924561/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -445,7 +599,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41630689/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -459,7 +613,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39914443/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -473,7 +627,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39437804/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -487,7 +641,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35065058/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -501,7 +655,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41104938/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -515,7 +669,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40637621/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -529,7 +683,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38508135/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -543,7 +697,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41818162/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -557,7 +711,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35285277/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -571,7 +725,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38958845/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -585,7 +739,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/37689979/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -599,7 +753,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/37212796/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -613,7 +767,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39965362/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -627,7 +781,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38159809/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -641,7 +795,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41820335/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -655,7 +809,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41344351/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -669,7 +823,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41037823/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -683,7 +837,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39762419/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -697,7 +851,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40450142/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -711,7 +865,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38095056/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -725,7 +879,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41457351/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -739,7 +893,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40057343/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -753,7 +907,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39094734/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -767,7 +921,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38101437/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -781,7 +935,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41248848/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-16",
@@ -16825,62 +16979,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04765059",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-18",
-        "ticker": "TVRD",
-        "nct_id": "NCT03195699",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "TTI-101",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "The Board approved the retention compensation to further incentivize the named executive officers\u2019 performance as the Company executes on its Phase 1b/2 clinical trial of TTI-101 in hepatocellular carcinoma and Phase 1 trial of TTI-109 in healthy volunteers.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1346830/000110465925122615/tm2533917d1_8k.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-18",
-        "ticker": "NOVN",
-        "nct_id": "NCT04452877",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Dabrafenib",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04452877",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-18",
-        "ticker": "PFE",
-        "nct_id": "NCT04585815",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Sasanlimab",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04585815",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-18",
-        "ticker": "NBP",
-        "nct_id": "NCT05001347",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Uliledlimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "After the completion of the divestiture on April 2, 2024, we do not own any rights to the Greater China portfolio, including the Greater China rights for givastomig, uliledlimab and lemzoparlimab. Following the completion of the divestiture of our Greater China assets and business operations on April 2, 2024, our current research and development ac...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1778016/000119312525323791/nbp-20250930.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-14",
         "is_new": false
     }
 ]
