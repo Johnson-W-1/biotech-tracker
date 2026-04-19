@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-04-19",
+        "ticker": "LLY",
+        "nct_id": "NCT06230523",
+        "indication": "Obesity",
+        "drug_name": "Eloralinitide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT06230523 evaluating the drug Eloralinitide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41207310/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-19",
+        "is_new": true
+    },
+    {
         "date": "2026-04-18",
         "ticker": "LLY, 4519.T",
         "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
@@ -11,7 +25,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/foundayo-trial-results-recast-eli-130246654.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-18",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-17",
@@ -249,7 +263,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07232719",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-18",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -655,7 +669,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06897202",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-18",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-13",
@@ -3608,20 +3622,6 @@
         "notes": "Official CTG Update. Status: COMPLETED. ",
         "source": "https://clinicaltrials.gov/study/NCT06988553",
         "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-19",
-        "ticker": "ALT",
-        "nct_id": "NCT05295875",
-        "indication": "Obesity",
-        "drug_name": "pemvidutide",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "On December 19, 2025, the Company announced positive topline results from the IMPACT Phase 2b trial of pemvidutide, a balanced 1:1 glucagon/GLP-1 dual receptor agonist, in patients with metabolic dysfunction-associated steatohepatitis (\u201cMASH\u201d) at 48 weeks.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1326190/000110465925122724/tm2533869d1_8k.htm",
-        "source_type": "SEC 8-K",
         "date_added": "2026-04-10",
         "is_new": false
     }

@@ -1,5 +1,19 @@
 [
     {
+        "date": "2025-12-19",
+        "ticker": "ALT",
+        "nct_id": "NCT05295875",
+        "indication": "Obesity",
+        "drug_name": "pemvidutide",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "On December 19, 2025, the Company announced positive topline results from the IMPACT Phase 2b trial of pemvidutide, a balanced 1:1 glucagon/GLP-1 dual receptor agonist, in patients with metabolic dysfunction-associated steatohepatitis (\u201cMASH\u201d) at 48 weeks.",
+        "source": "https://www.sec.gov/Archives/edgar/data/1326190/000110465925122724/tm2533869d1_8k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2025-12-18",
         "ticker": "RYTM",
         "nct_id": "NCT06239116",
