@@ -1,5 +1,19 @@
 [
     {
+        "date": "2025-12-19",
+        "ticker": "AZN",
+        "nct_id": "NCT04765059",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Placebo + Cisplatin/Carboplatin + Pemetrexed",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04765059",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
         "date": "2025-12-18",
         "ticker": "TVRD",
         "nct_id": "NCT03195699",
