@@ -1,5 +1,299 @@
 [
     {
+        "date": "2026-04-20",
+        "ticker": "MRK",
+        "nct_id": "NCT01840579",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT01840579 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40036983/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "MRK",
+        "nct_id": "NCT01840579",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT01840579 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/38300341/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "MRK",
+        "nct_id": "NCT01840579",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Phase 1 study of pembrolizumab plus chemotherapy as first-line treatment in Japanese patients with advanced NSCLC.. This peer-reviewed paper presents findings for clinical trial NCT01840579 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/34607222/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "PBYI",
+        "nct_id": "NCT01953926",
+        "indication": "Neratinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT01953926 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41941252/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "PBYI",
+        "nct_id": "NCT01953926",
+        "indication": "Neratinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT01953926 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41193346/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "PBYI",
+        "nct_id": "NCT01953926",
+        "indication": "Neratinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT01953926 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/38211393/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "MRK",
+        "nct_id": "NCT02578680",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT02578680 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40498298/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "JNJ",
+        "nct_id": "NCT02699606",
+        "indication": "Erdafitinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT02699606 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/39138436/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "PFE",
+        "nct_id": "NCT02716038",
+        "indication": "Atezolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT02716038 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/33209626/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "002755_CN",
+        "nct_id": "NCT03502850",
+        "indication": "Limertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Efficacy and Safety of Limertinib (ASK120067) in Patients With Locally Advanced or Metastatic EGFR Thr790Met-Mutated NSCLC: A Multicenter, Single-Arm, Phase 2b Study.. This peer-reviewed paper presents findings for clinical trial NCT03502850 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/35659581/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03706690",
+        "indication": "Durvalumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: PACIFIC-5: a phase III clinical trial of consolidation durvalumab in patients with unresectable stage III NSCLC and no progression after concurrent or sequential chemoradiotherapy.. This peer-reviewed paper presents findings for clinical trial NCT03706690 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41354932/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "MGNX",
+        "nct_id": "NCT03729596",
+        "indication": "Vobramitamab duocarmazine",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT03729596 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41941262/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "4502_JP",
+        "nct_id": "NCT03807778",
+        "indication": "Mobocertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT03807778 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/36537204/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "APRE",
+        "nct_id": "NCT04383938",
+        "indication": "Eprenetapopt",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT04383938 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41727427/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "APRE",
+        "nct_id": "NCT04383938",
+        "indication": "Eprenetapopt",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT04383938 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/36084396/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "NUVB",
+        "nct_id": "NCT04395677",
+        "indication": "Taletrectinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT04395677 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/38822758/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "1099_HK",
+        "nct_id": "NCT05318443",
+        "indication": "SIBP04",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05318443 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40697509/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "1099_HK",
+        "nct_id": "NCT05318443",
+        "indication": "SIBP04",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05318443 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/37452849/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "ReHeva Biosciences",
+        "nct_id": "NCT05580172",
+        "indication": "RH324",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05580172 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41685666/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "MRK",
+        "nct_id": "NCT05722015",
+        "indication": "Pembrolizumab/Berahyaluronidase alfa Coformulation",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05722015 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41047324/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "MRK",
+        "nct_id": "NCT05722015",
+        "indication": "Pembrolizumab/Berahyaluronidase alfa Coformulation",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT05722015 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40157574/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
         "date": "2026-04-19",
         "ticker": "AZN_GB",
         "nct_id": "NCT02296125",
@@ -11,7 +305,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41166679/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -25,7 +319,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39029876/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -39,7 +333,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38986421/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -53,7 +347,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/26825170/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -67,7 +361,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/33203644/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -81,7 +375,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/32798130/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -95,7 +389,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/32094063/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -109,7 +403,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35046056/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -123,7 +417,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39792482/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -137,7 +431,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/37118803/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -151,7 +445,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/33780662/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -165,7 +459,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38324085/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -179,7 +473,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41308232/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -193,7 +487,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40461383/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -207,7 +501,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/32027845/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -221,7 +515,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41737914/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -235,6 +529,20 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40354065/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
+        "is_new": false
+    },
+    {
+        "date": "2026-04-19",
+        "ticker": "RVMD",
+        "nct_id": "NCT03989115, NCT04774952, NCT05054725, NCT05379985, NCT05462717, NCT05493501",
+        "indication": "Vociprotafib, RMC5552, Daraxonrasib, Elironrasib, Aumolertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "(Nasdaq: RVMD), a late-stage clinical oncology company developing targeted therapies for patients with RAS-addicted cancers, today announced updated Phase 1 (RMC-9805-001) clinical data for zoldonrasib, an oral RAS(ON) G12D-selective inhibitor, in patients with previously treated KRAS G12D non-small cell lung cancer (NSCLC)....",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/revolution-medicines-present-updated-phase-180000933.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-20",
         "is_new": true
     },
     {
