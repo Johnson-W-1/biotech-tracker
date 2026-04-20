@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-04-20",
+        "ticker": "LLY",
+        "nct_id": "NCT05822830",
+        "indication": "Obesity",
+        "drug_name": "Tirzepatide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Relationship of early rapid weight loss to efficacy and safety of tirzepatide and semaglutide for obesity: SURMOUNT-5 post hoc analysis.. This peer-reviewed paper presents findings for clinical trial NCT05822830 evaluating the drug Tirzepatide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41865857/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "LLY",
+        "nct_id": "NCT05822830",
+        "indication": "Obesity",
+        "drug_name": "Tirzepatide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Tirzepatide compared with semaglutide and 10-year cardiovascular disease risk reduction in obesity: post-hoc analysis of the SURMOUNT-5 trial.. This peer-reviewed paper presents findings for clinical trial NCT05822830 evaluating the drug Tirzepatide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40980721/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "LLY",
+        "nct_id": "NCT05822830",
+        "indication": "Obesity",
+        "drug_name": "Tirzepatide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Title: Tirzepatide as Compared with Semaglutide for the Treatment of Obesity.. This peer-reviewed paper presents findings for clinical trial NCT05822830 evaluating the drug Tirzepatide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40353578/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-20",
+        "is_new": true
+    },
+    {
         "date": "2026-04-19",
         "ticker": "LLY",
         "nct_id": "NCT06230523",
@@ -11,7 +53,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41207310/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-19",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-18",
