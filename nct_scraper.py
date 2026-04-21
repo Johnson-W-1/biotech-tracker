@@ -207,7 +207,7 @@ async def load_watchlist(session):
 # 5. CORE WORKERS (GROUPED BY TICKER)
 # ==========================================
 
-# --- NEW: COMPETITIVE INTELLIGENCE RADAR ---
+# --- COMPETITIVE INTELLIGENCE RADAR ---
 async def scan_for_new_competitor_trials(session, all_events, scraped_urls, watchlist):
     if not NEW_TRIAL_API_URL:
         return
@@ -279,7 +279,8 @@ async def scan_for_new_competitor_trials(session, all_events, scraped_urls, watc
 async def check_pubmed_for_trial(session, trial, all_events, scraped_urls):
     nct_id = trial['nct_id']
     
-    search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={nct_id}&retmode=json&retmax=3&sort=date"
+    # FIX 1: Added &reldate=180 to only pull articles published in the last ~6 months
+    search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={nct_id}&retmode=json&retmax=3&sort=date&reldate=180&datetype=edat"
     search_data = await fetch_pubmed_json(session, search_url)
     
     if not search_data or 'esearchresult' not in search_data: return
@@ -299,12 +300,22 @@ async def check_pubmed_for_trial(session, trial, all_events, scraped_urls):
         title = article.get('title', '')
         journal = article.get('fulljournalname', '')
         
+        # FIX 2: Extract the true publication date so the Auto-Archiver can sort it!
+        raw_date = article.get('sortpubdate', '')
+        pub_date = None
+        if raw_date:
+            try: 
+                # Convert "2025/06/15 00:00" to "2025-06-15"
+                pub_date = raw_date.split(' ')[0].replace('/', '-') 
+            except: 
+                pass
+        
         article_url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
         if article_url in scraped_urls: continue
         
         combined_text = f"Medical Journal Publication in {journal}. Title: {title}. This peer-reviewed paper presents findings for clinical trial {nct_id} evaluating the drug {trial['drug_name']}."
         
-        await process_text_for_trial(session, combined_text, trial, article_url, "PubMed Journal", None, all_events)
+        await process_text_for_trial(session, combined_text, trial, article_url, "PubMed Journal", pub_date, all_events)
         scraped_urls.add(article_url)
 
 async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
