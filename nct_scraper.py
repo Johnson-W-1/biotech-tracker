@@ -18,6 +18,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 OUTPUT_PREFIX = os.environ.get("OUTPUT_PREFIX", "nct")
 WATCHLIST_URL = os.environ.get("WATCHLIST_URL", "")
+NEW_TRIAL_API_URL = os.environ.get("NEW_TRIAL_API_URL", "") # THE NEW COMPETITOR RADAR
 
 DATA_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_results.json")
 ARCHIVE_FILE = os.path.join(BASE_DIR, f"{OUTPUT_PREFIX}_archive.json")
@@ -44,7 +45,7 @@ SENTIMENT_DICT = {
 SEC_HEADERS = {'User-Agent': 'Johnson Widjaja (jwliauw@gmail.com)'}
 YAHOO_HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
-# Optimized to drop 10-K/10-Q and focus on breaking news (8-K and 6-K)
+# Optimized to drop 10-K/10-Q and focus on breaking news
 TARGET_SEC_FORMS = ['8-K', '6-K']
 SEC_SEMAPHORE = asyncio.Semaphore(5)
 PUBMED_SEMAPHORE = asyncio.Semaphore(2)
@@ -119,7 +120,7 @@ async def analyze_with_gemini(session, context_text, trial):
     You are an expert biotech clinical trial analyst. 
     Read the following excerpt regarding NCT ID {trial['nct_id']} and the drug(s) {trial['drug_name']}.
     
-    Determine 3 things based strictly on the text provided, and output ONLY a raw JSON dictionary (no markdown tags, no backticks).
+    Determine 3 things based strictly on the text provided, and output ONLY a raw JSON dictionary.
     1. "status": Choose exactly one of ["Actual Data Reported", "Expected Future Data", "Trial Status Update"].
     2. "sentiment": Choose exactly one of ["Positive", "Negative", "Neutral"].
     3. "notes": Write a clean, 1-2 sentence clinical summary of the news. Do not use the word "excerpt".
@@ -205,6 +206,76 @@ async def load_watchlist(session):
 # ==========================================
 # 5. CORE WORKERS (GROUPED BY TICKER)
 # ==========================================
+
+# --- NEW: COMPETITIVE INTELLIGENCE RADAR ---
+async def scan_for_new_competitor_trials(session, all_events, scraped_urls, watchlist):
+    if not NEW_TRIAL_API_URL:
+        return
+        
+    print(f"\n📡 Scanning ClinicalTrials.gov API for new competitor trials...")
+    
+    fetch_url = NEW_TRIAL_API_URL + "&pageSize=20" if "pageSize" not in NEW_TRIAL_API_URL else NEW_TRIAL_API_URL
+    data = await fetch_json(session, fetch_url)
+    
+    if not data or 'studies' not in data:
+        print("      [✓] No new API data returned.")
+        return
+        
+    existing_ncts = {trial['nct_id'].strip().upper() for trial in watchlist}
+    events_found = 0
+    
+    for study in data.get('studies', []):
+        protocol = study.get('protocolSection', {})
+        ident_module = protocol.get('identificationModule', {})
+        nct_id = ident_module.get('nctId', '').upper()
+        
+        # If we already track it on our Google Sheet, ignore it
+        if not nct_id or nct_id in existing_ncts:
+            continue
+            
+        cache_key = f"NEW_RADAR_{nct_id}"
+        if cache_key in scraped_urls:
+            continue
+            
+        title = ident_module.get('briefTitle', 'Unknown Title')
+        
+        sponsor_module = protocol.get('sponsorCollaboratorsModule', {})
+        sponsor_name = sponsor_module.get('leadSponsor', {}).get('name', 'Unknown Sponsor')
+        
+        interventions_module = protocol.get('armsInterventionsModule', {}).get('interventions', [])
+        drugs = [i.get('name') for i in interventions_module if i.get('type') in ['DRUG', 'BIOLOGICAL']]
+        drug_name = " + ".join(drugs) if drugs else "Unknown Drug"
+        
+        status_module = protocol.get('statusModule', {})
+        overall_status = status_module.get('overallStatus', 'Unknown')
+        first_posted = status_module.get('studyFirstPostDateStruct', {}).get('date', '')
+        
+        try: clean_date = parsedate_to_datetime(first_posted).strftime('%Y-%m-%d')
+        except: clean_date = datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d')
+        
+        notes = f"🚨 NEW COMPETITOR TRIAL FILED. Sponsor: {sponsor_name}. Status: {overall_status}. Title: {title}"
+        
+        event_dict = {
+            "date": clean_date,
+            "ticker": sponsor_name[:15] + "..", 
+            "nct_id": nct_id,
+            "indication": OUTPUT_PREFIX.upper(), 
+            "drug_name": drug_name,
+            "status": "Trial Status Update",
+            "sentiment": "Neutral",
+            "notes": notes,
+            "source": f"https://clinicaltrials.gov/study/{nct_id}",
+            "source_type": "ClinicalTrials.gov",
+            "date_added": datetime.now(ZoneInfo("America/Los_Angeles")).strftime('%Y-%m-%d'),
+            "is_new": True
+        }
+        
+        all_events.append(event_dict)
+        scraped_urls.add(cache_key)
+        events_found += 1
+        
+    print(f"      [!] Discovered {events_found} brand new competitor trials!")
+
 async def check_pubmed_for_trial(session, trial, all_events, scraped_urls):
     nct_id = trial['nct_id']
     
@@ -248,23 +319,16 @@ async def check_clinicaltrials_gov(session, trial, all_events, scraped_urls):
         
         results_posted = 'resultsSection' in data
         
-        # --- NEW SMART FILTER LOGIC ---
-        # Look at the dashboard's historical memory to see what the LAST status was
         previous_ctg_events = [e for e in all_events if e.get('source_type') == 'ClinicalTrials.gov' and nct_id in e.get('nct_id', '')]
         
         status_changed = True
         if previous_ctg_events:
-            # Sort by date to get the most recent CTG update for this specific trial
             previous_ctg_events.sort(key=lambda x: x['date'], reverse=True)
             last_event = previous_ctg_events[0]
-            
-            # If the current status is identical to the last one we recorded, it hasn't changed!
             if f"Status: {overall_status}" in last_event.get('notes', ''):
                 status_changed = False
                 
-        # If the user flagged this trial to ignore CTG spam:
         if trial.get('ctg_results_only'):
-            # ONLY alert if actual results are posted OR the overall status changed
             if not results_posted and not status_changed:
                 return
 
@@ -421,7 +485,10 @@ async def run_pipeline():
             print("No watchlist data found! Check your Google Sheet link.")
             return
 
-        print("Fetching SEC Master Directory...")
+        # 🔥 RUN THE NEW COMPETITOR RADAR FIRST
+        await scan_for_new_competitor_trials(session, all_events, scraped_urls, watchlist)
+
+        print("\nFetching SEC Master Directory...")
         sec_dir_url = "https://www.sec.gov/files/company_tickers.json"
         sec_dir_data = await fetch_json(session, sec_dir_url, SEC_HEADERS)
         sec_mapping = {item['ticker'].upper(): str(item['cik_str']).zfill(10) for item in sec_dir_data.values()} if sec_dir_data else {}
@@ -483,6 +550,7 @@ async def run_pipeline():
             await asyncio.gather(*batch)
             await asyncio.sleep(1) 
 
+    # --- ARCHIVING LOGIC ---
     cutoff_date = (datetime.now(ZoneInfo("America/Los_Angeles")) - timedelta(days=120)).strftime('%Y-%m-%d')
     
     new_active = []
