@@ -1,5 +1,75 @@
 [
     {
+        "date": "2026-04-21",
+        "ticker": "BAYN_DE, MRK_DE",
+        "nct_id": "NCT03475953",
+        "indication": "Regorafenib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT03475953 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40579407/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-21",
+        "ticker": "BAYN_DE, MRK_DE",
+        "nct_id": "NCT03475953",
+        "indication": "Regorafenib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT03475953 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/40204996/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-21",
+        "ticker": "BAYN_DE, MRK_DE",
+        "nct_id": "NCT03475953",
+        "indication": "Regorafenib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT03475953 evaluating the drug NSCLC....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/34998048/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-21",
+        "ticker": "BDTX",
+        "nct_id": "NCT04209465, NCT05256290",
+        "indication": "Tuxobertinib, Silevertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Black Diamond Therapeutics Announces Oral Presentation of Silevertinib Phase 2 Data in Frontline EGFRm NSCLC Patients at the 2026 ASCO Annual Meeting Poster also to be presented on the Phase 2 data of silevertinib in recurrent EGFRm NSCLC patients Trial-in-progress poster to be presented on the randomized Phase 2 trial of silevertinib in patients w...",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/black-diamond-therapeutics-announces-oral-144000728.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-21",
+        "ticker": "GNPX",
+        "nct_id": "NCT04486833",
+        "indication": "Quaratusugene Ozeplasmid",
+        "drug_name": "NSCLC",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "On April 21, 2026, Genprex issued a press release announcing it has entered into a new Sponsored Research Agreement (\u201cSRA\u201d) with The University of Texas MD Anderson Cancer Center (\u201cUT MD Anderson\u201d) to study biomarkers that may predict patient response to Reqorsa\u00ae Gene Therapy (quaratusugene ozeplasmid), the Company\u2019s lead drug candidate that is in ...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774926012879/gnpx20260329_8k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
         "date": "2026-04-20",
         "ticker": "MRK",
         "nct_id": "NCT01840579",
@@ -11,7 +81,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40036983/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -25,7 +95,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38300341/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -39,7 +109,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/34607222/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -53,7 +123,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41941252/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -67,7 +137,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41193346/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -81,7 +151,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38211393/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -95,7 +165,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40498298/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -109,7 +179,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/39138436/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -123,7 +193,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/33209626/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -137,7 +207,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/35659581/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -151,7 +221,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41354932/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -165,7 +235,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41941262/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -179,7 +249,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/36537204/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -193,7 +263,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41727427/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -207,7 +277,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/36084396/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -221,7 +291,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/38822758/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -235,7 +305,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40697509/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -249,7 +319,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/37452849/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -263,7 +333,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41685666/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -277,7 +347,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41047324/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -291,6 +361,20 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40157574/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
+        "is_new": false
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT02296125",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02296125",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-21",
         "is_new": true
     },
     {
@@ -543,7 +627,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/revolution-medicines-present-updated-phase-180000933.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-18",
@@ -10318,6 +10402,20 @@
         "is_new": false
     },
     {
+        "date": "2026-04-01",
+        "ticker": "NOVN_CH",
+        "nct_id": "NCT05445843",
+        "indication": "Opnurasib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05445843",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
         "date": "2026-03-31",
         "ticker": "GMAB",
         "nct_id": "NCT03917381",
@@ -10498,6 +10596,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
+    },
+    {
+        "date": "2026-03-31",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT04765059",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04765059",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-21",
+        "is_new": true
     },
     {
         "date": "2026-03-30",
