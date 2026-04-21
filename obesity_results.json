@@ -11,7 +11,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/41865857/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -25,7 +25,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40980721/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -39,7 +39,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40353578/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -686,6 +686,20 @@
         "is_new": false
     },
     {
+        "date": "2026-04-15",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT06972472",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06972472",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
         "date": "2026-04-14",
         "ticker": "600276.SS",
         "nct_id": "NCT07269756",
@@ -952,6 +966,20 @@
         "is_new": false
     },
     {
+        "date": "2026-04-09",
+        "ticker": "603087.SS",
+        "nct_id": "NCT06256562, NCT06728124, NCT07128888",
+        "indication": "Obesity",
+        "drug_name": "Bofanglutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Gan & Lee Pharmaceuticals Signs Exclusive License Agreement with JW Pharmaceutical, the Leading South Korean Pharma, to Advance the Global Commercialization of the Innovative GLP-1 Receptor Agonist Bofanglutide Gan & Lee Pharmaceuticals (hereinafter referred to as \"Gan & Lee\", SSE: 603087) announced the signing of an exclusive licensing agreement w...",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/gan-lee-pharmaceuticals-signs-exclusive-130000196.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
         "date": "2026-04-08",
         "ticker": "AMGN",
         "nct_id": "NCT07226765",
@@ -1020,6 +1048,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-13",
         "is_new": false
+    },
+    {
+        "date": "2026-04-07",
+        "ticker": "1672.HK",
+        "nct_id": "NCT06679959",
+        "indication": "Obesity",
+        "drug_name": "ASC30",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Ascletis Announces Fixed-Dose Combination of ASC30, Once-Daily Oral Small Molecule GLP-1R Agonist, and ASC39, Once-Daily Oral Small Molecule Amylin-Selective Amylin Receptor Agonist, for Clinical Development Ascletis Pharma Inc. (HKEX: 1672, \"Ascletis\") announces that it has selected ASC30_39 FDC, a fixed-dose combination (FDC) of ASC30, once-daily...",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/ascletis-announces-fixed-dose-combination-110000602.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-21",
+        "is_new": true
     },
     {
         "date": "2026-04-06",
@@ -1202,6 +1244,20 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": false
+    },
+    {
+        "date": "2026-03-31",
+        "ticker": "LLY, 1801.HK",
+        "nct_id": "NCT06124807",
+        "indication": "Obesity",
+        "drug_name": "mazdutide",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT06124807",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-21",
+        "is_new": true
     },
     {
         "date": "2026-03-30",
@@ -1890,6 +1946,20 @@
         "is_new": false
     },
     {
+        "date": "2026-03-16",
+        "ticker": "RYTM",
+        "nct_id": "NCT06772597, NCT05093634",
+        "indication": "Obesity",
+        "drug_name": "Setmelanotide",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Rhythm Pharmaceuticals Announces Topline Results from Phase 3 EMANATE Trial -- Four substudies did not meet pre-specified primary endpoints -- -- Post hoc analyses show setmelanotide achieved statistically significant BMI reductions in patients with obesity due to a heterozygous variant of the POMC/PCSK1 and SRC1 (NCOA1) genes at 52 weeks \u2013 -- Conf...",
+        "source": "https://finance.yahoo.com/news/rhythm-pharmaceuticals-announces-topline-results-200100237.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-21",
+        "is_new": true
+    },
+    {
         "date": "2026-03-13",
         "ticker": "NVO",
         "nct_id": "NCT06577766",
@@ -1986,6 +2056,20 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": false
+    },
+    {
+        "date": "2026-03-10",
+        "ticker": "1672.HK",
+        "nct_id": "NCT06679959",
+        "indication": "Obesity",
+        "drug_name": "ASC30",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Phase II, 24-Week Study for Its Ultra-Long-Acting Subcutaneous Depot Formulations of Small Molecule GLP-1R Agonist ASC30 for Obesity Ascletis Pharma Inc. Phase II, 24-week study for its subcutaneous (SQ) depot formulations of small molecule GLP-1 receptor (GLP-1R) agonist ASC30 for obesity (NCT06679959)....",
+        "source": "https://finance.yahoo.com/news/ascletis-announces-positive-topline-results-100000577.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-21",
+        "is_new": true
     },
     {
         "date": "2026-03-06",
@@ -3204,6 +3288,20 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": false
+    },
+    {
+        "date": "2026-01-26",
+        "ticker": "1672.HK",
+        "nct_id": "NCT06679959",
+        "indication": "Obesity",
+        "drug_name": "ASC30",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Phase II Study with ASC30, an Oral Small Molecule GLP-1R Agonist for the Treatment of Diabetes Ascletis Pharma Inc. 13-week Phase II study (NCT07321678) with ASC30, an oral small molecule GLP-1 receptor (GLP-1R) agonist for the treatment of type 2 diabetes mellitus....",
+        "source": "https://finance.yahoo.com/news/ascletis-announces-first-participants-dosed-001000987.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-21",
+        "is_new": true
     },
     {
         "date": "2026-01-25",
