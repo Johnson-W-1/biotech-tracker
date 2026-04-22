@@ -11,7 +11,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40579407/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-21",
@@ -25,7 +25,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/40204996/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-21",
@@ -39,7 +39,7 @@
         "source": "https://pubmed.ncbi.nlm.nih.gov/34998048/",
         "source_type": "PubMed Journal",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-21",
@@ -53,7 +53,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/black-diamond-therapeutics-announces-oral-144000728.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-21",
@@ -67,7 +67,7 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774926012879/gnpx20260329_8k.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -375,7 +375,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02296125",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -10413,7 +10413,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05445843",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-03-31",
@@ -10609,7 +10609,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04765059",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-03-30",
@@ -17357,272 +17357,6 @@
         "source": "https://finance.yahoo.com/news/vaccinex-inc-announces-60-million-130100756.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "2616.HK",
-        "nct_id": "NCT05297890",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Lorlatinib",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05297890",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT02125461, NCT02879617, NCT02904954, NCT03003962, NCT03693300, NCT03703297, NCT03706690, NCT03822351, NCT04003246, NCT04392505, NCT04642469",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "To bring much-needed treatment options to patients with triple-negative breast cancer, an aggressive form of breast cancer, AstraZeneca is collaborating with Daiichi Sankyo to evaluate the potential of\u00a0 Datroway \u00a0alone and in combination with immunotherapy\u00a0 Imfinzi \u00a0(durvalumab).\u00a0      \u00a0      AstraZeneca in oncology      AstraZeneca is leading a re...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014166/a3788m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT03141359",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Chemotherapy",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Enhertu \u00a0 (5.4mg/kg) is approved in more than 85 countries/regions worldwide for the treatment of adult patients with unresectable or metastatic HER2-low (IHC 1+ or IHC 2+/ISH-) breast cancer who have received a prior systemic therapy in the metastatic setting or developed disease recurrence during or within six months of completing adjuvant chemot...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014166/a3788m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT03237377",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab + Chemotherapy",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Enhertu \u00a0 (5.4mg/kg) is approved in more than 85 countries/regions worldwide for the treatment of adult patients with unresectable or metastatic HER2-low (IHC 1+ or IHC 2+/ISH-) breast cancer who have received a prior systemic therapy in the metastatic setting or developed disease recurrence during or within six months of completing adjuvant chemot...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014166/a3788m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT03775486",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab + Olaparib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "PARP inhibitor\u00a0 Lynparza \u00a0(olaparib) is a targeted treatment option that has been studied in early and metastatic breast cancer patients with an inherited\u00a0 BRCA \u00a0mutation.",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014166/a3788m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT04644068",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Saruparib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "AstraZeneca is also exploring the potential of saruparib, a potent and selective inhibitor of PARP1, in combination with camizestrant in\u00a0 BRCA -mutated, HR-positive, HER2-negative advanced breast cancer.",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014166/a3788m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT05246514",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Trastuzumab deruxtecan",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Enhertu granted BTD for post-neoadjuvant early BC         \u00a0      \u00a0      22 December 2025      \u00a0      Enhertu \u00a0 granted Breakthrough Therapy Designation in the US as post-neoadjuvant therapy for patients with HER2-positive early breast cancer      \u00a0      Tenth Breakthrough Therapy Designation for AstraZeneca and Daiichi Sankyo's Enhertu with the lat...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014166/a3788m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT05460273",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Datopotamab deruxtecan",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Daiichi \u00a0 Sankyo collaboration      AstraZeneca and Daiichi Sankyo entered into a global collaboration to jointly develop and commercialise\u00a0 Enhertu \u00a0in \u00a0 March 2019 \u00a0and\u00a0 Datroway \u00a0(datopotamab deruxtecan) in\u00a0 July 2020 , except in Japan where Daiichi Sankyo maintains exclusive rights for each ADC.",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014166/a3788m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT05553808",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Docetaxel",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "A randomized, 3-arm, neoadjuvant, phase 2 study comparing docetaxel\u2009+\u2009carboplatin\u2009+\u2009trastuzumab\u2009+\u2009pertuzumab (TCbHP), TCbHP followed by trastuzumab emtansine and pertuzumab (T-DM1+P), and T-DM1+P in HER2-positive primary breast cancer.\u00a0 Breast Cancer Res Treat.",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014166/a3788m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT02125461, NCT02879617, NCT02904954, NCT03003962, NCT03693300, NCT03703297, NCT03706690, NCT03822351, NCT04003246, NCT04392505, NCT04642469",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Update on LATIFY Phase III trial of ceralasertib          \u00a0     \u00a0      22 Dec 2025   \u00a0       Update on LATIFY Phase III trial of ceralasertib plus\u00a0 Imfinzi \u00a0in      previously treated advanced non-small cell lung cancer      \u00a0      The LATIFY Phase III trial of ceralasertib in combination with\u00a0 Imfinzi \u00a0(durvalumab) did not meet the primary endpoin...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT02542293, NCT03057106, NCT03275597, NCT03703297",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab + Tremelimumab",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Update on LATIFY Phase III trial of ceralasertib          \u00a0     \u00a0      22 Dec 2025   \u00a0       Update on LATIFY Phase III trial of ceralasertib plus\u00a0 Imfinzi \u00a0in      previously treated advanced non-small cell lung cancer      \u00a0      The LATIFY Phase III trial of ceralasertib in combination with\u00a0 Imfinzi \u00a0(durvalumab) did not meet the primary endpoin...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT03141359",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Chemotherapy",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "The trial evaluated patients without actionable genomic alterations (AGAs) whose disease progressed on or after prior immunotherapy and platinum-based chemotherapy.",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT03237377",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab + Chemotherapy",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Update on LATIFY Phase III trial of ceralasertib          \u00a0     \u00a0      22 Dec 2025   \u00a0       Update on LATIFY Phase III trial of ceralasertib plus\u00a0 Imfinzi \u00a0in      previously treated advanced non-small cell lung cancer      \u00a0      The LATIFY Phase III trial of ceralasertib in combination with\u00a0 Imfinzi \u00a0(durvalumab) did not meet the primary endpoin...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT03334617",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab + Ceralasertib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "6-K  1  a3786m.htm  UPDATE ON LATIFY PHASE III TRIAL OF CERALASERTIB            a3786m          FORM 6-K   \u00a0     SECURITIES AND EXCHANGE COMMISSION     Washington, D.C.",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT03775486",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab + Olaparib",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Update on LATIFY Phase III trial of ceralasertib          \u00a0     \u00a0      22 Dec 2025   \u00a0       Update on LATIFY Phase III trial of ceralasertib plus\u00a0 Imfinzi \u00a0in      previously treated advanced non-small cell lung cancer      \u00a0      The LATIFY Phase III trial of ceralasertib in combination with\u00a0 Imfinzi \u00a0(durvalumab) did not meet the primary endpoin...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT04287894",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Tremelimumab + Durvalumab",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Update on LATIFY Phase III trial of ceralasertib          \u00a0     \u00a0      22 Dec 2025   \u00a0       Update on LATIFY Phase III trial of ceralasertib plus\u00a0 Imfinzi \u00a0in      previously treated advanced non-small cell lung cancer      \u00a0      The LATIFY Phase III trial of ceralasertib in combination with\u00a0 Imfinzi \u00a0(durvalumab) did not meet the primary endpoin...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT04441138",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab + Chemotherapy + Radiotherapy",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Update on LATIFY Phase III trial of ceralasertib          \u00a0     \u00a0      22 Dec 2025   \u00a0       Update on LATIFY Phase III trial of ceralasertib plus\u00a0 Imfinzi \u00a0in      previously treated advanced non-small cell lung cancer      \u00a0      The LATIFY Phase III trial of ceralasertib in combination with\u00a0 Imfinzi \u00a0(durvalumab) did not meet the primary endpoin...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT05553808",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Docetaxel",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Update on LATIFY Phase III trial of ceralasertib          \u00a0     \u00a0      22 Dec 2025   \u00a0       Update on LATIFY Phase III trial of ceralasertib plus\u00a0 Imfinzi \u00a0in      previously treated advanced non-small cell lung cancer      \u00a0      The LATIFY Phase III trial of ceralasertib in combination with\u00a0 Imfinzi \u00a0(durvalumab) did not meet the primary endpoin...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495425014164/a3786m.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "1167_CN",
-        "nct_id": "NCT04045496",
-        "indication": "JAB-3312",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT04045496",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
         "is_new": false
     }
 ]
