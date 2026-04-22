@@ -697,7 +697,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06972472",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-14",
@@ -977,7 +977,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/gan-lee-pharmaceuticals-signs-exclusive-130000196.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-08",
@@ -1061,7 +1061,7 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/ascletis-announces-fixed-dose-combination-110000602.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-06",
@@ -1257,7 +1257,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06124807",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-03-30",
@@ -1957,7 +1957,7 @@
         "source": "https://finance.yahoo.com/news/rhythm-pharmaceuticals-announces-topline-results-200100237.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-03-13",
@@ -2069,7 +2069,7 @@
         "source": "https://finance.yahoo.com/news/ascletis-announces-positive-topline-results-100000577.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-03-06",
@@ -3301,7 +3301,7 @@
         "source": "https://finance.yahoo.com/news/ascletis-announces-first-participants-dosed-001000987.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-01-25",
@@ -3748,20 +3748,6 @@
         "notes": "20549   \u00a0   ________________   \u00a0   FORM 6-K   ________________   \u00a0   REPORT OF FOREIGN PRIVATE ISSUER   \u00a0   Pursuant to Rule 13a-16 or 15d-16   of the Securities Exchange Act of 1934   \u00a0   December 22, 2025   ________________   \u00a0   NOVO NORDISK A/S   \u00a0 (Exact name of Registrant as specified in its charter)   \u00a0   \u00a0   Novo All\u00e9 1   DK- 2880, Bagsvaer...",
         "source": "https://www.sec.gov/Archives/edgar/data/353278/000117184325008080/f6k_122225.htm",
         "source_type": "SEC 6-K",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-22",
-        "ticker": "AZN",
-        "nct_id": "NCT06988553",
-        "indication": "Obesity",
-        "drug_name": "HRS-4729",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06988553",
-        "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
     }

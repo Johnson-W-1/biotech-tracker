@@ -1,5 +1,19 @@
 [
     {
+        "date": "2025-12-22",
+        "ticker": "AZN",
+        "nct_id": "NCT06988553",
+        "indication": "Obesity",
+        "drug_name": "HRS-4729",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06988553",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2025-12-19",
         "ticker": "ALT",
         "nct_id": "NCT05295875",
