@@ -1,5 +1,33 @@
 [
     {
+        "date": "2025-12-23",
+        "ticker": "35PHARMA",
+        "nct_id": "NCT06714825",
+        "indication": "Obesity",
+        "drug_name": "HS235",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06714825",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-23",
+        "ticker": "NVO",
+        "nct_id": "NCT05646706, NCT03548935, NCT07225816",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "20549   \u00a0   ________________   \u00a0   FORM 6-K   ________________   \u00a0   REPORT OF FOREIGN PRIVATE ISSUER   \u00a0   Pursuant to Rule 13a-16 or 15d-16   of the Securities Exchange Act of 1934   \u00a0   December 22, 2025   ________________   \u00a0   NOVO NORDISK A/S   \u00a0 (Exact name of Registrant as specified in its charter)   \u00a0   \u00a0   Novo All\u00e9 1   DK- 2880, Bagsvaer...",
+        "source": "https://www.sec.gov/Archives/edgar/data/353278/000117184325008080/f6k_122225.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2025-12-22",
         "ticker": "AZN",
         "nct_id": "NCT06988553",
