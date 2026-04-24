@@ -1,5 +1,33 @@
 [
     {
+        "date": "2025-12-24",
+        "ticker": "GPCR",
+        "nct_id": "NCT06693843",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06693843",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2025-12-24",
+        "ticker": "NVO",
+        "nct_id": "NCT06567041",
+        "indication": "Obesity",
+        "drug_name": "NNC0519-0130",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06567041",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2025-12-23",
         "ticker": "35PHARMA",
         "nct_id": "NCT06714825",
