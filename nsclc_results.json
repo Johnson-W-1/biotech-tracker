@@ -81,7 +81,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03778229",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -403,7 +403,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03625323",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -9951,7 +9951,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03043872",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -9965,7 +9965,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04487080",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-09",
@@ -9979,7 +9979,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04988295",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-08",
@@ -10497,7 +10497,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02587455",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-03-31",
@@ -17371,20 +17371,6 @@
         "source": "https://clinicaltrials.gov/study/NCT05054725",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-24",
-        "ticker": "MAIA",
-        "nct_id": "NCT05208944",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Ateganosine",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "MAIA Biotechnology Board Members Continue to Participate in Private Placement Financings Purchases reflect strong confidence in the scientific differentiation and commercial potential of ateganosine CHICAGO, Dec....",
-        "source": "https://finance.yahoo.com/news/maia-biotechnology-board-members-continue-130100617.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
         "is_new": false
     }
 ]

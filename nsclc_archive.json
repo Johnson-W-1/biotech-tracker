@@ -1,5 +1,19 @@
 [
     {
+        "date": "2025-12-24",
+        "ticker": "MAIA",
+        "nct_id": "NCT05208944",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Ateganosine",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "MAIA Biotechnology Board Members Continue to Participate in Private Placement Financings Purchases reflect strong confidence in the scientific differentiation and commercial potential of ateganosine CHICAGO, Dec....",
+        "source": "https://finance.yahoo.com/news/maia-biotechnology-board-members-continue-130100617.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-14",
+        "is_new": false
+    },
+    {
         "date": "2025-12-23",
         "ticker": "HUYABIO International, LLC.",
         "nct_id": "NCT05141357",
