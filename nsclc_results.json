@@ -10066,6 +10066,20 @@
         "is_new": false
     },
     {
+        "date": "2026-04-07",
+        "ticker": "LLY",
+        "nct_id": "NCT04280081",
+        "indication": "Selpercatinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04280081",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-25",
+        "is_new": true
+    },
+    {
         "date": "2026-04-06",
         "ticker": "IDYA",
         "nct_id": "NCT04794699",
