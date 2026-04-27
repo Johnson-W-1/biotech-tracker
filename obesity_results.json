@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-04-24",
+        "ticker": "NVO",
+        "nct_id": "NCT07184632",
+        "indication": "Obesity",
+        "drug_name": "NNC0662-0419",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07184632",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-27",
+        "is_new": true
+    },
+    {
         "date": "2026-04-20",
         "ticker": "LLY",
         "nct_id": "NCT05822830",
