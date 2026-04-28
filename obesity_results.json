@@ -11,6 +11,20 @@
         "source": "https://clinicaltrials.gov/study/NCT07184632",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-27",
+        "is_new": false
+    },
+    {
+        "date": "2026-04-24",
+        "ticker": "GPCR",
+        "nct_id": "NCT06703021",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06703021",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-28",
         "is_new": true
     },
     {
