@@ -10091,6 +10091,20 @@
         "source": "https://clinicaltrials.gov/study/NCT04181788",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-27",
+        "is_new": false
+    },
+    {
+        "date": "2026-04-07",
+        "ticker": "CLDX",
+        "nct_id": "NCT02839265",
+        "indication": "CDX-301",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02839265",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-28",
         "is_new": true
     },
     {
