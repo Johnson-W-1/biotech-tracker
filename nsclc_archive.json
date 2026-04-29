@@ -1,5 +1,19 @@
 [
     {
+        "date": "2025-12-29",
+        "ticker": "RVMD",
+        "nct_id": "NCT05054725",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Vociprotafib + Sotorasib",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05054725",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
         "date": "2025-12-24",
         "ticker": "MAIA",
         "nct_id": "NCT05208944",

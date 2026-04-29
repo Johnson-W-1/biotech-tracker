@@ -10038,6 +10038,20 @@
         "is_new": false
     },
     {
+        "date": "2026-04-08",
+        "ticker": "REGN",
+        "nct_id": "NCT03409614",
+        "indication": "Cemiplimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03409614",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-29",
+        "is_new": true
+    },
+    {
         "date": "2026-04-07",
         "ticker": "NBP",
         "nct_id": "NCT05001347",
@@ -10105,7 +10119,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02839265",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-06",
@@ -17399,20 +17413,6 @@
         "source": "https://clinicaltrials.gov/study/NCT06903377",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-29",
-        "ticker": "RVMD",
-        "nct_id": "NCT05054725",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Vociprotafib + Sotorasib",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT05054725",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
         "is_new": false
     }
 ]
