@@ -25,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06703021",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -3705,34 +3705,6 @@
         "sentiment": "Neutral",
         "notes": "Official CTG Update. Status: COMPLETED. ",
         "source": "https://clinicaltrials.gov/study/NCT06857617",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-29",
-        "ticker": "600276.SS",
-        "nct_id": "NCT07269756",
-        "indication": "Obesity",
-        "drug_name": "HRS-7535",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07269756",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-29",
-        "ticker": "1801.HK",
-        "nct_id": "NCT07170319",
-        "indication": "Obesity",
-        "drug_name": "IBI3032",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07170319",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
