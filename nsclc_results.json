@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02486718",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-30",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-21",
@@ -3539,7 +3539,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04303780",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-30",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-15",
@@ -10091,7 +10091,7 @@
         "source": "https://clinicaltrials.gov/study/NCT01625234",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-30",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-07",
@@ -17357,48 +17357,6 @@
         "source": "https://clinicaltrials.gov/study/NCT02998528",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-31",
-        "ticker": "BDTX",
-        "nct_id": "NCT05256290",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Silevertinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Black Diamond Therapeutics\u2019 Silevertinib Shows 60% Response Rate in Preliminary Phase 2 Lung Cancer Data Black Diamond Therapeutics Inc.",
-        "source": "https://finance.yahoo.com/news/black-diamond-therapeutics-silevertinib-shows-161253228.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-31",
-        "ticker": "VSTM",
-        "nct_id": "NCT04620330",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Avutometinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "RAMP 203 is a Phase 1/2 clinical trial being conducted in collaboration with Amgen evaluating avutometinib, an oral rapidly accelerated fibrosarcoma (RAF)/ mitogen-activated protein kinase kinase (MEK) clamp, and LUMAKRAS\u2122 (sotorasib) in a \u201cdoublet combination\u201d and also with defactinib, an oral focal adhesion kinase inhibitor, as a \u201ctriplet combina...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1526119/000110465925125309/tm2534532d1_8k.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2025-12-31",
-        "ticker": "VSTM",
-        "nct_id": "NCT04620330",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Avutometinib + Defactinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "RAMP 203 is a Phase 1/2 clinical trial being conducted in collaboration with Amgen evaluating avutometinib, an oral rapidly accelerated fibrosarcoma (RAF)/ mitogen-activated protein kinase kinase (MEK) clamp, and LUMAKRAS\u2122 (sotorasib) in a \u201cdoublet combination\u201d and also with defactinib, an oral focal adhesion kinase inhibitor, as a \u201ctriplet combina...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1526119/000110465925125309/tm2534532d1_8k.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-13",
         "is_new": false
     }
 ]
