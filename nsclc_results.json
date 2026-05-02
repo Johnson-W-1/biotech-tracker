@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-04-30",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT02542293",
+        "indication": "Durvalumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02542293",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-02",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-30",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03775486",
+        "indication": "Durvalumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03775486",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-02",
+        "is_new": true
+    },
+    {
         "date": "2026-04-28",
         "ticker": "ROG_CH",
         "nct_id": "NCT02486718",
@@ -9770,6 +9798,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
+    },
+    {
+        "date": "2026-04-11",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT02498613",
+        "indication": "Cediranib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02498613",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-02",
+        "is_new": true
     },
     {
         "date": "2026-04-10",
