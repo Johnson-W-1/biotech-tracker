@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02542293",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-02",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-30",
@@ -25,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03775486",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-02",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-28",
@@ -9811,7 +9811,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02498613",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-02",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-10",
@@ -17385,20 +17385,6 @@
         "source": "https://clinicaltrials.gov/study/NCT05746481",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-02",
-        "ticker": "BMY",
-        "nct_id": "NCT02998528",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Platinum Doublet Chemotherapy",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT02998528",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
         "is_new": false
     }
 ]

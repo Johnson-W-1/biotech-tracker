@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-01-02",
+        "ticker": "BMY",
+        "nct_id": "NCT02998528",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Platinum Doublet Chemotherapy",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02998528",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-14",
+        "is_new": false
+    },
+    {
         "date": "2025-12-31",
         "ticker": "BDTX",
         "nct_id": "NCT05256290",
