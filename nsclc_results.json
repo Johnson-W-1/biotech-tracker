@@ -42,6 +42,34 @@
         "is_new": false
     },
     {
+        "date": "2026-04-28",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT02314481",
+        "indication": "Atezolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT02314481",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-04",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-28",
+        "ticker": "4568_JP",
+        "nct_id": "NCT05865990",
+        "indication": "Patritumab deruxtecan",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05865990",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-04",
+        "is_new": true
+    },
+    {
         "date": "2026-04-21",
         "ticker": "BAYN_DE, MRK_DE",
         "nct_id": "NCT03475953",
