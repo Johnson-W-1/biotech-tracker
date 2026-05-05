@@ -53,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02314481",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-04",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-28",
@@ -67,7 +67,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05865990",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-04",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-21",
@@ -9742,6 +9742,34 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-15",
         "is_new": false
+    },
+    {
+        "date": "2026-04-14",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT03456076",
+        "indication": "Alectinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03456076",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-05",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-14",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03521154",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03521154",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-05",
+        "is_new": true
     },
     {
         "date": "2026-04-13",
