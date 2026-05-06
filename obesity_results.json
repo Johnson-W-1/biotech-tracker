@@ -3666,47 +3666,5 @@
         "source_type": "SEC 8-K",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-01-05",
-        "ticker": "ROG",
-        "nct_id": "NCT06628362",
-        "indication": "Obesity",
-        "drug_name": "CT-388",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06628362",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-05",
-        "ticker": "1672.HK",
-        "nct_id": "NCT06679959",
-        "indication": "Obesity",
-        "drug_name": "ASC30",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "FDA IND Clearance for 13-Week Phase II Study of Its Oral Small Molecule GLP-1, ASC30, in Participants with Diabetes Ascletis Pharma Inc.",
-        "source": "https://finance.yahoo.com/news/ascletis-announces-u-fda-ind-001000073.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-05",
-        "ticker": "GPCR",
-        "nct_id": "NCT05762471, NCT06139055, NCT06693843, NCT07169942, NCT06703021",
-        "indication": "Obesity",
-        "drug_name": "Aleniglipron",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Hoffmann-La Roche Ltd (\u201cRoche\u201d and together with Genentech, \u201cGNE\u201d) that was the culmination of discussions initiated by Genentech\u2019s inquiry regarding the availability of a license to certain patents of Gasherbrum that cover a class of oral GLP-1 receptor agonists that is different from aleniglipron.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1888886/000110465926000620/tm261919d1_8k.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
