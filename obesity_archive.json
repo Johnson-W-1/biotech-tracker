@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-01-06",
+        "ticker": "ARWR",
+        "nct_id": "NCT06937203",
+        "indication": "Obesity",
+        "drug_name": "ARO-ALK7",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "(the \u201cCompany\u201d) issued a press release announcing interim results from its two Phase 1/2a clinical trials of ARO-INHBE and ARO-ALK7, the Company\u2019s investigational RNA interference (\u201cRNAi\u201d) therapeutics being developed as potential treatments for obesity.",
+        "source": "https://www.sec.gov/Archives/edgar/data/879407/000087940726000004/arwr-20260106.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-06",
+        "ticker": "ARWR",
+        "nct_id": "NCT06700538",
+        "indication": "Obesity",
+        "drug_name": "ARO-INHBE",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "(the \u201cCompany\u201d) issued a press release announcing interim results from its two Phase 1/2a clinical trials of ARO-INHBE and ARO-ALK7, the Company\u2019s investigational RNA interference (\u201cRNAi\u201d) therapeutics being developed as potential treatments for obesity.",
+        "source": "https://www.sec.gov/Archives/edgar/data/879407/000087940726000004/arwr-20260106.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-01-05",
         "ticker": "ROG",
         "nct_id": "NCT06628362",
