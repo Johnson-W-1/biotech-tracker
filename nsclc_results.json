@@ -17386,19 +17386,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
-    },
-    {
-        "date": "2026-01-06",
-        "ticker": "4568_JP",
-        "nct_id": "NCT06899126",
-        "indication": "Trastuzumab Deruxtecan",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06899126",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
     }
 ]
