@@ -350,6 +350,20 @@
         "is_new": false
     },
     {
+        "date": "2026-04-16",
+        "ticker": "NVO",
+        "nct_id": "NCT05035095",
+        "indication": "Obesity",
+        "drug_name": "Semaglutide (Oral)",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05035095",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-08",
+        "is_new": true
+    },
+    {
         "date": "2026-04-15",
         "ticker": "LLY, 4519.T",
         "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
@@ -3594,48 +3608,6 @@
         "notes": "RM-718  \u2022 Complete enrollment in the Phase 1, Part C trial evaluating the weekly, MC4R agonist RM-718 in patients with  acquired HO in the first quarter of 2026.",
         "source": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026001459/rytm-20260109.htm",
         "source_type": "SEC 8-K",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-07",
-        "ticker": "IMMUNWORK",
-        "nct_id": "NCT06471530",
-        "indication": "Obesity",
-        "drug_name": "TE-8105",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06471530",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-07",
-        "ticker": "2105.HK, NVS",
-        "nct_id": "NCT06493084",
-        "indication": "Obesity",
-        "drug_name": "LAE102",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06493084",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-07",
-        "ticker": "1801.HK, LLY",
-        "nct_id": "NCT07255209",
-        "indication": "Obesity",
-        "drug_name": "Mazdutide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07255209",
-        "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
     }

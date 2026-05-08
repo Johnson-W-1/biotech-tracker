@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-01-07",
+        "ticker": "IMMUNWORK",
+        "nct_id": "NCT06471530",
+        "indication": "Obesity",
+        "drug_name": "TE-8105",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06471530",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-07",
+        "ticker": "2105.HK, NVS",
+        "nct_id": "NCT06493084",
+        "indication": "Obesity",
+        "drug_name": "LAE102",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06493084",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-07",
+        "ticker": "1801.HK, LLY",
+        "nct_id": "NCT07255209",
+        "indication": "Obesity",
+        "drug_name": "Mazdutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07255209",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-01-06",
         "ticker": "ARWR",
         "nct_id": "NCT06937203",
