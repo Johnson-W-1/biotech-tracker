@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04538664",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-08",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-07",
@@ -25,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04487080",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-08",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-07",
@@ -39,7 +39,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04988295",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-08",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-07",
@@ -53,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05388669",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-08",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-30",
@@ -137,7 +137,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05089734",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-08",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-21",
@@ -9685,7 +9685,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03132922",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-08",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-14",
@@ -17243,90 +17243,6 @@
         "sentiment": "Neutral",
         "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
         "source": "https://clinicaltrials.gov/study/NCT05651022",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-08",
-        "ticker": "TVRD",
-        "nct_id": "NCT03195699",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "TTI-101",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Morgan Healthcare Conference Company to Highlight New Data from Phase 2 REVERT IPF Clinical Trial of TTI-101 in Podium PresentationHOUSTON, Jan.",
-        "source": "https://finance.yahoo.com/news/tvardi-therapeutics-present-44th-annual-210500525.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-08",
-        "ticker": "TVRD",
-        "nct_id": "NCT03195699",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "TTI-101",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Tvardi Therapeutics Announces Further Phase 2 REVERT IPF Data, Expanding Clinical Insights Pooled patients treated with TTI-101 demonstrated a 9.4% decrease from baseline in fibrosis score at week 12, compared to a 2.4% decrease for the placebo group Topline healthy volunteer data from Phase 1 study of next-generation STAT3 inhibitor, TTI-109, on t...",
-        "source": "https://finance.yahoo.com/news/tvardi-therapeutics-announces-further-phase-130000519.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-08",
-        "ticker": "CGEM",
-        "nct_id": "NCT04036682",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Zipalertinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Cullinan Therapeutics Provides Corporate Update and Highlights Anticipated 2026 Milestones Data readouts planned for CLN-978 across all three autoimmune indications in 2026, including single dose and repeat dosing data Company to complete monotherapy expansion cohorts to determine recommended Phase 2 dose for CLN-049 pivotal registrational study an...",
-        "source": "https://finance.yahoo.com/news/cullinan-therapeutics-provides-corporate-highlights-120000023.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-08",
-        "ticker": "CGEM",
-        "nct_id": "NCT04036682",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Zipalertinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Zipalertinib \u2022 We are co-developing zipalertinib with an affiliate of Taiho Pharmaceutical Co., Ltd.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1789972/000119312526006998/cgem-20260108.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-08",
-        "ticker": "IMRX",
-        "nct_id": "NCT05585320",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Gemcitabine + Nab-paclitaxel",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Immuneering Highlights 64% 12-Month Survival in Phase 2A Pancreatic Cancer Study, Eyes Phase 3 Immuneering (NASDAQ:IMRX) provided an update from its ongoing Phase 2A trial of atebumetanib plus modified gemcitabine and nab-paclitaxel in first-line metastatic pancreatic cancer patients, highlighting a positive 12-month overall survival (OS) landmark ...",
-        "source": "https://www.marketbeat.com/instant-alerts/immuneering-highlights-64-12-month-survival-in-phase-2a-pancreatic-cancer-study-eyes-phase-3-2026-01-07/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-08",
-        "ticker": "VSTM",
-        "nct_id": "NCT05074810",
-        "indication": "avutometinib",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05074810",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
