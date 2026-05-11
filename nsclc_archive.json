@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-01-10",
+        "ticker": "IMRX",
+        "nct_id": "NCT05585320",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Atebimetinib",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Why Immuneering (IMRX) Is Down 29.7% After Positive Phase 2a Pancreatic Cancer Survival Update And What's Next Immuneering Corporation has reported updated Phase 2a data showing atebimetinib plus modified gemcitabine/nab-paclitaxel achieved 64% overall survival at 12 months in first-line pancreatic cancer patients, with no new safety signals identi...",
+        "source": "https://finance.yahoo.com/news/why-immuneering-imrx-down-29-111126352.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-10",
+        "ticker": "IMRX",
+        "nct_id": "NCT05585320",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Gemcitabine + Nab-paclitaxel",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Why Immuneering (IMRX) Is Down 29.7% After Positive Phase 2a Pancreatic Cancer Survival Update And What's Next Immuneering Corporation has reported updated Phase 2a data showing atebimetinib plus modified gemcitabine/nab-paclitaxel achieved 64% overall survival at 12 months in first-line pancreatic cancer patients, with no new safety signals identi...",
+        "source": "https://finance.yahoo.com/news/why-immuneering-imrx-down-29-111126352.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
         "date": "2026-01-09",
         "ticker": "CGEM",
         "nct_id": "NCT04036682",
