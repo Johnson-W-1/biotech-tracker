@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-05-11",
+        "ticker": "6887_CN",
+        "nct_id": "NCT03758287",
+        "indication": "Ningetinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT03758287",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-12",
+        "is_new": true
+    },
+    {
+        "date": "2026-05-08",
+        "ticker": "Cybrexa Therapeutics",
+        "nct_id": "NCT04902872",
+        "indication": "CBX-12",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04902872",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-12",
+        "is_new": true
+    },
+    {
         "date": "2026-05-07",
         "ticker": "JNJ",
         "nct_id": "NCT04538664",
@@ -54,6 +82,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-08",
         "is_new": false
+    },
+    {
+        "date": "2026-05-07",
+        "ticker": "4578_JP",
+        "nct_id": "NCT02998567",
+        "indication": "Guadecitabine",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT02998567",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-12",
+        "is_new": true
     },
     {
         "date": "2026-04-30",
@@ -222,6 +264,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
         "is_new": false
+    },
+    {
+        "date": "2026-04-21",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT05246514",
+        "indication": "Trastuzumab deruxtecan",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05246514",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-12",
+        "is_new": true
     },
     {
         "date": "2026-04-20",
@@ -544,6 +600,48 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
         "is_new": false
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT03337698",
+        "indication": "Atezolizumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03337698",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-12",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "1801_CN",
+        "nct_id": "NCT03607539",
+        "indication": "Sintilimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03607539",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-12",
+        "is_new": true
+    },
+    {
+        "date": "2026-04-20",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT04245085",
+        "indication": "Atezolizumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04245085",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-12",
+        "is_new": true
     },
     {
         "date": "2026-04-19",
@@ -17161,20 +17259,6 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526009738/kpti-20260112.htm",
         "source_type": "SEC 8-K",
         "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-11",
-        "ticker": "IMRX",
-        "nct_id": "NCT05585320",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Atebimetinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Immuneering (IMRX) Valuation After Strong Phase 2a Pancreatic Cancer Data And Planned Phase 3 Transition Immuneering (IMRX) has attracted fresh attention after reporting updated Phase 2a data for atebimetinib in first line pancreatic cancer, showing 64% 12 month overall survival and plans to move into a pivotal Phase 3 trial.",
-        "source": "https://finance.yahoo.com/news/immuneering-imrx-valuation-strong-phase-150940732.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
         "is_new": false
     }
 ]

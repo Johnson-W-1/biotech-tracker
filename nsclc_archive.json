@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-01-11",
+        "ticker": "IMRX",
+        "nct_id": "NCT05585320",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Atebimetinib",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Immuneering (IMRX) Valuation After Strong Phase 2a Pancreatic Cancer Data And Planned Phase 3 Transition Immuneering (IMRX) has attracted fresh attention after reporting updated Phase 2a data for atebimetinib in first line pancreatic cancer, showing 64% 12 month overall survival and plans to move into a pivotal Phase 3 trial.",
+        "source": "https://finance.yahoo.com/news/immuneering-imrx-valuation-strong-phase-150940732.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
         "date": "2026-01-10",
         "ticker": "IMRX",
         "nct_id": "NCT05585320",
