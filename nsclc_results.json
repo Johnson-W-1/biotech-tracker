@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03758287",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-08",
@@ -25,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04902872",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-07",
@@ -95,7 +95,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02998567",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-30",
@@ -277,7 +277,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05246514",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -613,7 +613,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03337698",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -627,7 +627,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03607539",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-20",
@@ -641,7 +641,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04245085",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-19",
@@ -17189,76 +17189,6 @@
         "source": "https://clinicaltrials.gov/study/NCT07306624",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-12",
-        "ticker": "Boehringer Ingelheim",
-        "nct_id": "NCT03780725",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Miptenalimab + Ezabenlimab",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03780725",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-12",
-        "ticker": "NUVB",
-        "nct_id": "NCT04395677, NCT04919811",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Taletrectinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Pursuant to the License Agreement, the Company granted Eisai an exclusive license to develop and commercialize licensed products containing taletrectinib in the following territories: the European Union and all member states thereof, Albania, Andorra, Armenia, Azerbaijan, Belarus, Bosnia and Herzegovina, Georgia, Kosovo, Moldova, Monaco, Montenegro...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1811063/000119312526009826/d947742d8k.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-12",
-        "ticker": "IDYA",
-        "nct_id": "NCT04794699",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "IDE397",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Food and Drug Administration and/or NCCN/compendia listing in this patient subset    Antibody-drug Conjugate (\u201cADC\u201d) + DNA damage response combinations    \u00a0       \u2022   \u00a0     IDE849 (DLL3 TOP1 ADC): target to initiate a monotherapy registrational study in the second-line / refractory setting of small cell lung cancer (\u201cSCLC\u201d) and/or neuroendocrine ca...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1676725/000119312526009653/d93674d8k.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-12",
-        "ticker": "ASND",
-        "nct_id": "NCT05081609",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Onvapegleukin alfa",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "\u2022   \u00a0     TransCon  IL-2   \u03b2 / \u03b3     (onvapegleukin alfa)    \u00a0       \u00a0   \u2022   \u00a0     Expect to report median overall survival (OS) data for a cohort of 70 patients with late-line platinum-resistant ovarian cancer (PROC) from the  IL-Believe  Trial of TransCon  IL-2   \u03b2 / \u03b3  + weekly paclitaxel in the second quarter of this year.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526009636/d13397d6k.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-12",
-        "ticker": "KPTI",
-        "nct_id": "NCT03095612, NCT04256707",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Selinexor",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "XPOVIO \u00ae  (selinexor) net product revenue estimates for the fourth quarter and full year ended December 31, 2025 announced its preliminary unaudited cash, cash equivalents, restricted cash and investments as of December 31, 2025, and outlined its 2025 achievements and 2026 objectives....",
-        "source": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526009738/kpti-20260112.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-14",
         "is_new": false
     }
 ]
