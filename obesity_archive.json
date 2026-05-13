@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-01-12",
+        "ticker": "BMEA",
+        "nct_id": "NCT07223216",
+        "indication": "Obesity",
+        "drug_name": "BMF-650",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Positive",
+        "notes": "Biomea Fusion Enters 2026 Focused on Executing Key Icovamenib and BMF-650 Milestones Advancing icovamenib toward late-stage clinical development in two Phase II clinical trials in patients with insulin-deficient type 2 diabetes (\u201cT2D\u201d) and in T2D patients currently failing glucagon-like peptide-1 (\u201cGLP-1\u201d) based therapiesSuccessfully completed icov...",
+        "source": "https://finance.yahoo.com/news/biomea-fusion-enters-2026-focused-130000508.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-01-09",
         "ticker": "RYTM",
         "nct_id": "NCT06772597, NCT05093634",
