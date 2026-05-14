@@ -3540,47 +3540,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-01-13",
-        "ticker": "SKYE BIOSCIENCE, INC.",
-        "nct_id": "NCT06577090",
-        "indication": "Obesity",
-        "drug_name": "Nimacimab",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06577090",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-13",
-        "ticker": "RADELLA PHARMACEUTICALS",
-        "nct_id": "NCT06739707",
-        "indication": "Obesity",
-        "drug_name": "MD-18",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06739707",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-13",
-        "ticker": "AZN",
-        "nct_id": "NCT06151964",
-        "indication": "Obesity",
-        "drug_name": "AZD9550",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06151964",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
