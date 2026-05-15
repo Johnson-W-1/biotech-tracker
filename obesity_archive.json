@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-01-14",
+        "ticker": "AMGN",
+        "nct_id": "NCT05669599",
+        "indication": "Obesity",
+        "drug_name": "MariTide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05669599",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-14",
+        "ticker": "GUBRA",
+        "nct_id": "NCT06144684",
+        "indication": "Obesity",
+        "drug_name": "GUB014295",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06144684",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-01-13",
         "ticker": "SKYE BIOSCIENCE, INC.",
         "nct_id": "NCT06577090",
