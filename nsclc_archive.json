@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-01-14",
+        "ticker": "0013.HK",
+        "nct_id": "NCT02897479",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Savolitinib",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "HUTCHMED Highlights Publication of Phase III SACHI Results in The Lancet \u2014 First randomized Phase III trial confirming the efficacy of MET inhibition in patients with advanced NSCLC and acquired MET amplification after progression on prior EGFR-TKI treatment \u2014 \u2014 Savolitinib and osimertinib combination approved in China in June 2025 \u2014 HONG KONG, SHA...",
+        "source": "https://finance.yahoo.com/news/hutchmed-highlights-publication-phase-iii-040000014.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-14",
+        "ticker": "0013.HK",
+        "nct_id": "NCT05015608",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Savolitinib + Osimertinib",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "HUTCHMED Highlights Publication of Phase III SACHI Results in The Lancet \u2014 First randomized Phase III trial confirming the efficacy of MET inhibition in patients with advanced NSCLC and acquired MET amplification after progression on prior EGFR-TKI treatment \u2014 \u2014 Savolitinib and osimertinib combination approved in China in June 2025 \u2014 HONG KONG, SHA...",
+        "source": "https://finance.yahoo.com/news/hutchmed-highlights-publication-phase-iii-040000014.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-14",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT03456076",
+        "indication": "Alectinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03456076",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
         "date": "2026-01-13",
         "ticker": "688192.SS",
         "nct_id": "NCT03974022",
