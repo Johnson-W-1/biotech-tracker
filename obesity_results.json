@@ -3484,33 +3484,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-01-15",
-        "ticker": "LLY",
-        "nct_id": "NCT06297616",
-        "indication": "Obesity",
-        "drug_name": "Eloralinitide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06297616",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-15",
-        "ticker": "2105.HK",
-        "nct_id": "NCT07230496",
-        "indication": "Obesity",
-        "drug_name": "LAE102 + LAE103",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07230496",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
