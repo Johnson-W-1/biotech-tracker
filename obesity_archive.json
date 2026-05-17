@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-01-16",
+        "ticker": "NVO",
+        "nct_id": "NCT06780449",
+        "indication": "Obesity",
+        "drug_name": "CagriSema",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06780449",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-16",
+        "ticker": "LLY",
+        "nct_id": "NCT06606106",
+        "indication": "Obesity",
+        "drug_name": "HRS-7535",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06606106",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-16",
+        "ticker": "LLY",
+        "nct_id": "NCT06557356",
+        "indication": "Obesity",
+        "drug_name": "Macupatide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06557356",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-01-15",
         "ticker": "LLY",
         "nct_id": "NCT06297616",
