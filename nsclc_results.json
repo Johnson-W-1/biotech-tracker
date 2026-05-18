@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-14",
+        "ticker": "REGN",
+        "nct_id": "NCT03409614",
+        "indication": "Cemiplimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03409614",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-18",
+        "is_new": true
+    },
+    {
         "date": "2026-05-13",
         "ticker": "IOVA",
         "nct_id": "NCT03645928",
@@ -236,6 +250,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-04",
         "is_new": false
+    },
+    {
+        "date": "2026-04-27",
+        "ticker": "SAN_FR",
+        "nct_id": "NCT04154956",
+        "indication": "Tusamitamab ravtansine",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04154956",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-18",
+        "is_new": true
     },
     {
         "date": "2026-04-22",
