@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-15",
+        "ticker": "AZN",
+        "nct_id": "NCT07220954",
+        "indication": "Obesity",
+        "drug_name": "AZD6234",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07220954",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-18",
+        "is_new": true
+    },
+    {
         "date": "2026-05-08",
         "ticker": "AZN",
         "nct_id": "NCT06151964",
