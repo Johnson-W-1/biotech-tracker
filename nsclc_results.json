@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-16",
+        "ticker": "BYSI",
+        "nct_id": "NCT02504489",
+        "indication": "Plinabulin",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02504489",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-19",
+        "is_new": true
+    },
+    {
         "date": "2026-05-14",
         "ticker": "REGN",
         "nct_id": "NCT03409614",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03409614",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-18",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-13",
@@ -263,7 +277,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04154956",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-18",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-22",
