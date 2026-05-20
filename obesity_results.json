@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-18",
+        "ticker": "RADELLA PHARMACEUTICALS",
+        "nct_id": "NCT06739707",
+        "indication": "Obesity",
+        "drug_name": "MD-18",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: SUSPENDED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06739707",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-20",
+        "is_new": true
+    },
+    {
         "date": "2026-05-15",
         "ticker": "AZN",
         "nct_id": "NCT07220954",
