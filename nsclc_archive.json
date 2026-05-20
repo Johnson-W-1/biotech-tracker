@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-01-19",
+        "ticker": "JNJ",
+        "nct_id": "NCT05601973",
+        "indication": "Amivantamab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT05601973",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-19",
+        "ticker": "688506_CN",
+        "nct_id": "NCT06475300",
+        "indication": "BL-B01D1",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06475300",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
         "date": "2026-01-16",
         "ticker": "ROG",
         "nct_id": "NCT02486718",
