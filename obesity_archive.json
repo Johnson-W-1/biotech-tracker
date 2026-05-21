@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-01-20",
+        "ticker": "LLY",
+        "nct_id": "NCT05931367",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05931367",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-01-16",
         "ticker": "NVO",
         "nct_id": "NCT06780449",
