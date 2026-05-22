@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-20",
+        "ticker": "LLY",
+        "nct_id": "NCT07232732",
+        "indication": "Obesity",
+        "drug_name": "LY3549492",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07232732",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-22",
+        "is_new": true
+    },
+    {
         "date": "2026-05-18",
         "ticker": "RADELLA PHARMACEUTICALS",
         "nct_id": "NCT06739707",
@@ -3439,20 +3453,6 @@
         "sentiment": "Neutral",
         "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
         "source": "https://clinicaltrials.gov/study/NCT07229157",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-21",
-        "ticker": "NVO",
-        "nct_id": "NCT07225816",
-        "indication": "Obesity",
-        "drug_name": "Semaglutide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07225816",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
