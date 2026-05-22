@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-01-21",
+        "ticker": "AZN",
+        "nct_id": "NCT03133546",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Osimertinib",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03133546",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-14",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-21",
+        "ticker": "MGNX",
+        "nct_id": "NCT05551117",
+        "indication": "Vobramitamab duocarmazine",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Negative",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05551117",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
         "date": "2026-01-20",
         "ticker": "JNJ",
         "nct_id": "NCT04809103",

@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-20",
+        "ticker": "Avistone Biotechnology",
+        "nct_id": "NCT06015503",
+        "indication": "Andamertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06015503",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-22",
+        "is_new": true
+    },
+    {
         "date": "2026-05-18",
         "ticker": "BMY",
         "nct_id": "NCT04015778",
@@ -17007,34 +17021,6 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1778016/000119312526018662/sc_market_purchase_-_01-.htm",
         "source_type": "SEC 6-K",
         "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-21",
-        "ticker": "AZN",
-        "nct_id": "NCT03133546",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Osimertinib",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03133546",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-21",
-        "ticker": "MGNX",
-        "nct_id": "NCT05551117",
-        "indication": "Vobramitamab duocarmazine",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Negative",
-        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT05551117",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
         "is_new": false
     }
 ]
