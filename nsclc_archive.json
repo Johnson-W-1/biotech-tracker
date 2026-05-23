@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-01-22",
+        "ticker": "AZN",
+        "nct_id": "NCT03775486",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Durvalumab + Placebo",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03775486",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-22",
+        "ticker": "NBP",
+        "nct_id": "NCT05001347",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Uliledlimab",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Forward-looking statements in this press release include, without limitation, statements regarding: the potential open market purchases by Fu Wei; the strategy, clinical development, plans, results, safety and efficacy of givastomig and VIS-101 and its other drug candidates; the strategic and clinical development of the Company\u2019s drug candidates, i...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1778016/000119312526019417/sf_market_purchase_-_01-.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-14",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-22",
+        "ticker": "NBP",
+        "nct_id": "NCT05001347",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Uliledlimab",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Forward-looking statements in this press release include, without limitation, statements regarding: the potential open market purchases by Fu Wei; the strategy, clinical development, plans, results, safety and efficacy of givastomig and VIS-101 and its other drug candidates; the strategic and clinical development of the Company\u2019s drug candidates, i...",
+        "source": "https://www.sec.gov/Archives/edgar/data/1778016/000119312526018662/sc_market_purchase_-_01-.htm",
+        "source_type": "SEC 6-K",
+        "date_added": "2026-04-14",
+        "is_new": false
+    },
+    {
         "date": "2026-01-21",
         "ticker": "AZN",
         "nct_id": "NCT03133546",
