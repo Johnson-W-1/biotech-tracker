@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-21",
+        "ticker": "PFE, MET",
+        "nct_id": "NCT07022977",
+        "indication": "Obesity",
+        "drug_name": "MET233",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07022977",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-26",
+        "is_new": true
+    },
+    {
         "date": "2026-05-20",
         "ticker": "LLY",
         "nct_id": "NCT07232732",
@@ -3427,20 +3441,6 @@
         "source": "https://finance.yahoo.com/news/ascletis-announces-first-participants-dosed-001000987.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-25",
-        "ticker": "ALT",
-        "nct_id": "NCT05295875",
-        "indication": "Obesity",
-        "drug_name": "pemvidutide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Why Altimmune (ALT) Is Up 29.7% After FDA Breakthrough Tag For Obesity-MASH Drug - And What's Next Altimmune recently received FDA Breakthrough Therapy Designation for its obesity and MASH drug candidate pemvidutide, based on mid-stage data showing meaningful MASH resolution and plans for a 52-week late-stage trial.",
-        "source": "https://finance.yahoo.com/news/why-altimmune-alt-29-7-110901739.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
         "is_new": false
     }
 ]
