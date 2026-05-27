@@ -11,6 +11,20 @@
         "source": "https://clinicaltrials.gov/study/NCT07022977",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-26",
+        "is_new": false
+    },
+    {
+        "date": "2026-05-21",
+        "ticker": "REGOR THERAPEUTICS",
+        "nct_id": "NCT06867718",
+        "indication": "Obesity",
+        "drug_name": "RGT-075",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06867718",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-27",
         "is_new": true
     },
     {
@@ -3413,34 +3427,6 @@
         "source": "https://clinicaltrials.gov/study/NCT07243171",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-26",
-        "ticker": "1672.HK",
-        "nct_id": "NCT06679959",
-        "indication": "Obesity",
-        "drug_name": "ASC30",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Phase II Study with ASC30, an Oral Small Molecule GLP-1R Agonist for the Treatment of Diabetes Ascletis Pharma Inc.",
-        "source": "https://finance.yahoo.com/news/ascletis-announces-first-participants-dosed-001000514.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-26",
-        "ticker": "1672.HK",
-        "nct_id": "NCT06679959",
-        "indication": "Obesity",
-        "drug_name": "ASC30",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Phase II Study with ASC30, an Oral Small Molecule GLP-1R Agonist for the Treatment of Diabetes Ascletis Pharma Inc. 13-week Phase II study (NCT07321678) with ASC30, an oral small molecule GLP-1 receptor (GLP-1R) agonist for the treatment of type 2 diabetes mellitus....",
-        "source": "https://finance.yahoo.com/news/ascletis-announces-first-participants-dosed-001000987.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-21",
         "is_new": false
     }
 ]
