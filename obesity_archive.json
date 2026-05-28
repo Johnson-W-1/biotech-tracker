@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-01-27",
+        "ticker": "91078.HK",
+        "nct_id": "NCT07243171",
+        "indication": "Obesity",
+        "drug_name": "Ecnoglutide (Oral)",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07243171",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-01-26",
         "ticker": "1672.HK",
         "nct_id": "NCT06679959",

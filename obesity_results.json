@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-05-26",
+        "ticker": "002773.SS",
+        "nct_id": "NCT06953063",
+        "indication": "Obesity",
+        "drug_name": "DA-302168S",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06953063",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-28",
+        "is_new": true
+    },
+    {
+        "date": "2026-05-26",
+        "ticker": "CORXEL PHARMACEUTICALS",
+        "nct_id": "NCT07011797",
+        "indication": "Obesity",
+        "drug_name": "VCT220",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07011797",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-28",
+        "is_new": true
+    },
+    {
         "date": "2026-05-21",
         "ticker": "PFE, MET",
         "nct_id": "NCT07022977",
@@ -25,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06867718",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-27",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-20",
@@ -3412,20 +3440,6 @@
         "notes": "Hanmi Secures Export Deal with Mexican Partner Sanfer for GLP-1 Obesity Drug and More Hanmi is accelerating its global market entry with efpeglenatide, Korea's first domestically developed GLP-1 class obesity and metabolic disease treatment.",
         "source": "https://finance.yahoo.com/news/hanmi-secures-export-deal-mexican-040800962.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-27",
-        "ticker": "91078.HK",
-        "nct_id": "NCT07243171",
-        "indication": "Obesity",
-        "drug_name": "Ecnoglutide (Oral)",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07243171",
-        "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
     }
