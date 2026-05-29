@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06953063",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-26",
@@ -25,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07011797",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-21",
@@ -3384,62 +3384,6 @@
         "notes": "Official CTG Update. Status: COMPLETED. ",
         "source": "https://clinicaltrials.gov/study/NCT06916065",
         "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-28",
-        "ticker": "ALT",
-        "nct_id": "NCT05295875",
-        "indication": "Obesity",
-        "drug_name": "pemvidutide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "(Nasdaq: ALT), a late clinical-stage biopharmaceutical company developing pemvidutide to address serious liver diseases, announced today that it has entered into a securities purchase agreement with a new fundamental institutional investor for the purchase and sale of 17,045,454 shares of its common stock (or pre-funded warrants in lieu thereof) pu...",
-        "source": "https://finance.yahoo.com/news/altimmune-announces-pricing-75-million-022500804.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-28",
-        "ticker": "BOEHRINGER INGELHEIM",
-        "nct_id": "NCT05202353",
-        "indication": "Obesity",
-        "drug_name": "Survodutide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05202353",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-28",
-        "ticker": "BEIJING QL BIOPHARMACEUTICAL CO.,LTD",
-        "nct_id": "NCT07184502",
-        "indication": "Obesity",
-        "drug_name": "ZT003",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07184502",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-28",
-        "ticker": "128940.KS",
-        "nct_id": "NCT02075281",
-        "indication": "Obesity",
-        "drug_name": "Efpeglenatide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Hanmi Secures Export Deal with Mexican Partner Sanfer for GLP-1 Obesity Drug and More Hanmi is accelerating its global market entry with efpeglenatide, Korea's first domestically developed GLP-1 class obesity and metabolic disease treatment.",
-        "source": "https://finance.yahoo.com/news/hanmi-secures-export-deal-mexican-040800962.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": false
     }
