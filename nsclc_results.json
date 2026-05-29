@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-27",
+        "ticker": "LLY",
+        "nct_id": "NCT04956640",
+        "indication": "Olomorasib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT04956640",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-29",
+        "is_new": true
+    },
+    {
         "date": "2026-05-26",
         "ticker": "AZN_GB",
         "nct_id": "NCT03237377",
@@ -179,7 +193,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04248829",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-08",
@@ -16851,62 +16865,6 @@
         "sentiment": "Neutral",
         "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
         "source": "https://clinicaltrials.gov/study/NCT05867121",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-28",
-        "ticker": "AZN",
-        "nct_id": "NCT02143466",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Osimertinib + Savolitinib",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT02143466",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-28",
-        "ticker": "IBRX",
-        "nct_id": "NCT02523469",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Nogapendekin alfa inbakicept + Nivolumab",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT02523469",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-28",
-        "ticker": "MRK",
-        "nct_id": "NCT04340882",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Pembrolizumab",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT04340882",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-28",
-        "ticker": "TJ Biopharma",
-        "nct_id": "NCT07005336",
-        "indication": "Uliledlimab",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07005336",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
