@@ -3344,47 +3344,5 @@
         "source_type": "SEC 6-K",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-01-29",
-        "ticker": "AZN",
-        "nct_id": "NCT06862791",
-        "indication": "Obesity",
-        "drug_name": "AZD9550 + AZD6234",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06862791",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-29",
-        "ticker": "ALT",
-        "nct_id": "NCT05295875",
-        "indication": "Obesity",
-        "drug_name": "pemvidutide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "(Nasdaq: ALT), a late clinical-stage biopharmaceutical company developing pemvidutide to address serious liver diseases, announced the closing of its previously announced registered direct offering pursuant to a securities purchase agreement with a new fundamental institutional investor for the purchase and sale of 17,045,454 shares of its common s...",
-        "source": "https://finance.yahoo.com/news/altimmune-announces-closing-75-million-225400098.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-01-29",
-        "ticker": "LLY",
-        "nct_id": "NCT06916065",
-        "indication": "Obesity",
-        "drug_name": "Eloralinitide + Tirzepatide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06916065",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
