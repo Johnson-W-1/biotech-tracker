@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-01-30",
+        "ticker": "NOVN",
+        "nct_id": "NCT05445843",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Opnurasib",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05445843",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2026-01-30",
+        "ticker": "600276.SS",
+        "nct_id": "NCT03085069, NCT03557411",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Camrelizumab",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Elevar Therapeutics Announces FDA Acceptance of New Drug Application Resubmission for Rivoceranib in Combination with Camrelizumab as a First-line Systemic Treatment for Unresectable Hepatocellular Carcinoma FDA sets PDUFA target action date of July 23, 2026FORT LEE, N.J., Jan.",
+        "source": "https://finance.yahoo.com/news/elevar-therapeutics-announces-fda-acceptance-155900065.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
         "date": "2026-01-29",
         "ticker": "AGEN",
         "nct_id": "NCT03860272",
