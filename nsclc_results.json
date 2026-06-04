@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-02",
+        "ticker": "ABBV",
+        "nct_id": "NCT04189614",
+        "indication": "Cofetuzumab pelidotin",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04189614",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-04",
+        "is_new": true
+    },
+    {
         "date": "2026-06-01",
         "ticker": "PFE",
         "nct_id": "NCT05546476",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05546476",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-03",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-27",
@@ -224,6 +238,20 @@
         "is_new": false
     },
     {
+        "date": "2026-05-08",
+        "ticker": "ADAPY_GB",
+        "nct_id": "NCT03132922",
+        "indication": "MAGE-A4c1032T",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03132922",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-04",
+        "is_new": true
+    },
+    {
         "date": "2026-05-07",
         "ticker": "JNJ",
         "nct_id": "NCT04538664",
@@ -305,7 +333,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04513925",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-03",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-07",
@@ -319,7 +347,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04619797",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-03",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-04-30",
@@ -16571,62 +16599,6 @@
         "sentiment": "Neutral",
         "notes": "Official CTG Update. Status: RECRUITING. ",
         "source": "https://clinicaltrials.gov/study/NCT06953089",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-03",
-        "ticker": "ROG",
-        "nct_id": "NCT02525757",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Atezolizumab + Carboplatin + Paclitaxel + Radiation Therapy",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT02525757",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-03",
-        "ticker": "MRK",
-        "nct_id": "NCT04738487",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Pembrolizumab/Vibostolimab Coformulation",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04738487",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-03",
-        "ticker": "AZN",
-        "nct_id": "NCT02125461, NCT02511106, NCT03521154, NCT03703297, NCT03706690, NCT04642469",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Placebo",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "17      \u00a0      TULIP-SC      TULIP-SC was a Phase III, multicentre, randomised, double-blind, placebo-controlled study to evaluate the efficacy and safety of a subcutaneous administration of anifrolumab versus placebo in participants\u00a0aged 18 to 70 years\u00a0with moderate to severe SLE while receiving standard therapy (oral corticosteroids, antimalarial...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495426000857/a4833r.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-03",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT07098338",
-        "indication": "Rilvegostomig",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07098338",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
