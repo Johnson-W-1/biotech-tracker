@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-03",
+        "ticker": "Avistone Pharmaceuticals",
+        "nct_id": "NCT04258033",
+        "indication": "Vebreltinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04258033",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-05",
+        "is_new": true
+    },
+    {
         "date": "2026-06-02",
         "ticker": "ABBV",
         "nct_id": "NCT04189614",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04189614",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-04",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-01",
@@ -224,6 +238,20 @@
         "is_new": false
     },
     {
+        "date": "2026-05-11",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT04351555",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04351555",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-05",
+        "is_new": true
+    },
+    {
         "date": "2026-05-08",
         "ticker": "Cybrexa Therapeutics",
         "nct_id": "NCT04902872",
@@ -249,7 +277,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03132922",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-04",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-07",
@@ -16447,160 +16475,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04930432",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "GSK",
-        "nct_id": "NCT03307785",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Dostarlimab + Niraparib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "This action seeks a declaration that Tesaro was not in breach and that AnaptysBio engaged in conduct that was in anticipatory breach of the parties\u2019 collaboration agreement regarding the oncology treatment  Jemperli  (dostarlimab).",
-        "source": "https://www.sec.gov/Archives/edgar/data/1131399/000165495426000892/a5979rv2.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "GSK",
-        "nct_id": "NCT03307785",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Dostarlimab + Carboplatin + Paclitaxel",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "This action seeks a declaration that Tesaro was not in breach and that AnaptysBio engaged in conduct that was in anticipatory breach of the parties\u2019 collaboration agreement regarding the oncology treatment  Jemperli  (dostarlimab).",
-        "source": "https://www.sec.gov/Archives/edgar/data/1131399/000165495426000892/a5979rv2.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "GSK",
-        "nct_id": "NCT03308942",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Niraparib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Key trials for  Jemperli :     \u00a0              Trial name (population)          Phase          Design          Timeline          Status           RUBY (1L stage III or IV endometrial cancer)     \u00a0     NCT03981796         III         A randomised, double-blind, multi-centre trial of dostarlimab plus carboplatin-paclitaxel with and without niraparib m...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1131399/000165495426000892/a5979rv2.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "GSK",
-        "nct_id": "NCT03308942",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Niraparib + Dostarlimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "This action seeks a declaration that Tesaro was not in breach and that AnaptysBio engaged in conduct that was in anticipatory breach of the parties\u2019 collaboration agreement regarding the oncology treatment  Jemperli  (dostarlimab).",
-        "source": "https://www.sec.gov/Archives/edgar/data/1131399/000165495426000892/a5979rv2.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "GSK",
-        "nct_id": "NCT05565378",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Dostarlimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "This action seeks a declaration that Tesaro was not in breach and that AnaptysBio engaged in conduct that was in anticipatory breach of the parties\u2019 collaboration agreement regarding the oncology treatment  Jemperli  (dostarlimab).",
-        "source": "https://www.sec.gov/Archives/edgar/data/1131399/000165495426000892/a5979rv2.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "GSK",
-        "nct_id": "NCT05565378, NCT06926673",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Dostarlimab + Belrestotug",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "2025       \u00a0          Q4 2025         \u00a0       \u00a0         \u00a3m         AER         CER       \u00a0         \u00a3m         AER         CER           Research & development          Total         7,525         18%         19%       \u00a0         2,350         16%         17%            % of sales          23.0%          2.6%          2.4%       \u00a0          27.3%     ...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1131399/000165495426000892/a5979rv2.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "REGN",
-        "nct_id": "NCT03088540",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Chemotherapy",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "EU Japan Dupixent \u00ae  (dupilumab) Injection (b)   (continued) Chronic rhinosinusitis with nasal polyposis (\"CRSwNP\") (in adults) a a a CRSwNP (in adolescents) a Chronic obstructive pulmonary disease (\"COPD\") a a a Eosinophilic esophagitis (\"EoE\") (in patients aged 1 year and older) a a Prurigo nodularis a a a Chronic spontaneous urticaria (\"CSU\") (i...",
-        "source": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/regn-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "REGN",
-        "nct_id": "NCT03088540, NCT03430063",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Cemiplimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "EU Japan Dupixent \u00ae  (dupilumab) Injection (b)   (continued) Chronic rhinosinusitis with nasal polyposis (\"CRSwNP\") (in adults) a a a CRSwNP (in adolescents) a Chronic obstructive pulmonary disease (\"COPD\") a a a Eosinophilic esophagitis (\"EoE\") (in patients aged 1 year and older) a a Prurigo nodularis a a a Chronic spontaneous urticaria (\"CSU\") (i...",
-        "source": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/regn-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "REGN",
-        "nct_id": "NCT04077099",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "REGN5093",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Food and Drug Administration (\"FDA\") decision for pre-filled syringe (second quarter 2026) 7 Table of  Contents Clinical Program  (continued) Phase 2 Phase 3 Regulatory Review (h) 2025 and 2026 Events to Date Select Upcoming Milestones Pozelimab (f)  (antibody to C5)  +  cemdisiran (l)  (siRNA therapeutic targeting C5) \u2013Geographic atrophy (q) \u2013Repo...",
-        "source": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/regn-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "NUVB",
-        "nct_id": "NCT04395677",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Taletrectinib",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT04395677",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-04",
-        "ticker": "9606_HK",
-        "nct_id": "NCT06953089",
-        "indication": "DB-1311",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06953089",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
         "is_new": false
     }
 ]
