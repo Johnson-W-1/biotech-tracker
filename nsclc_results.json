@@ -16392,47 +16392,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
-    },
-    {
-        "date": "2026-02-06",
-        "ticker": "9926.HK",
-        "nct_id": "NCT05499390",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Ivonescimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Akeso Receives Fifth Breakthrough Therapy Designation from NMPA for Ivonescimab in First-Line Treatment of Advanced Biliary Tract Cancer Akeso, Inc.",
-        "source": "https://finance.yahoo.com/news/akeso-receives-fifth-breakthrough-therapy-022600217.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-06",
-        "ticker": "AZN",
-        "nct_id": "NCT04606771",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Savolitinib",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04606771",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-06",
-        "ticker": "6990.HK",
-        "nct_id": "NCT05816252",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Sacituzumab tirumotecan",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Kelun-Biotech Announces Fourth Indication for Sacituzumab Tirumotecan (sac-TMT) Approved by NMPA in HR+/HER2- Breast Cancer Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. (\"Kelun-Biotech\" or the \"Company\", 6990.HK) announced that a new indication application for its TROP2-directed ADC sacituzumab tirumotecan (sac-TMT, also known as SKB264/MK-287...",
-        "source": "https://finance.yahoo.com/news/kelun-biotech-announces-fourth-indication-090000040.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
     }
 ]
