@@ -1,5 +1,75 @@
 [
     {
+        "date": "2026-06-04",
+        "ticker": "JNJ",
+        "nct_id": "NCT04487080",
+        "indication": "Amivantamab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04487080",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-08",
+        "is_new": true
+    },
+    {
+        "date": "2026-06-04",
+        "ticker": "JNJ",
+        "nct_id": "NCT04538664",
+        "indication": "Amivantamab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04538664",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-08",
+        "is_new": true
+    },
+    {
+        "date": "2026-06-04",
+        "ticker": "JNJ",
+        "nct_id": "NCT04988295",
+        "indication": "Amivantamab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04988295",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-08",
+        "is_new": true
+    },
+    {
+        "date": "2026-06-04",
+        "ticker": "JNJ",
+        "nct_id": "NCT05388669",
+        "indication": "Lazertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05388669",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-08",
+        "is_new": true
+    },
+    {
+        "date": "2026-06-04",
+        "ticker": "AGEN",
+        "nct_id": "NCT06322108",
+        "indication": "Botensilimab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06322108",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-08",
+        "is_new": true
+    },
+    {
         "date": "2026-06-03",
         "ticker": "Avistone Pharmaceuticals",
         "nct_id": "NCT04258033",
@@ -154,6 +224,20 @@
         "is_new": false
     },
     {
+        "date": "2026-05-13",
+        "ticker": "4568_JP",
+        "nct_id": "NCT04619004",
+        "indication": "Patritumab deruxtecan",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04619004",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-08",
+        "is_new": true
+    },
+    {
         "date": "2026-05-12",
         "ticker": "AZN_GB",
         "nct_id": "NCT03706690",
@@ -180,6 +264,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-14",
         "is_new": false
+    },
+    {
+        "date": "2026-05-12",
+        "ticker": "MRK",
+        "nct_id": "NCT03516981",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03516981",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-08",
+        "is_new": true
     },
     {
         "date": "2026-05-11",
