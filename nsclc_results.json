@@ -16448,47 +16448,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
-    },
-    {
-        "date": "2026-02-09",
-        "ticker": "AZN",
-        "nct_id": "NCT03819465",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Durvalumab + Platinum Doublet Chemotherapy",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT03819465",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-09",
-        "ticker": "AGEN",
-        "nct_id": "NCT03860272",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Botensilimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "(Nasdaq: AGEN), a leader in immuno-oncology, today announced that new translational and clinical biomarker analyses from its botensilimab (BOT) immunotherapy program have been accepted for poster presentation at the American Association for Cancer Research- Immuno-Oncology (AACR-IO) Conference, taking place in Los Angeles, CA on February 18\u201321, 202...",
-        "source": "https://finance.yahoo.com/news/agenus-present-data-aacr-io-180000147.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-09",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT03521154",
-        "indication": "Osimertinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03521154",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
     }
 ]
