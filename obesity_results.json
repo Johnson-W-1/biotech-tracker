@@ -2924,33 +2924,5 @@
         "source_type": "SEC 10-K",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-02-10",
-        "ticker": "RYTM",
-        "nct_id": "NCT06772597",
-        "indication": "Obesity",
-        "drug_name": "Setmelanotide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06772597",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-10",
-        "ticker": "AZN",
-        "nct_id": "NCT06579092",
-        "indication": "Obesity",
-        "drug_name": "AZD5004",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "elecoglipron (AZD5004)              Phase IIb readout     \u00a0          VISTA      February 2026      New disclosure         Positive high-level results showed that treatment with elecoglipron in participants with obesity or overweight and at least one comorbidity met the primary endpoints (change in body weight from baseline at 26 weeks and proportio...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495426001073/a3234s.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
