@@ -2896,33 +2896,5 @@
         "source_type": "SEC 10-K",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-02-11",
-        "ticker": "AMGN",
-        "nct_id": "NCT06585462",
-        "indication": "Obesity",
-        "drug_name": "AMG513",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06585462",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-11",
-        "ticker": "VKTX",
-        "nct_id": "NCT06068946, NCT07104500",
-        "indication": "Obesity",
-        "drug_name": "VK2735",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "In January 2022, we announced the initiation of a Phase 1 single ascending dose, or SAD, and multiple ascending dose, or MAD, clinical trial of VK2735, a novel dual agonist of the glucagon-like peptide 1, or GLP-1, and glucose-dependent insulinotropic polypeptide, or GIP, receptors.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1607678/000119312526046876/vktx-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
