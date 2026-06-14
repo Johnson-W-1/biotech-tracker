@@ -2798,47 +2798,5 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-02-13",
-        "ticker": "PFE, MET",
-        "nct_id": "NCT06897202",
-        "indication": "Obesity",
-        "drug_name": "MET097",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06897202",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-13",
-        "ticker": "PFE, MET",
-        "nct_id": "NCT06973720",
-        "indication": "Obesity",
-        "drug_name": "MET097",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06973720",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-13",
-        "ticker": "AMGN",
-        "nct_id": "NCT04478708, NCT05669599, NCT06858839, NCT07226778, NCT07225686, NCT07229157, NCT07226765",
-        "indication": "Obesity",
-        "drug_name": "MariTide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Term Description ACTIMMUNE ACTIMMUNE \u00ae  (interferon gamma-1b) Aimovig Aimovig \u00ae  (erenumab-aooe) AMJEVITA/AMGEVITA AMJEVITA \u00ae  (adalimumab-atto)/AMGEVITA \u2122  (adalimumab) Aranesp Aranesp \u00ae  (darbepoetin alfa) AutoTouch AutoTouch \u00ae AVSOLA AVSOLA \u00ae  (infliximab-axxq) BKEMV/BEKEMV BKEMV \u00ae  (eculizumab-aeeb)/BEKEMV \u2122  (eculizumab) BLINCYTO BLINCYTO \u00ae  (...",
-        "source": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/amgn-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
