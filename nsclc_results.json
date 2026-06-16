@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-12",
+        "ticker": "PFE, 4503_JP",
+        "nct_id": "NCT04225117",
+        "indication": "Enfortumab vedotin",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04225117",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-16",
+        "is_new": true
+    },
+    {
         "date": "2026-06-11",
         "ticker": "ASRT",
         "nct_id": "NCT03318939",
@@ -222,6 +236,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-27",
         "is_new": false
+    },
+    {
+        "date": "2026-05-21",
+        "ticker": "PFE",
+        "nct_id": "NCT04181788",
+        "indication": "Sasanlimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04181788",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-16",
+        "is_new": true
     },
     {
         "date": "2026-05-20",
@@ -15859,20 +15887,6 @@
         "source": "https://clinicaltrials.gov/study/NCT07241039",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-15",
-        "ticker": "MRK",
-        "nct_id": "NCT02858869",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Pembrolizumab",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT02858869",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
         "is_new": false
     }
 ]
