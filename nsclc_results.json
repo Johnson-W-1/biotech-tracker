@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-06-16",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT02498613",
+        "indication": "Cediranib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02498613",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-17",
+        "is_new": true
+    },
+    {
+        "date": "2026-06-16",
+        "ticker": "NOVN_CH",
+        "nct_id": "NCT03631199",
+        "indication": "Canakinumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03631199",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-17",
+        "is_new": true
+    },
+    {
         "date": "2026-06-12",
         "ticker": "PFE, 4503_JP",
         "nct_id": "NCT04225117",
@@ -11,7 +39,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04225117",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-11",
@@ -249,7 +277,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04181788",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-20",
@@ -15859,34 +15887,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04644068",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-16",
-        "ticker": "MRK",
-        "nct_id": "NCT06731907",
-        "indication": "Pembrolizumab",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06731907",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-16",
-        "ticker": "ABBV",
-        "nct_id": "NCT07241039",
-        "indication": "ABBV-711",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07241039",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
         "is_new": false
     }
 ]

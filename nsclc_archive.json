@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-02-16",
+        "ticker": "MRK",
+        "nct_id": "NCT06731907",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06731907",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2026-02-16",
+        "ticker": "ABBV",
+        "nct_id": "NCT07241039",
+        "indication": "ABBV-711",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07241039",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
         "date": "2026-02-15",
         "ticker": "MRK",
         "nct_id": "NCT02858869",
