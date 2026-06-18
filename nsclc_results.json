@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-17",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT05867121",
+        "indication": "RO7496353",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05867121",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-18",
+        "is_new": true
+    },
+    {
         "date": "2026-06-16",
         "ticker": "AZN_GB",
         "nct_id": "NCT02498613",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02498613",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-16",
@@ -25,7 +39,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03631199",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-12",
@@ -236,6 +250,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-29",
         "is_new": false
+    },
+    {
+        "date": "2026-05-27",
+        "ticker": "BMY",
+        "nct_id": "NCT04623775",
+        "indication": "Nivolumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04623775",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-18",
+        "is_new": true
     },
     {
         "date": "2026-05-26",
@@ -15801,90 +15829,6 @@
         "sentiment": "Negative",
         "notes": "Official CTG Update. Status: TERMINATED. ",
         "source": "https://clinicaltrials.gov/study/NCT03066206",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-17",
-        "ticker": "MRK",
-        "nct_id": "NCT03829332",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Placebo + Pembrolizumab",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03829332",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-17",
-        "ticker": "MRUS",
-        "nct_id": "NCT04868877",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Pamvatamig",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT04868877",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-17",
-        "ticker": "GMAB",
-        "nct_id": "NCT03917381, NCT05117242",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Acasunlimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Negative",
-        "notes": "Additionally, with the exception of acasunlimab, for which we discontinued clinical development in December 2025  and rinatabart sesutecan (\u201c Rina-S \u201d), we have not ourselves, or in collaboration, advanced any product candidates through  late-stage clinical development.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1434265/000143426526000014/gmab-20251231_d2.htm",
-        "source_type": "SEC 20-F",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-17",
-        "ticker": "GMAB",
-        "nct_id": "NCT05117242",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Acasunlimab + Pembrolizumab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Negative",
-        "notes": "Additionally, with the exception of acasunlimab, for which we discontinued clinical development in December 2025  and rinatabart sesutecan (\u201c Rina-S \u201d), we have not ourselves, or in collaboration, advanced any product candidates through  late-stage clinical development.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1434265/000143426526000014/gmab-20251231_d2.htm",
-        "source_type": "SEC 20-F",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-17",
-        "ticker": "IDYA",
-        "nct_id": "NCT04794699",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "IDE397",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "10-K         false FY 0001676725 P3Y http://www.ideayabio.com/20251231#PresidentAndCEOMember 0001676725 us-gaap:LeaseAgreementsMember idya:SouthSanFranciscoCaliforniaMember 2025-01-01 2025-12-31 0001676725 idya:FollowOnPublicOfferingMember 2023-01-01 2023-12-31 0001676725 idya:ServierLicenseAgreementMember srt:MaximumMember 2025-08-31 0001676725 id...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1676725/000119312526054533/idya-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-17",
-        "ticker": "AZN",
-        "nct_id": "NCT04644068",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Saruparib",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT04644068",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-14",
         "is_new": false
