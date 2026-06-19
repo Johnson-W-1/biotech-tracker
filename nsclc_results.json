@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05867121",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-18",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-16",
@@ -263,7 +263,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04623775",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-18",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-05-26",
@@ -15817,20 +15817,6 @@
         "source": "https://clinicaltrials.gov/study/NCT06568939",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-18",
-        "ticker": "ASRT",
-        "nct_id": "NCT03066206",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Poziotinib",
-        "status": "Trial Status Update",
-        "sentiment": "Negative",
-        "notes": "Official CTG Update. Status: TERMINATED. ",
-        "source": "https://clinicaltrials.gov/study/NCT03066206",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
         "is_new": false
     }
 ]
