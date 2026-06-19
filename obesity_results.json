@@ -2812,19 +2812,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-02-18",
-        "ticker": "ALT",
-        "nct_id": "NCT05295875",
-        "indication": "Obesity",
-        "drug_name": "pemvidutide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "(ALT) Gains Analyst Support as Pemvidutide Advances Altimmune, Inc.",
-        "source": "https://finance.yahoo.com/news/altimmune-inc-alt-gains-analyst-014451720.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
