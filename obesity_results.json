@@ -2784,33 +2784,5 @@
         "source_type": "SEC 6-K",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-02-19",
-        "ticker": "CYTOKI PHARMA",
-        "nct_id": "NCT06611930",
-        "indication": "Obesity",
-        "drug_name": "CK-0045",
-        "status": "Trial Status Update",
-        "sentiment": "Negative",
-        "notes": "Official CTG Update. Status: TERMINATED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06611930",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-19",
-        "ticker": "LLY",
-        "nct_id": "NCT06148272",
-        "indication": "Obesity",
-        "drug_name": "LY3971297",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06148272",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
