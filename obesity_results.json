@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06151964",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-23",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-16",
@@ -82,6 +82,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-02",
         "is_new": false
+    },
+    {
+        "date": "2026-05-28",
+        "ticker": "LLY",
+        "nct_id": "NCT06230523",
+        "indication": "Obesity",
+        "drug_name": "Eloralinitide",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT06230523",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-24",
+        "is_new": true
     },
     {
         "date": "2026-05-26",
@@ -2712,90 +2726,6 @@
         "notes": "Key: PP = Partnered product Phase I \u200b Compound \u00a0\u00a0\u200b\u00a0\u200b\u00a0\u200b Mechanism \u00a0\u00a0\u200b\u00a0\u200b\u00a0\u200b Additional Information \u00a0\u00a0\u200b\u00a0\u200b\u00a0\u200b Area Under Investigation \u00a0 Oncology \u200b \u00a0\u00a0\u200b \u200b \u00a0\u00a0\u200b \u200b \u00a0\u00a0\u200b \u200b AZD0240 \u200b KRAS G12D armoured TCR-T \u200b \u200b \u200b solid tumours \u200b AZD0516 \u200b STEAP2 TOP1i ADC \u200b \u200b \u200b prostate cancer \u200b AZD0754 \u200b STEAP2 CAR-T \u200b \u200b \u200b prostate cancer \u200b AZD2068 \u200b EGFR/cMET actinium radioc...",
         "source": "https://www.sec.gov/Archives/edgar/data/901832/000110465926019130/azn-20251231x20f.htm",
         "source_type": "SEC 20-F",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-23",
-        "ticker": "NVO",
-        "nct_id": "NCT05564117",
-        "indication": "Obesity",
-        "drug_name": "Semaglutide (Oral)",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT05564117",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-23",
-        "ticker": "128940.KS",
-        "nct_id": "NCT07219589",
-        "indication": "Obesity",
-        "drug_name": "HM17321",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07219589",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-23",
-        "ticker": "NVO",
-        "nct_id": "NCT05567796, NCT06780449",
-        "indication": "Obesity",
-        "drug_name": "CagriSema",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "20549   \u00a0   ________________   \u00a0   FORM 6-K   ________________   \u00a0   REPORT OF FOREIGN PRIVATE ISSUER   \u00a0   Pursuant to Rule 13a-16 or 15d-16   of the Securities Exchange Act of 1934   \u00a0   February 23, 2026   ________________   \u00a0   NOVO NORDISK A/S   \u00a0 (Exact name of Registrant as specified in its charter)   \u00a0   \u00a0   Novo All\u00e9 1   DK- 2880, Bagsvaer...",
-        "source": "https://www.sec.gov/Archives/edgar/data/353278/000117184326000996/f6k_022326.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-23",
-        "ticker": "NVO",
-        "nct_id": "NCT05646706, NCT03548935, NCT07225816",
-        "indication": "Obesity",
-        "drug_name": "Semaglutide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "REDEFINE 4 was an 84-week trial investigating CagriSema (a fixed dose combination of cagrilintide 2.4 mg and semaglutide 2.4 mg) compared to tirzepatide 15 mg, both administered once-weekly and subcutaneously.",
-        "source": "https://www.sec.gov/Archives/edgar/data/353278/000117184326000996/f6k_022326.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-23",
-        "ticker": "NVO",
-        "nct_id": "NCT06719011, NCT07220759, NCT07220642",
-        "indication": "Obesity",
-        "drug_name": "Cagrilintide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "REDEFINE 4 was an 84-week trial investigating CagriSema (a fixed dose combination of cagrilintide 2.4 mg and semaglutide 2.4 mg) compared to tirzepatide 15 mg, both administered once-weekly and subcutaneously.",
-        "source": "https://www.sec.gov/Archives/edgar/data/353278/000117184326000996/f6k_022326.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-23",
-        "ticker": "NVO",
-        "nct_id": "NCT07253285",
-        "indication": "Obesity",
-        "drug_name": "CagriSema + Cagrilintide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "20549   \u00a0   ________________   \u00a0   FORM 6-K   ________________   \u00a0   REPORT OF FOREIGN PRIVATE ISSUER   \u00a0   Pursuant to Rule 13a-16 or 15d-16   of the Securities Exchange Act of 1934   \u00a0   February 23, 2026   ________________   \u00a0   NOVO NORDISK A/S   \u00a0 (Exact name of Registrant as specified in its charter)   \u00a0   \u00a0   Novo All\u00e9 1   DK- 2880, Bagsvaer...",
-        "source": "https://www.sec.gov/Archives/edgar/data/353278/000117184326000996/f6k_022326.htm",
-        "source_type": "SEC 6-K",
         "date_added": "2026-04-10",
         "is_new": false
     }
