@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-02-25",
+        "ticker": "PFE, MET",
+        "nct_id": "NCT07022977",
+        "indication": "Obesity",
+        "drug_name": "MET233",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07022977",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-02-24",
         "ticker": "LLY, 4519.T",
         "nct_id": "NCT06824051",

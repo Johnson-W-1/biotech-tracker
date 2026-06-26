@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-23",
+        "ticker": "1672.HK",
+        "nct_id": "NCT06679959",
+        "indication": "Obesity",
+        "drug_name": "ASC30",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06679959",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-26",
+        "is_new": true
+    },
+    {
         "date": "2026-06-19",
         "ticker": "AZN",
         "nct_id": "NCT06151964",
@@ -2628,20 +2642,6 @@
         "notes": "Forward-looking statements include, but are not limited to, statements regarding the promise or potential of any of our products or product candidates; the marketing, commercialization and sales of IMCIVREE (setmelanotide), bivamelagon (formerly LB54640), and RM-718;  commercialization, design, success, cost and timing of our product development ac...",
         "source": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026012399/rytm-20251231.htm",
         "source_type": "SEC 10-K",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-02-25",
-        "ticker": "PFE, MET",
-        "nct_id": "NCT07022977",
-        "indication": "Obesity",
-        "drug_name": "MET233",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07022977",
-        "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
     }
