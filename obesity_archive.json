@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-02-27",
+        "ticker": "GPCR",
+        "nct_id": "NCT07169942",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07169942",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-02-27",
+        "ticker": "LLY",
+        "nct_id": "NCT07215559",
+        "indication": "Obesity",
+        "drug_name": "Macupatide + Eloralinitide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07215559",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-02-26",
         "ticker": "ALT",
         "nct_id": "NCT05295875",
