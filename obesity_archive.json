@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-03-02",
+        "ticker": "ALT",
+        "nct_id": "NCT05295875",
+        "indication": "Obesity",
+        "drug_name": "pemvidutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "(Nasdaq: ALT), a late clinical-stage biopharmaceutical company developing pemvidutide to address serious liver diseases, today announced that management will participate and be available for one-on-one meetings at the following investor conferences: Leerink Global Healthcare Conference Monday, March 9, 2026 \u2013 One-on-one meetingsWednesday, March 11,...",
+        "source": "https://finance.yahoo.com/news/altimmune-participate-upcoming-investor-conferences-123000354.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-02",
+        "ticker": "AZN",
+        "nct_id": "NCT07013643",
+        "indication": "Obesity",
+        "drug_name": "AZD6234",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07013643",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-02",
+        "ticker": "RYTM",
+        "nct_id": "NCT06772597, NCT05093634",
+        "indication": "Obesity",
+        "drug_name": "Setmelanotide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "(\u201cRhythm\u201d) issued a press release announcing additional data from its global Phase 3 TRANSCEND trial of setmelanotide in patients with acquired hypothalamic obesity, summarized under Item 8.01 below.",
+        "source": "https://www.sec.gov/Archives/edgar/data/1649904/000110465926021801/tm267699d1_8k.htm",
+        "source_type": "SEC 8-K",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-02-27",
         "ticker": "GPCR",
         "nct_id": "NCT07169942",
