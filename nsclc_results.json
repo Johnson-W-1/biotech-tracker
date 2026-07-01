@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-29",
+        "ticker": "PFE",
+        "nct_id": "NCT05571839",
+        "indication": "PF-08046049",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05571839",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-01",
+        "is_new": true
+    },
+    {
         "date": "2026-06-23",
         "ticker": "MRK",
         "nct_id": "NCT04738487",
@@ -194,6 +208,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-29",
         "is_new": false
+    },
+    {
+        "date": "2026-06-05",
+        "ticker": "GSK_GB",
+        "nct_id": "NCT04655976",
+        "indication": "Cobolimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04655976",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-01",
+        "is_new": true
     },
     {
         "date": "2026-06-04",
@@ -14263,76 +14291,6 @@
         "source": "https://clinicaltrials.gov/study/NCT05526755",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-02",
-        "ticker": "9926.HK",
-        "nct_id": "NCT05184712",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Ivonescimab + Pemetrexed + Carboplatin",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05184712",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-02",
-        "ticker": "9926.HK",
-        "nct_id": "NCT05499390",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Ivonescimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "(SMMT) Focused on Non-Small Cell Lung Cancer Trial of Ivonescimab Summit Therapeutics Inc.",
-        "source": "https://finance.yahoo.com/news/summit-therapeutics-inc-smmt-focused-075657421.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-02",
-        "ticker": "ZYME",
-        "nct_id": "NCT03821233",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Zanidatamab Zovodotin",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Thr ough c ollaboration agreements with Jazz and BeOne relating to our programs for zanidatamab and zanidatamab zovodotin, we have received an aggregate of $491.0 million through December\u00a031, 2025 in the form of non-refundable upfront payments and milestone payments.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1937653/000193765326000015/zyme-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-02",
-        "ticker": "NUVB",
-        "nct_id": "NCT04395677, NCT04919811",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Taletrectinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "\u2022 If we are unable to maintain agreements with third parties to sell and market taletrectinib in jurisdictions outside of the U.S.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1811063/000119312526085584/nuvb-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-02",
-        "ticker": "600276.SS",
-        "nct_id": "NCT03083041",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Camrelizumab",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03083041",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
         "is_new": false
     }
 ]
