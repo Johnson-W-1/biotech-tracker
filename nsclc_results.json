@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05571839",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-01",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-23",
@@ -110,6 +110,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-17",
         "is_new": false
+    },
+    {
+        "date": "2026-06-16",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT05460273",
+        "indication": "Datopotamab deruxtecan",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05460273",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-02",
+        "is_new": true
     },
     {
         "date": "2026-06-12",
@@ -221,7 +235,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04655976",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-01",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-04",
@@ -14249,48 +14263,6 @@
         "source": "https://www.sec.gov/Archives/edgar/data/1526119/000110465926023444/vstm-20251231x10k.htm",
         "source_type": "SEC 10-K",
         "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-03",
-        "ticker": "4568.T",
-        "nct_id": "NCT04656652",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Datopotamab deruxtecan",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04656652",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-03",
-        "ticker": "KPTI",
-        "nct_id": "NCT03095612, NCT04256707",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Selinexor",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Positive",
-        "notes": "For example, there can be no guarantee that the Company will successfully commercialize XPOVIO or that any of the Company\u2019s drug candidates, including selinexor, will successfully complete necessary clinical development phases or that development of any of the Company\u2019s drug candidates will continue....",
-        "source": "https://www.sec.gov/Archives/edgar/data/1503802/000150380226000006/kpti-20260227.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-03",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT05526755",
-        "indication": "Osimertinib",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05526755",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
         "is_new": false
     }
 ]
