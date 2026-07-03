@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-03-04",
+        "ticker": "NVO",
+        "nct_id": "NCT07153172",
+        "indication": "Obesity",
+        "drug_name": "INV347",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07153172",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-04",
+        "ticker": "NVO",
+        "nct_id": "NCT07220759",
+        "indication": "Obesity",
+        "drug_name": "Cagrilintide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07220759",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-03-03",
         "ticker": "LLY",
         "nct_id": "NCT07232732",
