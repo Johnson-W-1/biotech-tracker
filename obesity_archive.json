@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-03-05",
+        "ticker": "ALT",
+        "nct_id": "NCT05295875",
+        "indication": "Obesity",
+        "drug_name": "pemvidutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Altimmune Q4 Earnings Call Highlights Altimmune (NASDAQ:ALT) executives used the company\u2019s year-end 2025 results call to outline preparations for a pivotal Phase 3 program for pemvidutide in metabolic dysfunction-associated steatohepatitis (MASH), while also providing updates on ongoing Phase 2 studies in alcohol use disorder (AUD) and",
+        "source": "https://www.marketbeat.com/instant-alerts/altimmune-q4-earnings-call-highlights-2026-03-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-05",
+        "ticker": "ALT",
+        "nct_id": "NCT05295875",
+        "indication": "Obesity",
+        "drug_name": "pemvidutide",
+        "status": "Expected Future Data",
+        "sentiment": "Neutral",
+        "notes": "Altimmune Announces Fourth Quarter and Full-year 2025 Financial Results and Business Updates Initiation of Phase 3 MASH trial planned for 2026 Pemvidutide granted FDA Breakthrough Therapy Designation in MASH Topline data from RECLAIM Phase 2 trial of pemvidutide in alcohol use disorder (AUD) expected in third quarter 2026 Cash, cash equivalents and...",
+        "source": "https://finance.yahoo.com/news/altimmune-announces-fourth-quarter-full-120000099.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-03-04",
         "ticker": "NVO",
         "nct_id": "NCT07153172",
