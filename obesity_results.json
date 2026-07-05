@@ -2364,47 +2364,5 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
         "is_new": false
-    },
-    {
-        "date": "2026-03-06",
-        "ticker": "LLY",
-        "nct_id": "NCT07225556",
-        "indication": "Obesity",
-        "drug_name": "LY4167586",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07225556",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-06",
-        "ticker": "REGN",
-        "nct_id": "NCT07220772",
-        "indication": "Obesity",
-        "drug_name": "Mibavademab",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07220772",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-06",
-        "ticker": "ALT",
-        "nct_id": "NCT05295875",
-        "indication": "Obesity",
-        "drug_name": "pemvidutide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "The following is a summary of the risk factors detailed in Item\u00a01A: Risks Related to Our Business, Financing Requirements, Product Development and Clinical Trials \u25cf we have incurred significant losses since our founding and anticipate that we will continue to incur significant losses for the foreseeable future and may never achieve or maintain prof...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000018/alt-20251231x10k.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
