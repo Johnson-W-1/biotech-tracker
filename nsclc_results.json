@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-03",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT04765059",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04765059",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-07",
+        "is_new": true
+    },
+    {
         "date": "2026-07-02",
         "ticker": "JNJ",
         "nct_id": "NCT04487080",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04487080",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-06",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-02",
@@ -25,7 +39,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04538664",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-06",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-02",
@@ -39,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05388669",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-06",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-01",
@@ -53,7 +67,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03976323",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-06",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-01",
@@ -67,7 +81,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04205812",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-06",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-01",
@@ -81,7 +95,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05887492",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-06",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-29",
@@ -13899,34 +13913,6 @@
         "source": "https://clinicaltrials.gov/study/NCT07155187",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-08",
-        "ticker": "GLUE",
-        "nct_id": "NCT05546268",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "MRT-2359",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Assessing Monte Rosa Therapeutics (GLUE) Valuation After MRT-2359 Data Update And New Public Offering Clinical update and financing reshape Monte Rosa Therapeutics (GLUE) story Monte Rosa Therapeutics (GLUE) is back in focus after updated Phase 1/2 data for MRT-2359 in metastatic castration-resistant prostate cancer, together with a planned Phase 2...",
-        "source": "https://finance.yahoo.com/news/assessing-monte-rosa-therapeutics-glue-050919694.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-08",
-        "ticker": "GLUE",
-        "nct_id": "NCT05546268",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "MRT-2359",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Positive",
-        "notes": "How Monte Rosa\u2019s MRT-2359 Prostate Cancer Data and Funding Plans Could Shape GLUE\u2019s Risk\u2011Reward Profile Monte Rosa Therapeutics recently reported updated Phase 1/2 data showing that its investigational GSPT1 degrader MRT-2359, in combination with enzalutamide, was well-tolerated and produced positive clinical responses in heavily pretreated metasta...",
-        "source": "https://finance.yahoo.com/news/monte-rosa-mrt-2359-prostate-020611560.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
         "is_new": false
     }
 ]

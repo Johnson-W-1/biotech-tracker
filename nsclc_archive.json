@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-03-08",
+        "ticker": "GLUE",
+        "nct_id": "NCT05546268",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "MRT-2359",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Assessing Monte Rosa Therapeutics (GLUE) Valuation After MRT-2359 Data Update And New Public Offering Clinical update and financing reshape Monte Rosa Therapeutics (GLUE) story Monte Rosa Therapeutics (GLUE) is back in focus after updated Phase 1/2 data for MRT-2359 in metastatic castration-resistant prostate cancer, together with a planned Phase 2...",
+        "source": "https://finance.yahoo.com/news/assessing-monte-rosa-therapeutics-glue-050919694.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-08",
+        "ticker": "GLUE",
+        "nct_id": "NCT05546268",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "MRT-2359",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Positive",
+        "notes": "How Monte Rosa\u2019s MRT-2359 Prostate Cancer Data and Funding Plans Could Shape GLUE\u2019s Risk\u2011Reward Profile Monte Rosa Therapeutics recently reported updated Phase 1/2 data showing that its investigational GSPT1 degrader MRT-2359, in combination with enzalutamide, was well-tolerated and produced positive clinical responses in heavily pretreated metasta...",
+        "source": "https://finance.yahoo.com/news/monte-rosa-mrt-2359-prostate-020611560.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
         "date": "2026-03-06",
         "ticker": "INCY",
         "nct_id": "NCT03679767, NCT04205812",
