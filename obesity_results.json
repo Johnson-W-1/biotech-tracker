@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-03",
+        "ticker": "128940.KS",
+        "nct_id": "NCT06174779",
+        "indication": "Obesity",
+        "drug_name": "Efpeglenatide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06174779",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-07",
+        "is_new": true
+    },
+    {
         "date": "2026-06-23",
         "ticker": "1672.HK",
         "nct_id": "NCT06679959",
