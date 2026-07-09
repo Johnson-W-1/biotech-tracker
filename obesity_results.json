@@ -2336,47 +2336,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-03-10",
-        "ticker": "ALT",
-        "nct_id": "NCT05295875",
-        "indication": "Obesity",
-        "drug_name": "pemvidutide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Altimmune Details Pemvidutide Phase III MASH Plans, Breakthrough Status at Citizens Conference Altimmune (NASDAQ:ALT) executives used a presentation at the Citizens Life Sciences Conference to outline recent clinical results and development plans for pemvidutide, the company\u2019s lead drug candidate being developed primarily for metabolic dysfunction\u2013...",
-        "source": "https://www.marketbeat.com/instant-alerts/altimmune-details-pemvidutide-phase-iii-mash-plans-breakthrough-status-at-citizens-conference-2026-03-10/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-10",
-        "ticker": "1672.HK",
-        "nct_id": "NCT06679959",
-        "indication": "Obesity",
-        "drug_name": "ASC30",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Phase II, 24-Week Study for Its Ultra-Long-Acting Subcutaneous Depot Formulations of Small Molecule GLP-1R Agonist ASC30 for Obesity Ascletis Pharma Inc.",
-        "source": "https://finance.yahoo.com/news/ascletis-announces-positive-topline-results-100000879.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-10",
-        "ticker": "1672.HK",
-        "nct_id": "NCT06679959",
-        "indication": "Obesity",
-        "drug_name": "ASC30",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Phase II, 24-Week Study for Its Ultra-Long-Acting Subcutaneous Depot Formulations of Small Molecule GLP-1R Agonist ASC30 for Obesity Ascletis Pharma Inc. Phase II, 24-week study for its subcutaneous (SQ) depot formulations of small molecule GLP-1 receptor (GLP-1R) agonist ASC30 for obesity (NCT06679959)....",
-        "source": "https://finance.yahoo.com/news/ascletis-announces-positive-topline-results-100000577.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-21",
-        "is_new": false
     }
 ]
