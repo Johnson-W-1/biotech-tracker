@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-03-11",
+        "ticker": "ROG",
+        "nct_id": "NCT07137585",
+        "indication": "Obesity",
+        "drug_name": "GYM329",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07137585",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-11",
+        "ticker": "ALT",
+        "nct_id": "NCT05295875",
+        "indication": "Obesity",
+        "drug_name": "pemvidutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Altimmune Details Pemvidutide MASH Path: Breakthrough Therapy, FDA Feedback, Phase 3 Next Up Altimmune (NASDAQ:ALT) executives highlighted recent clinical and regulatory milestones for pemvidutide and outlined plans to advance a Phase 3 program in metabolic dysfunction-associated steatohepatitis (MASH) during a presentation at the Leerink Partners ...",
+        "source": "https://www.marketbeat.com/instant-alerts/altimmune-details-pemvidutide-mash-path-breakthrough-therapy-fda-feedback-phase-3-next-up-2026-03-11/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-11",
+        "ticker": "ZEAL",
+        "nct_id": "NCT06066515",
+        "indication": "Obesity",
+        "drug_name": "Survodutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06066515",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-03-10",
         "ticker": "ALT",
         "nct_id": "NCT05295875",
