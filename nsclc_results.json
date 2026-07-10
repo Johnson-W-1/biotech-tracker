@@ -13564,47 +13564,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-14",
         "is_new": false
-    },
-    {
-        "date": "2026-03-11",
-        "ticker": "PFE",
-        "nct_id": "NCT03915951",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Encorafenib + Binimetinib",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03915951",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-11",
-        "ticker": "PFE",
-        "nct_id": "NCT03460977",
-        "indication": "Mervometostat",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT03460977",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-11",
-        "ticker": "4528_JP",
-        "nct_id": "NCT06525246",
-        "indication": "ONO-7475",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06525246",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
     }
 ]
