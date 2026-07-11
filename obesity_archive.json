@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-03-12",
+        "ticker": "ALT",
+        "nct_id": "NCT05295875",
+        "indication": "Obesity",
+        "drug_name": "pemvidutide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Altimmune Touts Pemvidutide Progress, Targets MASH Phase 3 Start and Q3 AUD Readout at Barclays Chat Altimmune (NASDAQ:ALT) executives highlighted clinical progress across multiple pemvidutide programs and discussed the company\u2019s financing priorities during a Barclays fireside chat, with management pointing to upcoming catalysts in 2026 and a plann...",
+        "source": "https://www.marketbeat.com/instant-alerts/altimmune-touts-pemvidutide-progress-targets-mash-phase-3-start-and-q3-aud-readout-at-barclays-chat-2026-03-12/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-03-11",
         "ticker": "ROG",
         "nct_id": "NCT07137585",
