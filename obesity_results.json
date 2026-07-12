@@ -2266,19 +2266,5 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
         "is_new": false
-    },
-    {
-        "date": "2026-03-13",
-        "ticker": "NVO",
-        "nct_id": "NCT06577766",
-        "indication": "Obesity",
-        "drug_name": "Amylin355",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06577766",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
