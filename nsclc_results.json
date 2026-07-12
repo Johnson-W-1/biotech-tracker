@@ -13382,47 +13382,5 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-13",
         "is_new": false
-    },
-    {
-        "date": "2026-03-13",
-        "ticker": "358570.KS",
-        "nct_id": "NCT04977453",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "GI-101 + Pembrolizumab",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT04977453",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-13",
-        "ticker": "AMGN",
-        "nct_id": "NCT04303780",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Sotorasib",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04303780",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-13",
-        "ticker": "NKTR",
-        "nct_id": "NCT02983045, NCT03138889",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Bempegaldesleukin",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "A variety of factors may have a significant effect on the market price of our common stock, including, among others, the risks described in this section titled \u201cRisk Factors\u201d and the following: \u2022 announcements of data from, or material developments in, our clinical studies and those of our collaboration partners, including data regarding efficacy a...",
-        "source": "https://www.sec.gov/Archives/edgar/data/906709/000119312526104547/nktr-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-14",
-        "is_new": false
     }
 ]
