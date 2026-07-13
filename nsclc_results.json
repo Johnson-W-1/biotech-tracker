@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-09",
+        "ticker": "Linnaeus Therapeutics, Inc.",
+        "nct_id": "NCT04130516",
+        "indication": "LNS8801",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT04130516",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-13",
+        "is_new": true
+    },
+    {
         "date": "2026-07-03",
         "ticker": "AZN_GB",
         "nct_id": "NCT04765059",
@@ -180,6 +194,34 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-18",
         "is_new": false
+    },
+    {
+        "date": "2026-06-17",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03381274",
+        "indication": "Oleclumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03381274",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-13",
+        "is_new": true
+    },
+    {
+        "date": "2026-06-17",
+        "ticker": "MRK_DE",
+        "nct_id": "NCT03940703",
+        "indication": "Tepotinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03940703",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-13",
+        "is_new": true
     },
     {
         "date": "2026-06-16",
@@ -13367,20 +13409,6 @@
         "source": "https://clinicaltrials.gov/study/NCT03433469",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-14",
-        "ticker": "IOVA",
-        "nct_id": "NCT04614103",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Lifileucel",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Iovance Biotherapeutics (IOVA) Announces Positive Early Data for Lifileucel TIL Therapy in Advanced Sarcomas Iovance Biotherapeutics Inc.",
-        "source": "https://finance.yahoo.com/news/iovance-biotherapeutics-iova-announces-positive-024128258.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
         "is_new": false
     }
 ]
