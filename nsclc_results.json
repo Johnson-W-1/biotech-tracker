@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04130516",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-13",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-03",
@@ -140,6 +140,34 @@
         "is_new": false
     },
     {
+        "date": "2026-06-23",
+        "ticker": "MRK_DE",
+        "nct_id": "NCT02864992",
+        "indication": "Tepotinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02864992",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-14",
+        "is_new": true
+    },
+    {
+        "date": "2026-06-23",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03519971",
+        "indication": "Durvalumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03519971",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-14",
+        "is_new": true
+    },
+    {
         "date": "2026-06-19",
         "ticker": "PFE",
         "nct_id": "NCT04084717",
@@ -207,7 +235,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03381274",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-13",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-17",
@@ -221,7 +249,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03940703",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-13",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-16",
