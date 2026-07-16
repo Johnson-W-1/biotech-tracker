@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-07-15",
+        "ticker": "LLY",
+        "nct_id": "NCT06148272",
+        "indication": "Obesity",
+        "drug_name": "LY3971297",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06148272",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-07-15",
+        "ticker": "LLY",
+        "nct_id": "NCT07225556",
+        "indication": "Obesity",
+        "drug_name": "LY4167586",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07225556",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-16",
+        "is_new": true
+    },
+    {
+        "date": "2026-07-15",
+        "ticker": "ARKAY THERAPEUTICS",
+        "nct_id": "NCT03686657",
+        "indication": "Obesity",
+        "drug_name": "Valsartan+Celecoxib+Metformin",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: WITHDRAWN. ",
+        "source": "https://clinicaltrials.gov/study/NCT03686657",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-16",
+        "is_new": true
+    },
+    {
         "date": "2026-07-03",
         "ticker": "128940.KS",
         "nct_id": "NCT06174779",
