@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03043872",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-16",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-13",
@@ -140,6 +140,20 @@
         "is_new": false
     },
     {
+        "date": "2026-07-01",
+        "ticker": "NOVN_CH",
+        "nct_id": "NCT05445843",
+        "indication": "Opnurasib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05445843",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-17",
+        "is_new": true
+    },
+    {
         "date": "2026-06-29",
         "ticker": "PFE",
         "nct_id": "NCT05571839",
@@ -152,6 +166,34 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-01",
         "is_new": false
+    },
+    {
+        "date": "2026-06-26",
+        "ticker": "4568_JP",
+        "nct_id": "NCT04619004",
+        "indication": "Patritumab deruxtecan",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04619004",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-17",
+        "is_new": true
+    },
+    {
+        "date": "2026-06-25",
+        "ticker": "BMY",
+        "nct_id": "NCT03425331",
+        "indication": "Ipilimumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03425331",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-17",
+        "is_new": true
     },
     {
         "date": "2026-06-23",
@@ -12791,62 +12833,6 @@
         "sentiment": "Neutral",
         "notes": "Official CTG Update. Status: RECRUITING. ",
         "source": "https://clinicaltrials.gov/study/NCT06119581",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-18",
-        "ticker": "JAZZ",
-        "nct_id": "NCT02892123",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Zanidatamab + Zanidatamab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Zymeworks Announces Presentations for Ziihera\u00ae (zanidatamab-hrii) at 2026 AACR Annual Meeting Four presentations deliver new insights into zanidatamab, including its differentiated HER2 biologyVANCOUVER, British Columbia, March 18, 2026 (GLOBE NEWSWIRE) -- Zymeworks Inc.",
-        "source": "https://finance.yahoo.com/news/zymeworks-announces-presentations-ziihera-zanidatamab-114600677.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-18",
-        "ticker": "GNPX",
-        "nct_id": "NCT04486833",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Quaratusugene Ozeplasmid",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "The collaborators will present positive preclinical data from studies of its lead drug candidate, Reqorsa\u00ae Gene Therapy (quaratusugene ozeplasmid, also referred to as \u201cQuar Oze\u201d), for the treatment of lung cancer. The second\u00a0poster to be presented at 2026 AACR is titled \u201cQuaratusugene ozeplasmid mediated TUSC2 upregulation in EML4-ALK bearing non-s...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1595248/000143774926008733/gnpx20260316_8k.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-18",
-        "ticker": "6990.HK",
-        "nct_id": "NCT05816252",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Sacituzumab tirumotecan",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Kelun-Biotech to Present the Final OS Analysis of Sacituzumab Tirumotecan (Sac-TMT) from the OptiTROP-Lung03 Study The 2026 European Lung Cancer Congress (ELCC) will be held in Copenhagen, Denmark, from March 25 to 28, 2026 (local time). At this congress, the final OS analysis from the pivotal study (OptiTROP-Lung03) of sacituzumab tirumotecan (sac...",
-        "source": "https://finance.yahoo.com/news/kelun-biotech-present-final-os-143100126.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-18",
-        "ticker": "MRK",
-        "nct_id": "NCT06780085",
-        "indication": "Raludotatug Deruxtecan",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06780085",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
