@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-03-18",
+        "ticker": "GPCR",
+        "nct_id": "NCT05762471",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Structure Therapeutics Posts 15%+ Weight Loss in ACCESS II for Oral GLP-1 Aleniglipron, Eyes Phase III Structure Therapeutics (NASDAQ:GPCR) shared new top-line results from its ACCESS II clinical program for aleniglipron, an oral small-molecule GLP-1 receptor agonist being developed for chronic weight management.",
+        "source": "https://www.marketbeat.com/instant-alerts/structure-therapeutics-posts-15-weight-loss-in-access-ii-for-oral-glp-1-aleniglipron-eyes-phase-iii-2026-03-17/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-18",
+        "ticker": "ZEAL, RHHBY",
+        "nct_id": "NCT06662539",
+        "indication": "Obesity",
+        "drug_name": "Petrelintide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06662539",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-03-16",
         "ticker": "LLY",
         "nct_id": "NCT04184622, NCT05822830",
