@@ -2140,47 +2140,5 @@
         "source_type": "SEC 6-K",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-03-19",
-        "ticker": "LLY",
-        "nct_id": "NCT04881760, NCT05931367, NCT05882045, NCT06313528, NCT07232719",
-        "indication": "Obesity",
-        "drug_name": "Retatrutide",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Lilly's triple agonist, retatrutide, demonstrated significant reductions in A1C and weight in first Phase 3 trial for treatment of type 2 diabetes For the primary endpoint, retatrutide lowered A1C by an average of 1.7% to 2.0% across doses at 40 weeks in TRANSCEND-T2D-1 Participants taking retatrutide 12 mg lost &nbsp; an average of &nbsp; 36.6 lbs...",
-        "source": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-demonstrated-significant",
-        "source_type": "Eli Lilly",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-19",
-        "ticker": "RYTM",
-        "nct_id": "NCT06772597",
-        "indication": "Obesity",
-        "drug_name": "Setmelanotide",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Rhythm Pharmaceuticals Announces FDA Approval of IMCIVREE\u00ae (setmelanotide) for Patients with Acquired Hypothalamic Obesity David Meeker Quote David Meeker Quote Dr.",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/rhythm-pharmaceuticals-announces-fda-approval-223000250.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-19",
-        "ticker": "LLY",
-        "nct_id": "NCT07232719",
-        "indication": "Obesity",
-        "drug_name": "Retatrutide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07232719",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
