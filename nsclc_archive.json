@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-03-21",
+        "ticker": "GLUE",
+        "nct_id": "NCT05546268",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "MRT-2359",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Monte Rosa J J Supply Deal Refocuses MRT 2359 Prostate Cancer Story Monte Rosa Therapeutics (NasdaqGS:GLUE) announced a new supply agreement with Johnson & Johnson to evaluate MRT-2359 with ERLEADA in metastatic castration resistant prostate cancer.",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/monte-rosa-j-j-supply-110715747.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-13",
+        "is_new": false
+    },
+    {
         "date": "2026-03-20",
         "ticker": "AZN",
         "nct_id": "NCT04995523",
