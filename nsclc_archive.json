@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-03-22",
+        "ticker": "IMU",
+        "nct_id": "NCT04432207",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "IMU-201",
+        "status": "Trial Status Update",
+        "sentiment": "Negative",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04432207",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-14",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-22",
+        "ticker": "KPTI",
+        "nct_id": "NCT03095612, NCT04256707",
+        "indication": "Non-Small Cell Lung Cancer",
+        "drug_name": "Selinexor",
+        "status": "Expected Future Data",
+        "sentiment": "Neutral",
+        "notes": "How The Selinexor Story Is Reframing Karyopharm Therapeutics (KPTI) And Its Growth Expectations Karyopharm Therapeutics is under fresh scrutiny as analysts reaffirm a $28 price target while keeping the central fair value estimate steady at $15.33. That target is being framed largely around confidence in selinexor, the Phase 1 myelofibrosis data, an...",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/selinexor-story-reframing-karyopharm-therapeutics-100306909.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-14",
+        "is_new": false
+    },
+    {
         "date": "2026-03-21",
         "ticker": "GLUE",
         "nct_id": "NCT05546268",
