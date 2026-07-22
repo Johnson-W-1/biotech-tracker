@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-03-23",
+        "ticker": "LLY",
+        "nct_id": "NCT06945419",
+        "indication": "Obesity",
+        "drug_name": "CPX101",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06945419",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-03-22",
         "ticker": "RYTM",
         "nct_id": "NCT06772597",
