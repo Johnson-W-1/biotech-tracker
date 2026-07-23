@@ -179,7 +179,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04303780",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-22",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-29",
@@ -12583,90 +12583,6 @@
         "source": "https://clinicaltrials.gov/study/NCT05853575",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-24",
-        "ticker": "4502.T",
-        "nct_id": "NCT04129502",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Mobocertinib",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT04129502",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-24",
-        "ticker": "PFE, 4503.T",
-        "nct_id": "NCT04225117",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Enfortumab vedotin",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04225117",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-24",
-        "ticker": "KPTI",
-        "nct_id": "NCT03095612, NCT04256707",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Selinexor",
-        "status": "Actual Data Reported",
-        "sentiment": "Positive",
-        "notes": "Karyopharm Therapeutics SENTRY Trial Hits Spleen Endpoint, Shows Early Survival Signal in Myelofibrosis Karyopharm Therapeutics (NASDAQ:KPTI) reported top-line results from its phase III SENTRY trial evaluating selinexor in combination with ruxolitinib in JAK inhibitor-naive (frontline) myelofibrosis, highlighting a statistically significant improv...",
-        "source": "https://www.marketbeat.com/instant-alerts/karyopharm-therapeutics-sentry-trial-hits-spleen-endpoint-shows-early-survival-signal-in-myelofibrosis-2026-03-24/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-24",
-        "ticker": "KPTI",
-        "nct_id": "NCT03095612, NCT04256707",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Selinexor",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Karyopharm Therapeutics' Blood Cancer Therapy Meets a Key Goal in Phase 3 Study, Plans $30 Million Private Placement Karyopharm Therapeutics (KPTI) said Tuesday that its experimental therapy, selinexor, in combination...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/karyopharm-therapeutics-apos-blood-cancer-122956991.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-24",
-        "ticker": "KPTI",
-        "nct_id": "NCT03095612, NCT04256707",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Selinexor",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "(Nasdaq: KPTI), a commercial-stage pharmaceutical company pioneering novel cancer therapies, today reported topline results from its Phase 3 SENTRY trial, a randomized, double-blind, placebo-controlled trial of 60 mg selinexor in combination with ruxolitinib in frontline myelofibrosis (n=353)....",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/karyopharms-phase-3-sentry-trial-110000452.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-24",
-        "ticker": "KPTI",
-        "nct_id": "NCT03095612, NCT04256707",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Selinexor",
-        "status": "Actual Data Reported",
-        "sentiment": "Positive",
-        "notes": "The Common Stock Warrants will be immediately exercisable and will expire 30 days following the public announcement by the Company of the topline results from the Phase 3  XPORT-EC-042  clinical trial of selinexor in patients with endometrial cancer. SENTRY Trial Topline Data    On March\u00a024, 2026, the Company issued a press release announcing topli...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526120770/d125009d8k.htm",
-        "source_type": "SEC 8-K",
-        "date_added": "2026-04-14",
         "is_new": false
     }
 ]
