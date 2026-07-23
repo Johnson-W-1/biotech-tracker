@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05202353",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-22",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-15",
@@ -1998,34 +1998,6 @@
         "notes": "BrightGene Announces Positive Topline Phase 1 Results of Oral BGM0504 in Obesity in China and the United States BrightGene Bio-Medical Technology Co., Ltd.",
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/brightgene-announces-positive-topline-phase-063200593.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-24",
-        "ticker": "BMEA",
-        "nct_id": "NCT07223216",
-        "indication": "Obesity",
-        "drug_name": "BMF-650",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Biomea Fusion Reports Full Year 2025 Financial Results and Corporate Highlights Initiated two Phase II trials COVALENT-211 and COVALENT-212 (icovamenib in type 2 diabetes) with 26-week primary endpoint data anticipated in the fourth quarter of 2026Completed 52-week follow-up from Phase II trial COVALENT-112 (icovamenib in type 1 diabetes) with data...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/biomea-fusion-reports-full-2025-200500776.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-24",
-        "ticker": "BMEA",
-        "nct_id": "NCT07223216",
-        "indication": "Obesity",
-        "drug_name": "BMF-650",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "\u2022 We are early in our development efforts and are substantially dependent on our product candidates, icovamenib (formerly BMF-219) and BMF-650.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1840439/000119312526121825/bmea-20251231.htm",
-        "source_type": "SEC 10-K",
         "date_added": "2026-04-10",
         "is_new": false
     }
