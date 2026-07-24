@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-22",
+        "ticker": "ALNY",
+        "nct_id": "NCT06845202",
+        "indication": "Obesity",
+        "drug_name": "ALN-4324",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06845202",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-24",
+        "is_new": true
+    },
+    {
         "date": "2026-07-20",
         "ticker": "BOEHRINGER INGELHEIM",
         "nct_id": "NCT05202353",
@@ -1970,34 +1984,6 @@
         "notes": "(\u201cRhythm\u201d) issued a press release announcing that the European Medicines Agency's (EMA) Committee for Medicinal Products for Human Use (CHMP) has adopted a positive opinion recommending to expand the current marketing authorization for IMCIVREE \u00ae  (setmelanotide) to include the treatment of obesity and the control of hunger in adults and children 4...",
         "source": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026021414/rytm-20260326.htm",
         "source_type": "SEC 8-K",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-25",
-        "ticker": "VINCENTAGE PHARMA",
-        "nct_id": "NCT06939296",
-        "indication": "Obesity",
-        "drug_name": "VCT220",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06939296",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-25",
-        "ticker": "688166.SS",
-        "nct_id": "NCT06704581",
-        "indication": "Obesity",
-        "drug_name": "BGM0504",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "BrightGene Announces Positive Topline Phase 1 Results of Oral BGM0504 in Obesity in China and the United States BrightGene Bio-Medical Technology Co., Ltd.",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/brightgene-announces-positive-topline-phase-063200593.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
         "date_added": "2026-04-10",
         "is_new": false
     }

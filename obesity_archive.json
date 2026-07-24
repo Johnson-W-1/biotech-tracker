@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-03-25",
+        "ticker": "VINCENTAGE PHARMA",
+        "nct_id": "NCT06939296",
+        "indication": "Obesity",
+        "drug_name": "VCT220",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06939296",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-25",
+        "ticker": "688166.SS",
+        "nct_id": "NCT06704581",
+        "indication": "Obesity",
+        "drug_name": "BGM0504",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "BrightGene Announces Positive Topline Phase 1 Results of Oral BGM0504 in Obesity in China and the United States BrightGene Bio-Medical Technology Co., Ltd.",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/brightgene-announces-positive-topline-phase-063200593.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-03-24",
         "ticker": "BMEA",
         "nct_id": "NCT07223216",
