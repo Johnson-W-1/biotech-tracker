@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03915678",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-24",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-14",
@@ -12457,48 +12457,6 @@
         "source": "https://clinicaltrials.gov/study/NCT03157128",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-16",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-26",
-        "ticker": "AMGN",
-        "nct_id": "NCT05094336",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Anvumetostat",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05094336",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-26",
-        "ticker": "AGEN",
-        "nct_id": "NCT03860272",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Botensilimab + Balstilimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "(\"Agenus\") (Nasdaq: AGEN), a leader in immuno-oncology, today announced it will host its March Stakeholder Webcast focused on continued progress of its botensilimab and balstilimab (BOT+BAL) immunotherapy program and will provide an update on the Company\u2019s patient access programs, development across tumor types, and key priorities for 2026.",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/agenus-host-march-2026-stakeholder-205200693.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-26",
-        "ticker": "NUVB",
-        "nct_id": "NCT04395677, NCT04919811",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Taletrectinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Eisai and Nuvation Bio Announce Marketing Authorisation Application for Taletrectinib for the Treatment of Advanced ROS1-Positive Non-Small Cell Lung Cancer Validated by the European Medicines Agency Eisai Co., Ltd.",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/eisai-nuvation-bio-announce-marketing-200500697.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
         "is_new": false
     }
 ]
