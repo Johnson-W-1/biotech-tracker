@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-03-28",
+        "ticker": "LLY",
+        "nct_id": "NCT04184622, NCT05822830",
+        "indication": "Obesity",
+        "drug_name": "Tirzepatide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Phase 3b data presented at AAD Annual Meeting show Lilly's Taltz (ixekizumab) plus Zepbound (tirzepatide) delivered superior efficacy for adults with psoriatic arthritis and obesity Taltz and Zepbound used together provided comprehensive improvements in disease activity and patient-reported outcomes compared to Taltz monotherapy in TOGETHER-PsA stu...",
+        "source": "https://investor.lilly.com/news-releases/news-release-details/phase-3b-data-presented-aad-annual-meeting-show-lillys-taltz",
+        "source_type": "Eli Lilly",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
+        "date": "2026-03-28",
+        "ticker": "VKTX",
+        "nct_id": "NCT06068946",
+        "indication": "Obesity",
+        "drug_name": "VK2735",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "A Look At Viking Therapeutics (VKTX) Valuation As VK2735 Phase 3 Enrollment Reaches Completion Viking Therapeutics (VKTX) shares are back in focus after the company completed enrollment in VANQUISH-2, its Phase 3 trial of obesity and type 2 diabetes drug candidate VK2735.",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/look-viking-therapeutics-vktx-valuation-190314731.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-10",
+        "is_new": false
+    },
+    {
         "date": "2026-03-27",
         "ticker": "VKTX",
         "nct_id": "NCT06068946",
