@@ -14,6 +14,20 @@
         "is_new": false
     },
     {
+        "date": "2026-07-23",
+        "ticker": "6550_TW",
+        "nct_id": "NCT05616624",
+        "indication": "ADI-PEG 20",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05616624",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-27",
+        "is_new": true
+    },
+    {
         "date": "2026-07-14",
         "ticker": "AZN_GB",
         "nct_id": "NCT03043872",
@@ -12317,20 +12331,6 @@
         "source": "https://clinicaltrials.gov/study/NCT06561386",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-28",
-        "ticker": "9926.HK",
-        "nct_id": "NCT05499390",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Ivonescimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Summit Therapeutics (SMMT) Is Up 6.9% After Phase III Ivonescimab Data And FDA Filing - What's Changed Summit Therapeutics recently presented Phase III data for its investigational bispecific antibody ivonescimab at the European Lung Cancer Congress in Copenhagen, showing improved intracranial progression-free survival in EGFR\u2011mutated non-small cel...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/summit-therapeutics-smmt-6-9-050337202.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
         "is_new": false
     }
 ]
