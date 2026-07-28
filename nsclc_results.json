@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-27",
+        "ticker": "MRK",
+        "nct_id": "NCT05599789",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT05599789",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-28",
+        "is_new": true
+    },
+    {
         "date": "2026-07-23",
         "ticker": "Eikon Therapeutics",
         "nct_id": "NCT03915678",
@@ -25,7 +39,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05616624",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-27",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-14",
@@ -54,6 +68,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-15",
         "is_new": false
+    },
+    {
+        "date": "2026-07-10",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03141359",
+        "indication": "Chemotherapy",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03141359",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-28",
+        "is_new": true
     },
     {
         "date": "2026-07-09",
