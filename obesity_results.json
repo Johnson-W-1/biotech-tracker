@@ -1720,19 +1720,5 @@
         "source_type": "SEC 10-K",
         "date_added": "2026-04-10",
         "is_new": false
-    },
-    {
-        "date": "2026-03-29",
-        "ticker": "GPCR",
-        "nct_id": "NCT05762471",
-        "indication": "Obesity",
-        "drug_name": "Aleniglipron",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Structure Therapeutics Phase 2 Obesity Data Shifts Focus To Phase 3 Structure Therapeutics (NasdaqGM:GPCR) reported positive topline Phase 2 results for its oral GLP-1 receptor agonist aleniglipron in obesity.",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/structure-therapeutics-phase-2-obesity-210515565.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
