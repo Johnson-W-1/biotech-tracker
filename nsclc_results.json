@@ -25,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02486718",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-29",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-23",
@@ -109,7 +109,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03425643",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-29",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-09",
@@ -126,6 +126,20 @@
         "is_new": false
     },
     {
+        "date": "2026-07-05",
+        "ticker": "HUYABIO International, LLC.",
+        "nct_id": "NCT02718066",
+        "indication": "Tucidinostat",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02718066",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-30",
+        "is_new": true
+    },
+    {
         "date": "2026-07-03",
         "ticker": "AZN_GB",
         "nct_id": "NCT04765059",
@@ -138,6 +152,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-07",
         "is_new": false
+    },
+    {
+        "date": "2026-07-03",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT04606771",
+        "indication": "Savolitinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04606771",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-30",
+        "is_new": true
     },
     {
         "date": "2026-07-02",
@@ -180,6 +208,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-06",
         "is_new": false
+    },
+    {
+        "date": "2026-07-02",
+        "ticker": "JNJ",
+        "nct_id": "NCT04988295",
+        "indication": "Amivantamab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04988295",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-30",
+        "is_new": true
     },
     {
         "date": "2026-07-01",
@@ -277,7 +319,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04245085",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-29",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-06-29",
@@ -11995,202 +12037,6 @@
         "source": "https://clinicaltrials.gov/study/NCT02587455",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "GMAB",
-        "nct_id": "NCT03917381",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Acasunlimab",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT03917381",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "AZN",
-        "nct_id": "NCT02125461, NCT02511106, NCT03521154, NCT03703297, NCT03706690, NCT04642469",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Placebo",
-        "status": "Actual Data Reported",
-        "sentiment": "Positive",
-        "notes": "Efzimfotase alfa Ph3 program show positive results         \u00a0      \u00a0      This announcement contains inside information      \u00a0      31 March 2026      \u00a0       Efzimfotase\u00a0alfa\u00a0demonstrated positive results from global Phase III clinical programme\u00a0in hypophosphatasia      \u00a0      MULBERRY randomised, placebo-controlled trial showed efzimfotase alfa de...",
-        "source": "https://www.sec.gov/Archives/edgar/data/901832/000165495426003013/a7230y.htm",
-        "source_type": "SEC 6-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "TVRD",
-        "nct_id": "NCT03195699",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "TTI-101",
-        "status": "Expected Future Data",
-        "sentiment": "Neutral",
-        "notes": "Tvardi Therapeutics Announces Fourth Quarter and Full-Year 2025 Results and Provides Business Update Results from healthy volunteer study of next-generation STAT3 inhibitor, TTI-109, on track for Q2 2026 Topline data from Phase 2 trial of TTI-101 in hepatocellular carcinoma (HCC) are anticipated in H2 2026 Cash runway expected to be sufficient to f...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/tvardi-therapeutics-announces-fourth-quarter-200100070.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "TVRD",
-        "nct_id": "NCT03195699",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "TTI-101",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "The forward-looking statements in this Annual Report on Form\u00a010-K include, among other things, statements about: \u25cf our ability to continue as a going concern; \u25cf our ability to realize the anticipated benefits of the Merger; \u25cf our ability to maintain compliance with Nasdaq listing requirements; \u25cf the expectations surrounding the potential safety, ef...",
-        "source": "https://www.sec.gov/Archives/edgar/data/1346830/000110465926037729/tvrd-20251231x10k.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "AGEN",
-        "nct_id": "NCT03860272",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Botensilimab + Balstilimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Agenus AGM: Bot/Bal Combo Targets \u201cCold\u201d MSS Colorectal Cancer as Phase III BATMAN Trial Launches Agenus (NASDAQ:AGEN) used its March stakeholder webcast to highlight progress for its investigational immunotherapy combination of botensilimab and balstilimab (bot/bal), emphasizing efforts to broaden immunotherapy\u2019s reach into \u201ccold\u201d tumors such as m...",
-        "source": "https://www.marketbeat.com/instant-alerts/agenus-agm-botbal-combo-targets-cold-mss-colorectal-cancer-as-phase-iii-batman-trial-launches-2026-03-31/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "9926.HK",
-        "nct_id": "NCT05499390",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Ivonescimab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Ivonescimab Shows Quality of Life Benefits in Chemotherapy-Free First-Line NSCLC: Health-Related Quality of Life Data from the HARMONi-2 Study Presented at ELCC 2026 Akeso, Inc.",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/ivonescimab-shows-quality-life-benefits-094000656.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "9926.HK",
-        "nct_id": "NCT05499390",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Pembrolizumab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "The study evaluated ivonescimab, the company's first-in-class PD-1/VEGF bispecific antibody, versus pembrolizumab as a first-line treatment for patients with PD-L1\u2013positive non-small cell lung cancer (NSCLC).",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/ivonescimab-shows-quality-life-benefits-094000656.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "OSTX",
-        "nct_id": "NCT03847519",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "ADXS-503",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "The HER2 Assets include two investigational new drug applications (\u201cIND\u201d) with the FDA: (i) ADXS-503 for non-small cell lung cancer; and (ii) ADXS-504 for prostate cancer.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1795091/000121390026036629/ea0283146-10k_ostherap.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "BCAB",
-        "nct_id": "NCT04681131",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Mecbotamab vedotin",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Mecbotamab vedotin (BA3011):  Our clinical stage product candidate, mecbotamab vedotin, or BA3011, is a CAB ADC that targets AXL, a protein kinase receptor that is expressed on the surface of many tumors.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1826892/000119312526134499/bcab-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "BCAB",
-        "nct_id": "NCT04681131",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Mecbotamab vedotin + Nivolumab",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Mecbotamab vedotin (BA3011):  Our clinical stage product candidate, mecbotamab vedotin, or BA3011, is a CAB ADC that targets AXL, a protein kinase receptor that is expressed on the surface of many tumors.",
-        "source": "https://www.sec.gov/Archives/edgar/data/1826892/000119312526134499/bcab-20251231.htm",
-        "source_type": "SEC 10-K",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT05261399",
-        "indication": "Savolitinib",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05261399",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "9606_CN",
-        "nct_id": "NCT05785741",
-        "indication": "DB-1310",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05785741",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "MRK",
-        "nct_id": "NCT06780098",
-        "indication": "R-DXD",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06780098",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT04765059",
-        "indication": "Osimertinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04765059",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-21",
         "is_new": false
     }
 ]
