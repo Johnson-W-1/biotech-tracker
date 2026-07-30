@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-28",
+        "ticker": "LLY",
+        "nct_id": "NCT05882045",
+        "indication": "Obesity",
+        "drug_name": "Retatrutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05882045",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-30",
+        "is_new": true
+    },
+    {
         "date": "2026-07-22",
         "ticker": "ALNY",
         "nct_id": "NCT06845202",
@@ -1607,34 +1621,6 @@
         "source": "https://clinicaltrials.gov/study/NCT07253285",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "WVE",
-        "nct_id": "NCT06842186",
-        "indication": "Obesity",
-        "drug_name": "WVE-007",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Wave Life Sciences Obesity Data Highlights Visceral Fat Focus Over Weight Loss Wave Life Sciences (NasdaqGM:WVE) released new Phase 1 data for obesity candidate WVE-007 from its INLIGHT study.",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/wave-life-sciences-obesity-data-060621514.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-03-31",
-        "ticker": "LLY, 1801.HK",
-        "nct_id": "NCT06124807",
-        "indication": "Obesity",
-        "drug_name": "mazdutide",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT06124807",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-21",
         "is_new": false
     }
 ]
