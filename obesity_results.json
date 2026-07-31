@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05882045",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-30",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-22",
@@ -1593,34 +1593,6 @@
         "source": "https://clinicaltrials.gov/study/NCT05646706",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-23",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-01",
-        "ticker": "LLY, 4519.T",
-        "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
-        "indication": "Obesity",
-        "drug_name": "Orforglipron",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "FDA approves Lilly's Foundayo\u2122 (orforglipron), the only GLP-1 pill for weight loss that can be taken any time of day without food or water restrictions Adults taking Foundayo lost an average of 27 pounds on the highest dose in the ATTAIN-1 clinical trial 1 Foundayo, Lilly's second FDA-approved obesity medicine, will be available via LillyDirect \u00ae w...",
-        "source": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill",
-        "source_type": "Eli Lilly",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-01",
-        "ticker": "NVO",
-        "nct_id": "NCT07253285",
-        "indication": "Obesity",
-        "drug_name": "CagriSema + Cagrilintide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07253285",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
         "is_new": false
     }
 ]
