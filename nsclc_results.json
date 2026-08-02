@@ -11730,33 +11730,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
-    },
-    {
-        "date": "2026-04-03",
-        "ticker": "4528.T",
-        "nct_id": "NCT04892017",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Inlexisertib",
-        "status": "Trial Status Update",
-        "sentiment": "Negative",
-        "notes": "Official CTG Update. Status: TERMINATED. ",
-        "source": "https://clinicaltrials.gov/study/NCT04892017",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-03",
-        "ticker": "GSK_GB",
-        "nct_id": "NCT06130254",
-        "indication": "Adagrasib",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Negative",
-        "notes": "Official CTG Update. Status: TERMINATED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06130254",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
     }
 ]
