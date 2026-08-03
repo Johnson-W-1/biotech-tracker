@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-31",
+        "ticker": "BEIJING QL BIOPHARMACEUTICAL CO.,LTD",
+        "nct_id": "NCT07230119",
+        "indication": "Obesity",
+        "drug_name": "Zovaglutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07230119",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-03",
+        "is_new": true
+    },
+    {
         "date": "2026-07-28",
         "ticker": "LLY",
         "nct_id": "NCT05882045",
