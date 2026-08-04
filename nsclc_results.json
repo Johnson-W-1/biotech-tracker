@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-08-03",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03521154",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03521154",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-04",
+        "is_new": true
+    },
+    {
         "date": "2026-07-30",
         "ticker": "JNJ",
         "nct_id": "NCT05388669",
@@ -152,6 +166,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-13",
         "is_new": false
+    },
+    {
+        "date": "2026-07-09",
+        "ticker": "GMAB_DK",
+        "nct_id": "NCT03917381",
+        "indication": "Acasunlimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03917381",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-04",
+        "is_new": true
     },
     {
         "date": "2026-07-05",
