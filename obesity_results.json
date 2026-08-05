@@ -1454,47 +1454,5 @@
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
         "is_new": false
-    },
-    {
-        "date": "2026-04-06",
-        "ticker": "MTVA",
-        "nct_id": "NCT06252220",
-        "indication": "Obesity",
-        "drug_name": "LY4086940",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06252220",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-06",
-        "ticker": "NVO",
-        "nct_id": "NCT07220642",
-        "indication": "Obesity",
-        "drug_name": "Cagrilintide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07220642",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-06",
-        "ticker": "128940.KS",
-        "nct_id": "NCT07205900",
-        "indication": "Obesity",
-        "drug_name": "HM15275",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07205900",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
     }
 ]
