@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-08-04",
+        "ticker": "RYTM",
+        "nct_id": "NCT05093634",
+        "indication": "Obesity",
+        "drug_name": "Setmelanotide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05093634",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-06",
+        "is_new": true
+    },
+    {
         "date": "2026-07-31",
         "ticker": "BEIJING QL BIOPHARMACEUTICAL CO.,LTD",
         "nct_id": "NCT07230119",
@@ -1397,62 +1411,6 @@
         "source": "https://clinicaltrials.gov/study/NCT07225686",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-07",
-        "ticker": "BMEA",
-        "nct_id": "NCT07223216",
-        "indication": "Obesity",
-        "drug_name": "BMF-650",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07223216",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-07",
-        "ticker": "1672.HK",
-        "nct_id": "NCT06679959",
-        "indication": "Obesity",
-        "drug_name": "ASC30",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Ascletis Announces Fixed-Dose Combination of ASC30, Once-Daily Oral Small Molecule GLP-1R Agonist, and ASC39, Once-Daily Oral Small Molecule Amylin-Selective Amylin Receptor Agonist, for Clinical Development Ascletis Pharma Inc.",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/ascletis-announces-fixed-dose-combination-110000075.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-07",
-        "ticker": "ARWR",
-        "nct_id": "NCT06937203",
-        "indication": "Obesity",
-        "drug_name": "ARO-ALK7",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06937203",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-07",
-        "ticker": "1672.HK",
-        "nct_id": "NCT06679959",
-        "indication": "Obesity",
-        "drug_name": "ASC30",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Ascletis Announces Fixed-Dose Combination of ASC30, Once-Daily Oral Small Molecule GLP-1R Agonist, and ASC39, Once-Daily Oral Small Molecule Amylin-Selective Amylin Receptor Agonist, for Clinical Development Ascletis Pharma Inc. (HKEX: 1672, \"Ascletis\") announces that it has selected ASC30_39 FDC, a fixed-dose combination (FDC) of ASC30, once-daily...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/ascletis-announces-fixed-dose-combination-110000602.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-21",
         "is_new": false
     }
 ]
