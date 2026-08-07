@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05093634",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-06",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-31",
@@ -1383,34 +1383,6 @@
         "source": "https://finance.yahoo.com/sectors/healthcare/articles/gan-lee-pharmaceuticals-signs-exclusive-130000196.html?.tsrc=rss",
         "source_type": "Yahoo Finance",
         "date_added": "2026-04-21",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-08",
-        "ticker": "AMGN",
-        "nct_id": "NCT07226765",
-        "indication": "Obesity",
-        "drug_name": "MariTide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07226765",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-08",
-        "ticker": "AMGN",
-        "nct_id": "NCT07225686",
-        "indication": "Obesity",
-        "drug_name": "MariTide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07225686",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-10",
         "is_new": false
     }
 ]
