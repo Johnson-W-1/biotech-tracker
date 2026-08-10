@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-04-11",
+        "ticker": "AMGN",
+        "nct_id": "NCT05669599",
+        "indication": "Obesity",
+        "drug_name": "MariTide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Assessing Amgen (AMGN) Valuation As TEPEZZA And MariTide Trial Results Draw Fresh Investor Focus Why TEPEZZA and MariTide Are Back in Focus for Amgen (AMGN) Amgen (AMGN) is drawing fresh attention after Phase 3 data for subcutaneous TEPEZZA in Thyroid Eye Disease and strong weight loss results for obesity candidate MariTide reshaped expectations ar...",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/assessing-amgen-amgn-valuation-tepezza-101151935.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-11",
+        "is_new": false
+    },
+    {
         "date": "2026-04-10",
         "ticker": "LLY, 4519.T",
         "nct_id": "NCT05051579",
