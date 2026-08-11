@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-08-07",
+        "ticker": "GPCR",
+        "nct_id": "NCT06693843",
+        "indication": "Obesity",
+        "drug_name": "Aleniglipron",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06693843",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-11",
+        "is_new": true
+    },
+    {
+        "date": "2026-08-06",
+        "ticker": "TERN",
+        "nct_id": "NCT06854952",
+        "indication": "Obesity",
+        "drug_name": "TERN-601",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT06854952",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-11",
+        "is_new": true
+    },
+    {
         "date": "2026-08-04",
         "ticker": "RYTM",
         "nct_id": "NCT05093634",
