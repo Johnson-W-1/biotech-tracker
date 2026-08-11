@@ -11282,19 +11282,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-15",
         "is_new": false
-    },
-    {
-        "date": "2026-04-12",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT03446547",
-        "indication": "SBRT",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT03446547",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
     }
 ]
