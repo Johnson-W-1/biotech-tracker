@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-04-14",
+        "ticker": "600276.SS",
+        "nct_id": "NCT07269756",
+        "indication": "Obesity",
+        "drug_name": "HRS-7535",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07269756",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-15",
+        "is_new": false
+    },
+    {
+        "date": "2026-04-14",
+        "ticker": "PFE, MET",
+        "nct_id": "NCT06897202",
+        "indication": "Obesity",
+        "drug_name": "MET097",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06897202",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-04-18",
+        "is_new": false
+    },
+    {
         "date": "2026-04-13",
         "ticker": "BOEHRINGER INGELHEIM",
         "nct_id": "NCT05202353",

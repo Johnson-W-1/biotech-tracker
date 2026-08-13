@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-08-12",
+        "ticker": "AZN",
+        "nct_id": "NCT07220954",
+        "indication": "Obesity",
+        "drug_name": "AZD6234",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07220954",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-13",
+        "is_new": true
+    },
+    {
         "date": "2026-08-07",
         "ticker": "GPCR",
         "nct_id": "NCT06693843",
@@ -1131,34 +1145,6 @@
         "source": "https://clinicaltrials.gov/study/NCT06972472",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-04-21",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "600276.SS",
-        "nct_id": "NCT07269756",
-        "indication": "Obesity",
-        "drug_name": "HRS-7535",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT07269756",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "PFE, MET",
-        "nct_id": "NCT06897202",
-        "indication": "Obesity",
-        "drug_name": "MET097",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06897202",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-18",
         "is_new": false
     }
 ]
