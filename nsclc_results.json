@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-08-12",
+        "ticker": "OncoC4",
+        "nct_id": "NCT05671510",
+        "indication": "Gotistobart",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT05671510",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-13",
+        "is_new": true
+    },
+    {
         "date": "2026-08-11",
         "ticker": "ONC",
         "nct_id": "NCT06091943",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06091943",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-07",
@@ -25,7 +39,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06792435",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-05",
@@ -165,7 +179,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04685135",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-16",
@@ -11085,174 +11099,6 @@
         "source": "https://clinicaltrials.gov/study/NCT03132922",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-08",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "TPST",
-        "nct_id": "NCT03829436",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Amezalpat",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Tempest Appoints Andrew Fang, Ph.D., as Head of Business Development to Advance Strategic Partnerships and Global Licensing Efforts Adds dedicated business development leadership to support Tempest\u2019s strategic prioritiesWill lead China outreach and cross-border partnership effortsTo support ongoing partnering discussions for Phase 3-ready amezalpat...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/tempest-appoints-andrew-fang-ph-120000063.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "RVMD",
-        "nct_id": "NCT05379985",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Daraxonrasib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Revolution Medicines Facing Further Upside After Daraxonrasib's Results, RBC Says Revolution Medicines (RVMD) has several paths toward additional upside on potential M&A deals and a...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/revolution-medicines-facing-further-upside-154236899.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "RVMD",
-        "nct_id": "NCT05379985",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Daraxonrasib",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Revolution Medicines (RVMD) Is Up 42.9% After Phase 3 Daraxonrasib Survival Data And $750M Equity Raise \u2013 Has The Bull Case Changed? Earlier this month, Revolution Medicines reported positive topline results from its global Phase 3 RASolute 302 trial, where oral RAS(ON) inhibitor daraxonrasib nearly doubled median overall survival to 13.2 months ve...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/revolution-medicines-rvmd-42-9-090524529.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "RVMD",
-        "nct_id": "NCT05379985",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Daraxonrasib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Revolution Medicines soared to a fresh all-time high on Monday, as investors cheered the stellar results from the clinical trial of its pancreatic cancer treatment, daraxonrasib. (NASDAQ:RVMD) said that Daraxonrasib recorded a median overall survival of [\u2026]...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/revolution-medicines-rvmd-soars-time-005140303.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "IMRX",
-        "nct_id": "NCT05585320",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Atebimetinib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Zeskind told investors at a Needham conference session that 2026 has started with what he described as \u201cextraordinary\u201d early survival results for the company\u2019s lead program, atebimetinib, in first-line pancreatic cancer, and outlined multiple upcoming clinic...",
-        "source": "https://www.marketbeat.com/instant-alerts/immuneering-ceo-touts-64-12-month-survival-in-pancreatic-cancer-phase-3-launch-nears-2026-04-14/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "6990.HK",
-        "nct_id": "NCT05816252",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Sacituzumab tirumotecan",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "Kelun-Biotech Announces Results from the SKB264-II-06/MK-2870-002 Study of Sacituzumab Tirumotecan (Sac-TMT) in Gynecologic Oncology Presented at 2026 SGO Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. (\"Kelun-Biotech\" or the \"Company\", 6990.HK) announced that results from both the ovarian cancer cohort and the cervical cancer cohort of Phase II...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/kelun-biotech-announces-results-skb264-000000071.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "RVMD",
-        "nct_id": "NCT05379985",
-        "indication": "Non-Small Cell Lung Cancer",
-        "drug_name": "Daraxonrasib",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "RVMD Stock Rallies 41% on Positive Phase III Pancreatic Cancer Data Revolution Medicines jumps 41% as phase III data show daraxonrasib boosts survival in metastatic PDAC, paving the way for global regulatory filings....",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/rvmd-stock-rallies-41-positive-163100245.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "ONC",
-        "nct_id": "NCT05635708",
-        "indication": "Tislelizumab",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05635708",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "BCYC_GB",
-        "nct_id": "NCT06933329",
-        "indication": "Zelenectide pevedotin",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06933329",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "GRTX",
-        "nct_id": "NCT04476797",
-        "indication": "SBRT",
-        "drug_name": "NSCLC",
-        "status": "Trial Mention (Unspecified)",
-        "sentiment": "Neutral",
-        "notes": "and to advance Obsidian\u2019s pipeline of novel engineered TIL cell therapies for the treatment of patients with solid tumors.Obsidian\u2019s lead product candidate, OBX-115, is a genetically engineered, autologous TIL cell therapy currently in a Phase 2 clinical trial for the treatment of advanced melanoma and a Phase 1 clinical trial for the treatment of ...",
-        "source": "https://finance.yahoo.com/sectors/healthcare/articles/galera-therapeutics-obsidian-therapeutics-announce-180800330.html?.tsrc=rss",
-        "source_type": "Yahoo Finance",
-        "date_added": "2026-04-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "ROG_CH",
-        "nct_id": "NCT03456076",
-        "indication": "Alectinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03456076",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-05",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-14",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT03521154",
-        "indication": "Osimertinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03521154",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-05",
         "is_new": false
     }
 ]
