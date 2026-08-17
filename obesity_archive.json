@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-04-18",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "Foundayo Trial Results Recast Eli Lilly Story On GLP1 Safety And Growth Eli Lilly (NYSE:LLY) reported positive phase 3 ACHIEVE-4 results for its once-daily oral GLP-1 therapy Foundayo (orforglipron) in at-risk type 2 diabetes patients....",
+        "source": "https://finance.yahoo.com/sectors/healthcare/articles/foundayo-trial-results-recast-eli-130246654.html?.tsrc=rss",
+        "source_type": "Yahoo Finance",
+        "date_added": "2026-04-18",
+        "is_new": false
+    },
+    {
         "date": "2026-04-17",
         "ticker": "LLY",
         "nct_id": "NCT04881760",
