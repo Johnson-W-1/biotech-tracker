@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-04-19",
+        "ticker": "LLY",
+        "nct_id": "NCT06230523",
+        "indication": "Obesity",
+        "drug_name": "Eloralinitide",
+        "status": "Trial Mention (Unspecified)",
+        "sentiment": "Neutral",
+        "notes": "This peer-reviewed paper presents findings for clinical trial NCT06230523 evaluating the drug Eloralinitide....",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/41207310/",
+        "source_type": "PubMed Journal",
+        "date_added": "2026-04-19",
+        "is_new": false
+    },
+    {
         "date": "2026-04-18",
         "ticker": "LLY, 4519.T",
         "nct_id": "NCT05051579, NCT05869903, NCT06972472, NCT06824051, NCT06584916",
