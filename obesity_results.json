@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-08-19",
+        "ticker": "ORSOBIO, INC",
+        "nct_id": "NCT05822544",
+        "indication": "Obesity",
+        "drug_name": "TLC-6740",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT05822544",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-21",
+        "is_new": true
+    },
+    {
         "date": "2026-08-18",
         "ticker": "LLY",
         "nct_id": "NCT06945419",
