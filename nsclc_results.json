@@ -98,6 +98,20 @@
         "is_new": false
     },
     {
+        "date": "2026-08-04",
+        "ticker": "PFE",
+        "nct_id": "NCT04579380",
+        "indication": "Tucatinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04579380",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-21",
+        "is_new": true
+    },
+    {
         "date": "2026-08-03",
         "ticker": "AZN_GB",
         "nct_id": "NCT03521154",
@@ -137,7 +151,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04487080",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-30",
@@ -151,7 +165,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04988295",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-29",
@@ -166,6 +180,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-31",
         "is_new": false
+    },
+    {
+        "date": "2026-07-29",
+        "ticker": "MRK_DE",
+        "nct_id": "NCT03940703",
+        "indication": "Tepotinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03940703",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-21",
+        "is_new": true
     },
     {
         "date": "2026-07-27",
@@ -1509,62 +1537,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04154956",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-18",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-22",
-        "ticker": "GILD",
-        "nct_id": "NCT05089734",
-        "indication": "Sacituzumab govitecan",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT05089734",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-08",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-22",
-        "ticker": "Pinnacle Biologics Inc.",
-        "nct_id": "NCT03735095",
-        "indication": "Porfimer Sodium",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03735095",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-22",
-        "ticker": "4502_JP",
-        "nct_id": "NCT03807778",
-        "indication": "Mobocertinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03807778",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-22",
-        "ticker": "NOVN_CH",
-        "nct_id": "NCT05445843",
-        "indication": "Opnurasib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT05445843",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-14",
         "is_new": false
     }
 ]
