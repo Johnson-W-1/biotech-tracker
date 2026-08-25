@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-08-21",
+        "ticker": "REGN",
+        "nct_id": "NCT06465329",
+        "indication": "Cemiplimab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06465329",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-25",
+        "is_new": true
+    },
+    {
         "date": "2026-08-14",
         "ticker": "2616_CN",
         "nct_id": "NCT03789604",
@@ -96,6 +110,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-06",
         "is_new": false
+    },
+    {
+        "date": "2026-08-05",
+        "ticker": "BMY",
+        "nct_id": "NCT02434081",
+        "indication": "Nivolumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02434081",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-25",
+        "is_new": true
     },
     {
         "date": "2026-08-04",
