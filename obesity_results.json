@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-08-21",
+        "ticker": "NVO",
+        "nct_id": "NCT06719011",
+        "indication": "Obesity",
+        "drug_name": "Cagrilintide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06719011",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-25",
+        "is_new": true
+    },
+    {
+        "date": "2026-08-21",
+        "ticker": "LLY",
+        "nct_id": "NCT07232732",
+        "indication": "Obesity",
+        "drug_name": "LY3549492",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07232732",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-25",
+        "is_new": true
+    },
+    {
+        "date": "2026-08-20",
+        "ticker": "KAILERA THERAPEUTICS",
+        "nct_id": "NCT06621316",
+        "indication": "Obesity",
+        "drug_name": "HRS-7535",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06621316",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-25",
+        "is_new": true
+    },
+    {
         "date": "2026-08-19",
         "ticker": "ORSOBIO, INC",
         "nct_id": "NCT05822544",
