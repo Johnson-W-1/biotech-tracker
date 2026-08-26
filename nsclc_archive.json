@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-04-27",
+        "ticker": "SAN_FR",
+        "nct_id": "NCT04154956",
+        "indication": "Tusamitamab ravtansine",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04154956",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-18",
+        "is_new": false
+    },
+    {
         "date": "2026-04-22",
         "ticker": "GILD",
         "nct_id": "NCT05089734",

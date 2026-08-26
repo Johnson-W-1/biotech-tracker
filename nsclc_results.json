@@ -11,6 +11,20 @@
         "source": "https://clinicaltrials.gov/study/NCT06465329",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-25",
+        "is_new": false
+    },
+    {
+        "date": "2026-08-21",
+        "ticker": "4568_JP",
+        "nct_id": "NCT04656652",
+        "indication": "Datopotamab deruxtecan",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04656652",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-26",
         "is_new": true
     },
     {
@@ -84,6 +98,20 @@
         "is_new": false
     },
     {
+        "date": "2026-08-06",
+        "ticker": "BMY",
+        "nct_id": "NCT04025879",
+        "indication": "Nivolumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04025879",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-26",
+        "is_new": true
+    },
+    {
         "date": "2026-08-05",
         "ticker": "AZN_GB",
         "nct_id": "NCT02542293",
@@ -123,6 +151,48 @@
         "source": "https://clinicaltrials.gov/study/NCT02434081",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-25",
+        "is_new": false
+    },
+    {
+        "date": "2026-08-05",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03133546",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03133546",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-26",
+        "is_new": true
+    },
+    {
+        "date": "2026-08-05",
+        "ticker": "MRK",
+        "nct_id": "NCT05722015",
+        "indication": "Pembrolizumab/Berahyaluronidase alfa Coformulation",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05722015",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-26",
+        "is_new": true
+    },
+    {
+        "date": "2026-08-05",
+        "ticker": "MRK",
+        "nct_id": "NCT06212752",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT06212752",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-26",
         "is_new": true
     },
     {
@@ -1551,20 +1621,6 @@
         "source": "https://clinicaltrials.gov/study/NCT05865990",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-04",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-27",
-        "ticker": "SAN_FR",
-        "nct_id": "NCT04154956",
-        "indication": "Tusamitamab ravtansine",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04154956",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-18",
         "is_new": false
     }
 ]
