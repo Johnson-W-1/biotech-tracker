@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04487080",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-27",
@@ -25,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05298423",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-27",
@@ -39,7 +39,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06475937",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-26",
@@ -53,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05299125",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-28",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-21",
@@ -1607,34 +1607,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04619797",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-03",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-30",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT02542293",
-        "indication": "Durvalumab",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT02542293",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-02",
-        "is_new": false
-    },
-    {
-        "date": "2026-04-30",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT03775486",
-        "indication": "Durvalumab",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03775486",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-02",
         "is_new": false
     }
 ]
