@@ -11,6 +11,20 @@
         "source": "https://clinicaltrials.gov/study/NCT05460273",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-31",
+        "is_new": false
+    },
+    {
+        "date": "2026-08-28",
+        "ticker": "4568_JP",
+        "nct_id": "NCT04619004",
+        "indication": "Patritumab deruxtecan",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04619004",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-01",
         "is_new": true
     },
     {
@@ -67,7 +81,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04538664",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-31",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-27",
@@ -81,7 +95,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05388669",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-31",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-26",
@@ -180,6 +194,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-12",
         "is_new": false
+    },
+    {
+        "date": "2026-08-10",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03057106",
+        "indication": "Durvalumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03057106",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-01",
+        "is_new": true
     },
     {
         "date": "2026-08-07",
