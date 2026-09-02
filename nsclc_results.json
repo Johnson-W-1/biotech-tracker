@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-08-31",
+        "ticker": "SNSE",
+        "nct_id": "NCT05864144",
+        "indication": "Solnerstotug",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05864144",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-02",
+        "is_new": true
+    },
+    {
+        "date": "2026-08-31",
+        "ticker": "AMGN",
+        "nct_id": "NCT06333678",
+        "indication": "Durvalumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06333678",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-02",
+        "is_new": true
+    },
+    {
         "date": "2026-08-28",
         "ticker": "AZN_GB",
         "nct_id": "NCT05460273",
@@ -25,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04619004",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-01",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-27",
@@ -207,7 +235,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03057106",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-01",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-07",
