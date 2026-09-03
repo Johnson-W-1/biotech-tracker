@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05864144",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-02",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-31",
@@ -25,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06333678",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-02",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-28",
@@ -182,6 +182,20 @@
         "is_new": false
     },
     {
+        "date": "2026-08-14",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT04035486",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04035486",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-03",
+        "is_new": true
+    },
+    {
         "date": "2026-08-12",
         "ticker": "OncoC4",
         "nct_id": "NCT05671510",
@@ -208,6 +222,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-14",
         "is_new": false
+    },
+    {
+        "date": "2026-08-12",
+        "ticker": "RAPT",
+        "nct_id": "NCT03674567",
+        "indication": "Tivumecirnon",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03674567",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-03",
+        "is_new": true
     },
     {
         "date": "2026-08-11",
