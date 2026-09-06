@@ -460,19 +460,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-18",
         "is_new": false
-    },
-    {
-        "date": "2026-05-08",
-        "ticker": "AZN",
-        "nct_id": "NCT06151964",
-        "indication": "Obesity",
-        "drug_name": "AZD9550",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06151964",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-12",
-        "is_new": false
     }
 ]
