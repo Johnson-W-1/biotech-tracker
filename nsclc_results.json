@@ -1608,33 +1608,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-05",
         "is_new": false
-    },
-    {
-        "date": "2026-05-08",
-        "ticker": "Cybrexa Therapeutics",
-        "nct_id": "NCT04902872",
-        "indication": "CBX-12",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT04902872",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-12",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-08",
-        "ticker": "ADAPY_GB",
-        "nct_id": "NCT03132922",
-        "indication": "MAGE-A4c1032T",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03132922",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-04",
-        "is_new": false
     }
 ]
