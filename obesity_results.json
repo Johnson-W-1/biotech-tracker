@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-09-07",
+        "ticker": "ROG",
+        "nct_id": "NCT06982131",
+        "indication": "Obesity",
+        "drug_name": "RO7795081",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06982131",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-09",
+        "is_new": true
+    },
+    {
+        "date": "2026-09-04",
+        "ticker": "AMGN",
+        "nct_id": "NCT06585462",
+        "indication": "Obesity",
+        "drug_name": "AMG513",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06585462",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-09",
+        "is_new": true
+    },
+    {
         "date": "2026-08-21",
         "ticker": "NVO",
         "nct_id": "NCT06719011",
