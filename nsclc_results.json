@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02129699",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-08",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-31",
@@ -182,6 +182,34 @@
         "is_new": false
     },
     {
+        "date": "2026-08-17",
+        "ticker": "GMAB_DK",
+        "nct_id": "NCT03917381",
+        "indication": "Acasunlimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03917381",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-09",
+        "is_new": true
+    },
+    {
+        "date": "2026-08-17",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT04351555",
+        "indication": "Osimertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04351555",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-09",
+        "is_new": true
+    },
+    {
         "date": "2026-08-14",
         "ticker": "2616_CN",
         "nct_id": "NCT03789604",
@@ -221,7 +249,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03906071",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-08",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-12",
@@ -1565,76 +1593,6 @@
         "source": "https://clinicaltrials.gov/study/NCT03516981",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-08",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-11",
-        "ticker": "6887_CN",
-        "nct_id": "NCT03758287",
-        "indication": "Ningetinib",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT03758287",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-12",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-11",
-        "ticker": "MAIA",
-        "nct_id": "NCT05208944",
-        "indication": "Ateganosine",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05208944",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-11",
-        "ticker": "ROG_CH",
-        "nct_id": "NCT05775289",
-        "indication": "Tobemstomig",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT05775289",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-14",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-11",
-        "ticker": "000100_KR",
-        "nct_id": "NCT04248829",
-        "indication": "Lazertinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04248829",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-28",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-11",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT04351555",
-        "indication": "Osimertinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04351555",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-05",
         "is_new": false
     }
 ]
