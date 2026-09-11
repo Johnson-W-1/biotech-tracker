@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-09-10",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT02511106",
+        "indication": "AZD9291",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02511106",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-11",
+        "is_new": true
+    },
+    {
         "date": "2026-09-09",
         "ticker": "mAbxience Research S.L.",
         "nct_id": "NCT06687369",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06687369",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-10",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-09-04",
@@ -196,6 +210,34 @@
         "is_new": false
     },
     {
+        "date": "2026-08-19",
+        "ticker": "MRK",
+        "nct_id": "NCT05226598",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05226598",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-11",
+        "is_new": true
+    },
+    {
+        "date": "2026-08-18",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT03775486",
+        "indication": "Durvalumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03775486",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-11",
+        "is_new": true
+    },
+    {
         "date": "2026-08-17",
         "ticker": "GMAB_DK",
         "nct_id": "NCT03917381",
@@ -235,7 +277,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02259621",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-10",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-17",
@@ -249,7 +291,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05445843",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-10",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-14",
@@ -1565,34 +1607,6 @@
         "source": "https://clinicaltrials.gov/study/NCT03409614",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-18",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-13",
-        "ticker": "IOVA",
-        "nct_id": "NCT03645928",
-        "indication": "Lifileucel",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: TERMINATED. ",
-        "source": "https://clinicaltrials.gov/study/NCT03645928",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-15",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-13",
-        "ticker": "4568_JP",
-        "nct_id": "NCT04619004",
-        "indication": "Patritumab deruxtecan",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04619004",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-08",
         "is_new": false
     }
 ]
