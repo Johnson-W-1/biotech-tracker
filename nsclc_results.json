@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02511106",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-11",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-09-09",
@@ -221,7 +221,7 @@
         "source": "https://clinicaltrials.gov/study/NCT05226598",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-11",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-18",
@@ -235,7 +235,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03775486",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-11",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-17",
@@ -1593,20 +1593,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04984811",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-11",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-14",
-        "ticker": "REGN",
-        "nct_id": "NCT03409614",
-        "indication": "Cemiplimab",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03409614",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-18",
         "is_new": false
     }
 ]
