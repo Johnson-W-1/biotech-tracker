@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-15",
+        "ticker": "950220_KR",
+        "nct_id": "NCT04984811",
+        "indication": "efineptakin alfa",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04984811",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-11",
+        "is_new": false
+    },
+    {
         "date": "2026-05-14",
         "ticker": "REGN",
         "nct_id": "NCT03409614",
