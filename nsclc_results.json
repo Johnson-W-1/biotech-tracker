@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-09-13",
+        "ticker": "REGN",
+        "nct_id": "NCT04077099",
+        "indication": "REGN5093",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT04077099",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-16",
+        "is_new": true
+    },
+    {
         "date": "2026-09-10",
         "ticker": "AZN_GB",
         "nct_id": "NCT02511106",
@@ -1551,20 +1565,6 @@
         "source": "https://clinicaltrials.gov/study/NCT06015503",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-22",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-18",
-        "ticker": "BMY",
-        "nct_id": "NCT04015778",
-        "indication": "Nivolumab",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT04015778",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-20",
         "is_new": false
     }
 ]
