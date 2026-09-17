@@ -11,6 +11,20 @@
         "source": "https://clinicaltrials.gov/study/NCT06939296",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-16",
+        "is_new": false
+    },
+    {
+        "date": "2026-09-14",
+        "ticker": "NODTHERA LIMITED",
+        "nct_id": "NCT07220629",
+        "indication": "Obesity",
+        "drug_name": "NT-0796",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07220629",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-17",
         "is_new": true
     },
     {
