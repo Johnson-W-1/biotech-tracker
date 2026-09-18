@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-09-17",
+        "ticker": "MRK",
+        "nct_id": "NCT06077760",
+        "indication": "Intismeran autogene",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06077760",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-18",
+        "is_new": true
+    },
+    {
         "date": "2026-09-16",
         "ticker": "AO GENERIUM",
         "nct_id": "NCT04544748",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04544748",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-09-13",
@@ -221,7 +235,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04738487",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-08-21",
@@ -1579,20 +1593,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04181788",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-16",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-20",
-        "ticker": "Avistone Biotechnology",
-        "nct_id": "NCT06015503",
-        "indication": "Andamertinib",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06015503",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-22",
         "is_new": false
     }
 ]
