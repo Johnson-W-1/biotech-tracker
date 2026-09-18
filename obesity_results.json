@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-09-17",
+        "ticker": "AMGN",
+        "nct_id": "NCT07225686",
+        "indication": "Obesity",
+        "drug_name": "MariTide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07225686",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-18",
+        "is_new": true
+    },
+    {
+        "date": "2026-09-16",
+        "ticker": "MINDRANK",
+        "nct_id": "NCT06778850",
+        "indication": "Obesity",
+        "drug_name": "MDR001",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06778850",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-18",
+        "is_new": true
+    },
+    {
         "date": "2026-09-15",
         "ticker": "VINCENTAGE PHARMA",
         "nct_id": "NCT06939296",
@@ -25,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07220629",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-09-07",
@@ -473,20 +501,6 @@
         "source": "https://clinicaltrials.gov/study/NCT06867718",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-27",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-20",
-        "ticker": "LLY",
-        "nct_id": "NCT07232732",
-        "indication": "Obesity",
-        "drug_name": "LY3549492",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT07232732",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-05-22",
         "is_new": false
     }
 ]
