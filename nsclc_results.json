@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06077760",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-18",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-09-16",
@@ -1579,20 +1579,6 @@
         "source": "https://clinicaltrials.gov/study/NCT05015608",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-05-27",
-        "is_new": false
-    },
-    {
-        "date": "2026-05-21",
-        "ticker": "PFE",
-        "nct_id": "NCT04181788",
-        "indication": "Sasanlimab",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04181788",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-16",
         "is_new": false
     }
 ]
