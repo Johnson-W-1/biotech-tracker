@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-05-21",
+        "ticker": "PFE, MET",
+        "nct_id": "NCT07022977",
+        "indication": "Obesity",
+        "drug_name": "MET233",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07022977",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-26",
+        "is_new": false
+    },
+    {
+        "date": "2026-05-21",
+        "ticker": "REGOR THERAPEUTICS",
+        "nct_id": "NCT06867718",
+        "indication": "Obesity",
+        "drug_name": "RGT-075",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06867718",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-27",
+        "is_new": false
+    },
+    {
         "date": "2026-05-20",
         "ticker": "LLY",
         "nct_id": "NCT07232732",
