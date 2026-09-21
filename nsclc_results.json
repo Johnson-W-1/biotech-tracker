@@ -14,6 +14,20 @@
         "is_new": false
     },
     {
+        "date": "2026-09-17",
+        "ticker": "GMAB_DK",
+        "nct_id": "NCT05117242",
+        "indication": "Acasunlimab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05117242",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-21",
+        "is_new": true
+    },
+    {
         "date": "2026-09-16",
         "ticker": "AO GENERIUM",
         "nct_id": "NCT04544748",
@@ -208,6 +222,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-31",
         "is_new": false
+    },
+    {
+        "date": "2026-08-27",
+        "ticker": "JNJ",
+        "nct_id": "NCT04988295",
+        "indication": "Amivantamab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04988295",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-21",
+        "is_new": true
     },
     {
         "date": "2026-08-26",
