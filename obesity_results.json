@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-09-18",
+        "ticker": "LLY",
+        "nct_id": "NCT06148272",
+        "indication": "Obesity",
+        "drug_name": "LY3971297",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06148272",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-21",
+        "is_new": true
+    },
+    {
         "date": "2026-09-17",
         "ticker": "AMGN",
         "nct_id": "NCT07225686",
