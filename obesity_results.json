@@ -11,6 +11,20 @@
         "source": "https://clinicaltrials.gov/study/NCT06148272",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-21",
+        "is_new": false
+    },
+    {
+        "date": "2026-09-18",
+        "ticker": "AMGN",
+        "nct_id": "NCT07229157",
+        "indication": "Obesity",
+        "drug_name": "MariTide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07229157",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-22",
         "is_new": true
     },
     {
