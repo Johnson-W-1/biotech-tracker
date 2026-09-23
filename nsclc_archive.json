@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-25",
+        "ticker": "0013_HK",
+        "nct_id": "NCT05015608",
+        "indication": "Savolitinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05015608",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-27",
+        "is_new": false
+    },
+    {
         "date": "2026-05-21",
         "ticker": "PFE",
         "nct_id": "NCT04181788",
