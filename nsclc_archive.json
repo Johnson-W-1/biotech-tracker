@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-05-27",
+        "ticker": "LLY",
+        "nct_id": "NCT04956640",
+        "indication": "Olomorasib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT04956640",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-05-29",
+        "is_new": false
+    },
+    {
+        "date": "2026-05-27",
+        "ticker": "BMY",
+        "nct_id": "NCT04623775",
+        "indication": "Nivolumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04623775",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-18",
+        "is_new": false
+    },
+    {
         "date": "2026-05-26",
         "ticker": "AZN_GB",
         "nct_id": "NCT03237377",
