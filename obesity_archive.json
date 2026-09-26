@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-05-28",
+        "ticker": "LLY",
+        "nct_id": "NCT06230523",
+        "indication": "Obesity",
+        "drug_name": "Eloralinitide",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT06230523",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-24",
+        "is_new": false
+    },
+    {
         "date": "2026-05-26",
         "ticker": "002773.SS",
         "nct_id": "NCT06953063",
