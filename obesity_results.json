@@ -446,19 +446,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-04",
         "is_new": false
-    },
-    {
-        "date": "2026-05-29",
-        "ticker": "METABOLICS PHARMA",
-        "nct_id": "NCT05925920",
-        "indication": "Obesity",
-        "drug_name": "ENT-03",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT05925920",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-02",
-        "is_new": false
     }
 ]
