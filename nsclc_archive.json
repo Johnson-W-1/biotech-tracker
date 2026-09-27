@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-05-29",
+        "ticker": "INCY",
+        "nct_id": "NCT04205812",
+        "indication": "Retifanlimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04205812",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-24",
+        "is_new": false
+    },
+    {
+        "date": "2026-05-29",
+        "ticker": "REGN",
+        "nct_id": "NCT03088540",
+        "indication": "Chemotherapy",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03088540",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-25",
+        "is_new": false
+    },
+    {
         "date": "2026-05-27",
         "ticker": "LLY",
         "nct_id": "NCT04956640",
