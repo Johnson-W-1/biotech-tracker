@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-09-25",
+        "ticker": "AMGN",
+        "nct_id": "NCT07226765",
+        "indication": "Obesity",
+        "drug_name": "MariTide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07226765",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-29",
+        "is_new": true
+    },
+    {
         "date": "2026-09-18",
         "ticker": "LLY",
         "nct_id": "NCT06148272",
@@ -82,6 +96,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-09-17",
         "is_new": false
+    },
+    {
+        "date": "2026-09-09",
+        "ticker": "VTYX",
+        "nct_id": "NCT06771115",
+        "indication": "Obesity",
+        "drug_name": "VTX3232",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT06771115",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-29",
+        "is_new": true
     },
     {
         "date": "2026-09-07",
