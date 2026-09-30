@@ -182,6 +182,34 @@
         "is_new": false
     },
     {
+        "date": "2026-09-09",
+        "ticker": "BMY",
+        "nct_id": "NCT03906071",
+        "indication": "Sitravatinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03906071",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-30",
+        "is_new": true
+    },
+    {
+        "date": "2026-09-07",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT02486718",
+        "indication": "Atezolizumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02486718",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-09-30",
+        "is_new": true
+    },
+    {
         "date": "2026-09-04",
         "ticker": "AMGN",
         "nct_id": "NCT02129699",
@@ -1649,20 +1677,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04189614",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-04",
-        "is_new": false
-    },
-    {
-        "date": "2026-06-01",
-        "ticker": "PFE",
-        "nct_id": "NCT05546476",
-        "indication": "ponsegromab",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT05546476",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-03",
         "is_new": false
     }
 ]
