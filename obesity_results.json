@@ -446,33 +446,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-16",
         "is_new": false
-    },
-    {
-        "date": "2026-06-02",
-        "ticker": "AZN",
-        "nct_id": "NCT06862791",
-        "indication": "Obesity",
-        "drug_name": "AZD9550 + AZD6234",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06862791",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-03",
-        "is_new": false
-    },
-    {
-        "date": "2026-06-02",
-        "ticker": "3692.HK",
-        "nct_id": "NCT06118021",
-        "indication": "Obesity",
-        "drug_name": "HS-20094",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT06118021",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-04",
-        "is_new": false
     }
 ]
