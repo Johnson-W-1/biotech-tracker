@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-02",
+        "ticker": "ABBV",
+        "nct_id": "NCT04189614",
+        "indication": "Cofetuzumab pelidotin",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04189614",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-04",
+        "is_new": false
+    },
+    {
         "date": "2026-06-01",
         "ticker": "PFE",
         "nct_id": "NCT05546476",
