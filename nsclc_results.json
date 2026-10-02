@@ -1650,19 +1650,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-08",
         "is_new": false
-    },
-    {
-        "date": "2026-06-03",
-        "ticker": "Avistone Pharmaceuticals",
-        "nct_id": "NCT04258033",
-        "indication": "Vebreltinib",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT04258033",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-05",
-        "is_new": false
     }
 ]
