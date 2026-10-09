@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-10-08",
+        "ticker": "RYTM",
+        "nct_id": "NCT06239116",
+        "indication": "Obesity",
+        "drug_name": "RM-718",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06239116",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-09",
+        "is_new": true
+    },
+    {
+        "date": "2026-10-08",
+        "ticker": "LLY",
+        "nct_id": "NCT07215559",
+        "indication": "Obesity",
+        "drug_name": "Macupatide + Eloralinitide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07215559",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-09",
+        "is_new": true
+    },
+    {
         "date": "2026-10-05",
         "ticker": "ROG",
         "nct_id": "NCT06628362",
