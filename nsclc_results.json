@@ -151,7 +151,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04256707",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-10-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-09-16",
@@ -1047,7 +1047,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03881488",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-10-09",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-07-14",
@@ -1565,20 +1565,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04225117",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-16",
-        "is_new": false
-    },
-    {
-        "date": "2026-06-11",
-        "ticker": "ASRT",
-        "nct_id": "NCT03318939",
-        "indication": "Poziotinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03318939",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-12",
         "is_new": false
     }
 ]

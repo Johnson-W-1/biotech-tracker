@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-11",
+        "ticker": "ASRT",
+        "nct_id": "NCT03318939",
+        "indication": "Poziotinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03318939",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-12",
+        "is_new": false
+    },
+    {
         "date": "2026-06-10",
         "ticker": "AZN_GB",
         "nct_id": "NCT03003962",
