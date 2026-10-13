@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-10-12",
+        "ticker": "AZN",
+        "nct_id": "NCT07013643",
+        "indication": "Obesity",
+        "drug_name": "AZD6234",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07013643",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-13",
+        "is_new": true
+    },
+    {
+        "date": "2026-10-10",
+        "ticker": "688166.SS",
+        "nct_id": "NCT07239973",
+        "indication": "Obesity",
+        "drug_name": "BGM0504",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07239973",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-13",
+        "is_new": true
+    },
+    {
         "date": "2026-10-08",
         "ticker": "RYTM",
         "nct_id": "NCT06239116",
