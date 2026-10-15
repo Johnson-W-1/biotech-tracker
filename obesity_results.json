@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-10-14",
+        "ticker": "AZN",
+        "nct_id": "NCT07220954",
+        "indication": "Obesity",
+        "drug_name": "AZD6234",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07220954",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-15",
+        "is_new": true
+    },
+    {
+        "date": "2026-10-13",
+        "ticker": "688166.SS",
+        "nct_id": "NCT07224399",
+        "indication": "Obesity",
+        "drug_name": "BGM1812",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07224399",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-15",
+        "is_new": true
+    },
+    {
         "date": "2026-10-12",
         "ticker": "AZN",
         "nct_id": "NCT07013643",
@@ -12,6 +40,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-10-13",
         "is_new": false
+    },
+    {
+        "date": "2026-10-11",
+        "ticker": "688166.SS",
+        "nct_id": "NCT06704581",
+        "indication": "Obesity",
+        "drug_name": "BGM0504",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06704581",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-15",
+        "is_new": true
     },
     {
         "date": "2026-10-10",
@@ -67,7 +109,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07169942",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-10-14",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-10-05",
@@ -515,20 +557,6 @@
         "source": "https://clinicaltrials.gov/study/NCT06151964",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-23",
-        "is_new": false
-    },
-    {
-        "date": "2026-06-16",
-        "ticker": "AMGN",
-        "nct_id": "NCT07226778",
-        "indication": "Obesity",
-        "drug_name": "MariTide",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT07226778",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-17",
         "is_new": false
     }
 ]
