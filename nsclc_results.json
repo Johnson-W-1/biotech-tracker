@@ -1496,47 +1496,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-23",
         "is_new": false
-    },
-    {
-        "date": "2026-06-17",
-        "ticker": "ROG_CH",
-        "nct_id": "NCT05867121",
-        "indication": "RO7496353",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. ",
-        "source": "https://clinicaltrials.gov/study/NCT05867121",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-18",
-        "is_new": false
-    },
-    {
-        "date": "2026-06-17",
-        "ticker": "AZN_GB",
-        "nct_id": "NCT03381274",
-        "indication": "Oleclumab",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03381274",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-07-13",
-        "is_new": false
-    },
-    {
-        "date": "2026-06-17",
-        "ticker": "MRK_DE",
-        "nct_id": "NCT03940703",
-        "indication": "Tepotinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03940703",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-07-13",
-        "is_new": false
     }
 ]
