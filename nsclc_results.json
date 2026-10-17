@@ -1468,33 +1468,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-06-23",
         "is_new": false
-    },
-    {
-        "date": "2026-06-18",
-        "ticker": "Precision Biologics, Inc",
-        "nct_id": "NCT03476681",
-        "indication": "NEO-201",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT03476681",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-22",
-        "is_new": false
-    },
-    {
-        "date": "2026-06-18",
-        "ticker": "BMY",
-        "nct_id": "NCT05609578",
-        "indication": "Adagrasib",
-        "drug_name": "NSCLC",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT05609578",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-06-23",
-        "is_new": false
     }
 ]
