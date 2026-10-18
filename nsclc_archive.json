@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-06-19",
+        "ticker": "PFE",
+        "nct_id": "NCT04084717",
+        "indication": "Crizotinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04084717",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-06-23",
+        "is_new": false
+    },
+    {
         "date": "2026-06-18",
         "ticker": "Precision Biologics, Inc",
         "nct_id": "NCT03476681",
