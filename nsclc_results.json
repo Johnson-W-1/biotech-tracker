@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-10-15",
+        "ticker": "RCUS",
+        "nct_id": "NCT04736173",
+        "indication": "Domvanalimab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04736173",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-19",
+        "is_new": true
+    },
+    {
         "date": "2026-10-12",
         "ticker": "Grid Therapeutics",
         "nct_id": "NCT05617313",
