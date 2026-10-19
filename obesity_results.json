@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-10-15",
+        "ticker": "688166.SS",
+        "nct_id": "NCT07224399",
+        "indication": "Obesity",
+        "drug_name": "BGM1812",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT07224399",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-19",
+        "is_new": true
+    },
+    {
         "date": "2026-10-14",
         "ticker": "AZN",
         "nct_id": "NCT07220954",
