@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT06623136",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-10-20",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-10-15",
@@ -54,6 +54,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-10-14",
         "is_new": false
+    },
+    {
+        "date": "2026-10-03",
+        "ticker": "LLY",
+        "nct_id": "NCT04194944",
+        "indication": "Selpercatinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04194944",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-21",
+        "is_new": true
     },
     {
         "date": "2026-09-24",
