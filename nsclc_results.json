@@ -14,6 +14,34 @@
         "is_new": false
     },
     {
+        "date": "2026-10-22",
+        "ticker": "2256_HK",
+        "nct_id": "NCT06225804",
+        "indication": "ABSK112",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06225804",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-26",
+        "is_new": true
+    },
+    {
+        "date": "2026-10-21",
+        "ticker": "MRUS_NL",
+        "nct_id": "NCT04868877",
+        "indication": "Pamvatamig",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT04868877",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-26",
+        "is_new": true
+    },
+    {
         "date": "2026-10-19",
         "ticker": "Elpiscience (Suzhou) Biopharma",
         "nct_id": "NCT06623136",
