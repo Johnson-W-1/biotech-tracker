@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-10-28",
+        "ticker": "ARWR",
+        "nct_id": "NCT06700538",
+        "indication": "Obesity",
+        "drug_name": "ARO-INHBE",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06700538",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-10-30",
+        "is_new": true
+    },
+    {
         "date": "2026-10-23",
         "ticker": "BMEA",
         "nct_id": "NCT07223216",
