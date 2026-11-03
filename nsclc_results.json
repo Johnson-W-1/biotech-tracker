@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-11-02",
+        "ticker": "JNJ",
+        "nct_id": "NCT04538664",
+        "indication": "Amivantamab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT04538664",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-03",
+        "is_new": true
+    },
+    {
+        "date": "2026-11-02",
+        "ticker": "JNJ",
+        "nct_id": "NCT05388669",
+        "indication": "Lazertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05388669",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-03",
+        "is_new": true
+    },
+    {
         "date": "2026-10-29",
         "ticker": "ONC",
         "nct_id": "NCT05635708",
@@ -25,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04040361",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-02",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-10-29",
@@ -39,7 +67,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04619004",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-02",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-10-28",
@@ -193,7 +221,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03778229",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-02",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-10-07",
@@ -1369,20 +1397,6 @@
         "source": "https://clinicaltrials.gov/study/NCT03917381",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-04",
-        "is_new": false
-    },
-    {
-        "date": "2026-07-05",
-        "ticker": "HUYABIO International, LLC.",
-        "nct_id": "NCT02718066",
-        "indication": "Tucidinostat",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT02718066",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-07-30",
         "is_new": false
     }
 ]

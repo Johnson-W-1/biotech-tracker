@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-05",
+        "ticker": "HUYABIO International, LLC.",
+        "nct_id": "NCT02718066",
+        "indication": "Tucidinostat",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02718066",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-30",
+        "is_new": false
+    },
+    {
         "date": "2026-07-03",
         "ticker": "AZN_GB",
         "nct_id": "NCT04765059",
