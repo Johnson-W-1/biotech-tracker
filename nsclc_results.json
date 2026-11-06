@@ -1,5 +1,47 @@
 [
     {
+        "date": "2026-11-05",
+        "ticker": "MRK",
+        "nct_id": "NCT06780085",
+        "indication": "Raludotatug Deruxtecan",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06780085",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-06",
+        "is_new": true
+    },
+    {
+        "date": "2026-11-04",
+        "ticker": "NOVN_CH",
+        "nct_id": "NCT05132075",
+        "indication": "JDQ443",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05132075",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-06",
+        "is_new": true
+    },
+    {
+        "date": "2026-11-03",
+        "ticker": "MRK",
+        "nct_id": "NCT04875585",
+        "indication": "Lenvatinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT04875585",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-06",
+        "is_new": true
+    },
+    {
         "date": "2026-11-02",
         "ticker": "JNJ",
         "nct_id": "NCT04538664",
