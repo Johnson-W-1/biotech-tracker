@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-07-09",
+        "ticker": "Linnaeus Therapeutics, Inc.",
+        "nct_id": "NCT04130516",
+        "indication": "LNS8801",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT04130516",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-13",
+        "is_new": false
+    },
+    {
+        "date": "2026-07-09",
+        "ticker": "GMAB_DK",
+        "nct_id": "NCT03917381",
+        "indication": "Acasunlimab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03917381",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-04",
+        "is_new": false
+    },
+    {
         "date": "2026-07-05",
         "ticker": "HUYABIO International, LLC.",
         "nct_id": "NCT02718066",
