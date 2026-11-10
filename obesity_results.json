@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-11-09",
+        "ticker": "603087.SS",
+        "nct_id": "NCT07128888",
+        "indication": "Obesity",
+        "drug_name": "Bofanglutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT07128888",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-10",
+        "is_new": true
+    },
+    {
         "date": "2026-11-04",
         "ticker": "PFE, MET",
         "nct_id": "NCT06973720",
