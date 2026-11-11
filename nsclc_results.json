@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04302025",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-10",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-11-06",
@@ -1439,20 +1439,6 @@
         "source": "https://clinicaltrials.gov/study/NCT03043872",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-16",
-        "is_new": false
-    },
-    {
-        "date": "2026-07-13",
-        "ticker": "ROG_CH",
-        "nct_id": "NCT03456076",
-        "indication": "Alectinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03456076",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-07-15",
         "is_new": false
     }
 ]
