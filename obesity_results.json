@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-11-10",
+        "ticker": "REGN, NVO",
+        "nct_id": "NCT06299098",
+        "indication": "Obesity",
+        "drug_name": "Trevogrumab + Garetosmab + Semaglutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06299098",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-12",
+        "is_new": true
+    },
+    {
+        "date": "2026-11-10",
+        "ticker": "2105.HK, NVS",
+        "nct_id": "NCT06493084",
+        "indication": "Obesity",
+        "drug_name": "LAE102",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT06493084",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-12",
+        "is_new": true
+    },
+    {
         "date": "2026-11-09",
         "ticker": "603087.SS",
         "nct_id": "NCT07128888",
@@ -12,6 +40,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-10",
         "is_new": false
+    },
+    {
+        "date": "2026-11-09",
+        "ticker": "603087.SS",
+        "nct_id": "NCT06728124",
+        "indication": "Obesity",
+        "drug_name": "Bofanglutide",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06728124",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-12",
+        "is_new": true
     },
     {
         "date": "2026-11-04",
@@ -68,6 +110,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-10-27",
         "is_new": false
+    },
+    {
+        "date": "2026-10-19",
+        "ticker": "RYTM",
+        "nct_id": "NCT05093634",
+        "indication": "Obesity",
+        "drug_name": "Setmelanotide",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05093634",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-12",
+        "is_new": true
     },
     {
         "date": "2026-10-15",
