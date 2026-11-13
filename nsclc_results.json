@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-11-11",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT02498613",
+        "indication": "Cediranib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02498613",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-13",
+        "is_new": true
+    },
+    {
         "date": "2026-11-10",
         "ticker": "LLY",
         "nct_id": "NCT07046923",
@@ -11,7 +25,7 @@
         "source": "https://clinicaltrials.gov/study/NCT07046923",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-11-09",
@@ -25,7 +39,7 @@
         "source": "https://clinicaltrials.gov/study/NCT03088540",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-11-09",
@@ -39,7 +53,7 @@
         "source": "https://clinicaltrials.gov/study/NCT04001777",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-12",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-11-07",
