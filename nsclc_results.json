@@ -11,7 +11,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02498613",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-13",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-11-10",
@@ -1453,34 +1453,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04685135",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-12",
-        "is_new": false
-    },
-    {
-        "date": "2026-07-16",
-        "ticker": "LLY",
-        "nct_id": "NCT04280081",
-        "indication": "Selpercatinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04280081",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-08-07",
-        "is_new": false
-    },
-    {
-        "date": "2026-07-16",
-        "ticker": "CMPX",
-        "nct_id": "NCT03881488",
-        "indication": "CTX-471",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03881488",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-10-09",
         "is_new": false
     }
 ]
