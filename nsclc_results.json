@@ -1440,19 +1440,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-07-27",
         "is_new": false
-    },
-    {
-        "date": "2026-07-17",
-        "ticker": "BMY",
-        "nct_id": "NCT04685135",
-        "indication": "Adagrasib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04685135",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-08-12",
-        "is_new": false
     }
 ]
