@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-11-16",
+        "ticker": "ROG_CH",
+        "nct_id": "NCT02568267",
+        "indication": "Entrectinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT02568267",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-17",
+        "is_new": true
+    },
+    {
         "date": "2026-11-11",
         "ticker": "AZN_GB",
         "nct_id": "NCT02498613",
@@ -250,6 +264,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-10-29",
         "is_new": false
+    },
+    {
+        "date": "2026-10-28",
+        "ticker": "MRK",
+        "nct_id": "NCT02504372",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02504372",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-17",
+        "is_new": true
     },
     {
         "date": "2026-10-27",
