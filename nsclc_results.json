@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-11-17",
+        "ticker": "AZN_GB",
+        "nct_id": "NCT02498613",
+        "indication": "Cediranib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT02498613",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-18",
+        "is_new": true
+    },
+    {
         "date": "2026-11-16",
         "ticker": "ROG_CH",
         "nct_id": "NCT02568267",
@@ -11,6 +25,20 @@
         "source": "https://clinicaltrials.gov/study/NCT02568267",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-17",
+        "is_new": false
+    },
+    {
+        "date": "2026-11-13",
+        "ticker": "BDTX",
+        "nct_id": "NCT05256290",
+        "indication": "Silevertinib",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT05256290",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-18",
         "is_new": true
     },
     {
@@ -277,7 +305,7 @@
         "source": "https://clinicaltrials.gov/study/NCT02504372",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-17",
-        "is_new": true
+        "is_new": false
     },
     {
         "date": "2026-10-27",
