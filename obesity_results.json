@@ -628,19 +628,5 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-14",
         "is_new": false
-    },
-    {
-        "date": "2026-07-22",
-        "ticker": "ALNY",
-        "nct_id": "NCT06845202",
-        "indication": "Obesity",
-        "drug_name": "ALN-4324",
-        "status": "Trial Status Update",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
-        "source": "https://clinicaltrials.gov/study/NCT06845202",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-07-24",
-        "is_new": false
     }
 ]
