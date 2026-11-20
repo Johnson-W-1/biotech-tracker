@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-11-18",
+        "ticker": "Aulos Bioscience, Inc.",
+        "nct_id": "NCT05267626",
+        "indication": "Imneskibart",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT05267626",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-20",
+        "is_new": true
+    },
+    {
         "date": "2026-11-17",
         "ticker": "AZN_GB",
         "nct_id": "NCT02498613",
@@ -12,6 +26,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-18",
         "is_new": false
+    },
+    {
+        "date": "2026-11-17",
+        "ticker": "RXRX",
+        "nct_id": "NCT05985655",
+        "indication": "REC-617",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT05985655",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-20",
+        "is_new": true
     },
     {
         "date": "2026-11-16",
@@ -152,6 +180,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-06",
         "is_new": false
+    },
+    {
+        "date": "2026-11-04",
+        "ticker": "MRK",
+        "nct_id": "NCT03425643",
+        "indication": "Pembrolizumab",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03425643",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-20",
+        "is_new": true
     },
     {
         "date": "2026-11-03",
