@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-07-23",
+        "ticker": "LLY, 4519.T",
+        "nct_id": "NCT05869903",
+        "indication": "Obesity",
+        "drug_name": "Orforglipron",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05869903",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-08-14",
+        "is_new": false
+    },
+    {
         "date": "2026-07-22",
         "ticker": "ALNY",
         "nct_id": "NCT06845202",
