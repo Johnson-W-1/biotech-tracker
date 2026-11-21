@@ -1,5 +1,33 @@
 [
     {
+        "date": "2026-07-23",
+        "ticker": "Eikon Therapeutics",
+        "nct_id": "NCT03915678",
+        "indication": "atezolizumab",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. ",
+        "source": "https://clinicaltrials.gov/study/NCT03915678",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-24",
+        "is_new": false
+    },
+    {
+        "date": "2026-07-23",
+        "ticker": "6550_TW",
+        "nct_id": "NCT05616624",
+        "indication": "ADI-PEG 20",
+        "drug_name": "NSCLC",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. ",
+        "source": "https://clinicaltrials.gov/study/NCT05616624",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-07-27",
+        "is_new": false
+    },
+    {
         "date": "2026-07-17",
         "ticker": "BMY",
         "nct_id": "NCT04685135",
