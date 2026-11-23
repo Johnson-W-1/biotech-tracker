@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-11-20",
+        "ticker": "9966.HK",
+        "nct_id": "NCT06547775",
+        "indication": "Obesity",
+        "drug_name": "KN069",
+        "status": "Trial Status Update",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. ",
+        "source": "https://clinicaltrials.gov/study/NCT06547775",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-23",
+        "is_new": true
+    },
+    {
         "date": "2026-11-16",
         "ticker": "LLY",
         "nct_id": "NCT06643728",
