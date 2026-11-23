@@ -168,6 +168,20 @@
         "is_new": false
     },
     {
+        "date": "2026-11-05",
+        "ticker": "4502_JP",
+        "nct_id": "NCT03807778",
+        "indication": "Mobocertinib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03807778",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-23",
+        "is_new": true
+    },
+    {
         "date": "2026-11-04",
         "ticker": "NOVN_CH",
         "nct_id": "NCT05132075",
