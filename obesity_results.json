@@ -112,6 +112,20 @@
         "is_new": false
     },
     {
+        "date": "2026-11-03",
+        "ticker": "PFE, MET",
+        "nct_id": "NCT06857617",
+        "indication": "Obesity",
+        "drug_name": "MET097",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT06857617",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-25",
+        "is_new": true
+    },
+    {
         "date": "2026-10-29",
         "ticker": "PFE",
         "nct_id": "NCT06924320",
