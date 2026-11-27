@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-11-24",
+        "ticker": "PFE",
+        "nct_id": "NCT03915951",
+        "indication": "Encorafenib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT03915951",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-27",
+        "is_new": true
+    },
+    {
         "date": "2026-11-18",
         "ticker": "Aulos Bioscience, Inc.",
         "nct_id": "NCT05267626",
@@ -208,6 +222,20 @@
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-11-20",
         "is_new": false
+    },
+    {
+        "date": "2026-11-04",
+        "ticker": "NOVN_CH",
+        "nct_id": "NCT05445843",
+        "indication": "Opnurasib",
+        "drug_name": "NSCLC",
+        "status": "Actual Data Reported",
+        "sentiment": "Neutral",
+        "notes": "Official CTG Update. Status: TERMINATED. Results Data Available on CTG.",
+        "source": "https://clinicaltrials.gov/study/NCT05445843",
+        "source_type": "ClinicalTrials.gov",
+        "date_added": "2026-11-27",
+        "is_new": true
     },
     {
         "date": "2026-11-03",
@@ -1453,34 +1481,6 @@
         "source": "https://clinicaltrials.gov/study/NCT04988295",
         "source_type": "ClinicalTrials.gov",
         "date_added": "2026-08-20",
-        "is_new": false
-    },
-    {
-        "date": "2026-07-29",
-        "ticker": "4568_JP",
-        "nct_id": "NCT04656652",
-        "indication": "Datopotamab deruxtecan",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: ACTIVE_NOT_RECRUITING. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT04656652",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-07-31",
-        "is_new": false
-    },
-    {
-        "date": "2026-07-29",
-        "ticker": "MRK_DE",
-        "nct_id": "NCT03940703",
-        "indication": "Tepotinib",
-        "drug_name": "NSCLC",
-        "status": "Actual Data Reported",
-        "sentiment": "Neutral",
-        "notes": "Official CTG Update. Status: COMPLETED. Results Data Available on CTG.",
-        "source": "https://clinicaltrials.gov/study/NCT03940703",
-        "source_type": "ClinicalTrials.gov",
-        "date_added": "2026-08-21",
         "is_new": false
     }
 ]
